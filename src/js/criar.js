@@ -14,6 +14,7 @@ function criarFilmesRecomendados(filmes, usuario) {
     let personalidadesDoUsuario = usuario.personalidades //Pegar a personalidade do usuario   
     let filmesRecomendados = []
     for (let vez = 1; vez <= 10; vez++) {
+        // Usar a formula (Math.random() % maxima) * minima
         let index = Math.random() // Pega um número aleatório para ser usado como indice
         let filme = filmes[index] // Pega o filme na lista de filmes de acordo com o indice
         filmesRecomendados[filmesRecomendados.length] = filme //ele esta adicionando o filme na lista dos filmes lançamentos
