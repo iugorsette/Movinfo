@@ -1,25 +1,25 @@
 function criarFilmesLancamentos(filmes) {
-    let dataAtual = new Date() //esse aqui pega data atual
-    let anoAtual = dataAtual.getFullYear() //pegou o ano atual da data
-    let filmesLancamentos = [] //lista de filmes lançamentos
-    for (filme of filmes) { //percorre a lista de filmes
-        if (filme.ano >= anoAtual - 1) { //criando condição 
-            filmesLancamentos[filmesLancamentos.length] = filme //ele esta adicionando o filme na lista dos filmes lançamentos
+    let dataAtual = new Date()
+    let anoAtual = dataAtual.getFullYear() // Pega o ano atual da data
+    let listaFilmesLancamentos = []
+    for (filme of filmes) { // Percorre a lista de filmes
+        if (filme.ano >= anoAtual - 1) { // Verifica se o ano do filme é maior ou igual ao ano passado
+            listaFilmesLancamentos[listaFilmesLancamentos.length] = filme // Adiciona o filme na lista dos filmes lançamentos
         }
     }
-    filmesLancamentos.sort()//ordenados dos mais recentes 
+    listaFilmesLancamentos.sort() // Ordena dos mais recentes 
 }
 
 function criarFilmesRecomendados(filmes, usuario) {
-    let personalidadesDoUsuario = usuario.personalidades //Pegar a personalidade do usuario   
+    //let personalidadesDoUsuario = usuario.personalidades // Pega a personalidade do usuário   
     let filmesRecomendados = []
-    for (let vez = 1; vez <= 10; vez++) {
-        // Usar a formula (Math.random() % maxima) * minima
+    for (let vez = 1; vez <= 10; vez++) { // Conta a vez que está repetindo até 10
+        // Usar a formula (Math.random() % maxima) + minima
         let index = Math.random() // Pega um número aleatório para ser usado como indice
         let filme = filmes[index] // Pega o filme na lista de filmes de acordo com o indice
-        filmesRecomendados[filmesRecomendados.length] = filme //ele esta adicionando o filme na lista dos filmes lançamentos
+        filmesRecomendados[filmesRecomendados.length] = filme // Adiciona o filme na lista dos filmes recomendados
     }
-    /*
+    /*                          Tentativa de Raciocínio
     for (filme of filmes) {
         for (personalidade of personalidadesDoUsuario) {
             switch (personalidade) {
@@ -44,20 +44,26 @@ function criarFilmesRecomendados(filmes, usuario) {
 }
 
 function criarFilmesMaisAmados(filmes) {
-    let filmesMaisAmados = [] // lista de filmes mais amados
-    for (filme of filmes) {  // percorre a lista de filmes
-        if (filme.mediaAvaliacao > 4) {  // verifica a media de avaliação
-            filmesMaisAmados[filmesMaisAmados.length] = filme //adiciona o filme na lista de filmes mais amados
+    let listaFilmesMaisAmados = []
+    for (filme of filmes) {  // Percorre a lista de filmes
+        if (filme.mediaAvaliacao > 4) {
+            listaFilmesMaisAmados[listaFilmesMaisAmados.length] = filme // Adiciona o filme na lista de filmes mais amados
         }
     }
-    filmesMaisAmados.sort() //ordena os filmes dos mais bem avaliados
+    listaFilmesMaisAmados.sort() // Ordena os filmes dos mais bem avaliados
 }
 
 function criarFilmesMaisAclamados(filmes) {
-
+    let filmesMaisAclamados = []
+    for (filme of filmes) { // Percorre a lista de filmes
+        if (filme.criticas.length > 4) { // Verifica se o número de críticas é maior que 4
+            filmesMaisAclamados[filmesMaisAclamados.length] = filme // Adiciona o filme na lista de filmes mais aclamados
+        }
+    }
+    filmesMaisAclamados.sort() // Ordena os filmes pelos mais aclamados
 }
 
 function criarFilmesRecordeBilheteria(filmes) {
-    let recordesDeBilheteria = filmes.sort() // ordenados dos filmes q tiveram mais bilheteria 
+    let recordesDeBilheteria = filmes.sort() // Ordena dos filmes q tiveram mais bilheteria 
 
 }
