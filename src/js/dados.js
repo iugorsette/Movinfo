@@ -59,7 +59,7 @@ var filmes_lancamentos = [
         linguagem_original:"Inglês",
         dublagem_portugues: true,
         data_lancamento:[24,02,2022],
-        diretor:"Laurent Zeitoun", "Theodore Ty",
+        diretor:["Laurent Zeitoun", "Theodore Ty"],
         bilheteria: false,
         plataforma: ["Google Play Filmes" ,"TV", "Amazon Prime Video", "Apple TV", "YouTube"],
         elenco:["Olivia Cooke","William Shatner", "Ryan W.Garcia", "Kenneth BranaghShawn", "Laurie Holden","Mara Junot", "Alice Pol", "Vincent Cassel", "Maya Misaljevic", "Claudia Tagbo","Valérie Lemercier", "Élie Semoun"," Emmanuel Curtil","Emmanuel Garijo", "Dawn Ford", "Kevin Dennis", "Wilex Ly", "Matthew Alan Taylor"],
@@ -407,7 +407,7 @@ var filmes_acao = [
     },
     {
         titulo: " Thor: Ragnarok ",
-        categoria:" Ação","Ficção científica " ,
+        categoria:["Ação","Ficção científica "],
         duracao: "2h 10m",
         sinopse:"Após anos afastado, Thor retorna para casa e descobre que seu pai, Odin, rei de Asgard, está desaparecido. Após encontrá-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte.",
         linguagem_original:"Inglês",
