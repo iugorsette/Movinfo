@@ -50,6 +50,18 @@ function criarFilmesRecordeBilheteria(filmes) {
     let recordesDeBilheteria = ordenaFilmes(filmes, "bilheteria")
 }
 
+/*
+
+# Div - classe card
+# Div - com uma tag de imagem
+# Ul - classe content - li com a quantidade de estrelas 
+
+*/
+
+function criarElementoFilme(filme){
+    
+}
+
 function ordenaFilmes(filmes, sessao) {
     for (let i = 0; i <= filmes.length; i++) {// a variavel i é o nosso contador, e ele vai ser menor ou igual ao tamanho da lista de filmes 
         let filme1 = filmes[i] 
