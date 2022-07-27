@@ -58,8 +58,29 @@ function criarFilmesRecordeBilheteria(filmes) {
 
 */
 
-function criarElementoFilme(filme){
-    
+var container = document.getElementById("container");
+
+function criarElementoFilme(filme){ 
+    let card = document.createElement("div"); // criando o nosso elemento card 
+    card.className = "card"; // colocando a classe do nosso elemento como card 
+    container.appendChild(card);// adicionando o elemento card no nosso container 
+
+    let div = document.createElement("div"); // criando o nosso elemento div
+    let img = document.createElement("img");// criando o nosso elemento img
+    img.src = filme.poster; // adicionando o caminho da nossa img 
+    div.appendChild(img); //adicionando o elemento img na nossa div 
+    card.appendChild(div); //adicionando o elemento div no nosso card
+
+    let content = document.createElement("ul");  // criando o nosso elemento content 
+    content.className = "content";  // colocando a classe do nosso elemento como content
+    for (let contador = 0; contador < filme.mediaAvaliacao; contador++){ // o contador vai ser menor ou igual ao tamanho da media de avaliação
+        let li = document.createElement("li"); //criando o nosso elemento li
+        content.appendChild(li);//adicionando o elemento img no nosso content
+
+    }
+    card.appendChild(content); //adicionando o elemento content no nosso card
+
+
 }
 
 function ordenaFilmes(filmes, sessao) {

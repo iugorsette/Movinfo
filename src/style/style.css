@@ -1,6 +1,7 @@
 body{
     background-color: rgb(43, 47, 56);
     margin: 0;
+    position: relative;
 }
 
 header{
@@ -14,6 +15,14 @@ header img{
     height:143px ;
     position: relative;
     left: 7px;
+}
+#menu{
+    left: 93%;
+    top: -45px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+
 }
 #pesquisa{
     position: relative;
@@ -94,4 +103,17 @@ content{
 footer{ 
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
+    position: relative;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+   align-items: center;
+}
+h1{
+    position: relative;
+    left: 7px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-decoration: underline;
 }
