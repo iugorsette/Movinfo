@@ -1,14 +1,28 @@
 body{
-    background-color: rgb(43, 47, 56);}
+    background-color: rgb(43, 47, 56);
+    margin: 0;
+    position: relative;
+}
 
 header{
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
+    position:relative;
+    width: 100%;
+    height: 20%;
 }
 header img{
-    height:160px ;
+    height:143px ;
     position: relative;
     left: 7px;
+}
+#menu{
+    left: 93%;
+    top: -45px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+
 }
 #pesquisa{
     position: relative;
@@ -25,19 +39,21 @@ header img{
 }
 
     /* From uiverse.io by @Vikikos */
-.id{
-    text-align: right;
-    display: flex;
-     color: rgb(100, 100, 100);
-   
-    }
+h1{
+    margin: 20;
+    text-decoration: underline
+}
+p{
+    margin: 20;
+    font-size: 18px;
+}
        
 .card {
     width: 290px;
     height: 454px;
     background: #fff;
     display: flex;
-    border-radius: 20px;
+    border-radius: 30px;
     justify-content: center;
     position: relative;
     margin: 18px;
@@ -57,10 +73,18 @@ header img{
     text-align: justify;
 }
 .info p{
-color: #fff; 
+font-size: 18px;
+color: rgb(255, 255, 255)
 }
 
 footer{ 
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
+}
+#direitos{
+    position: relative;
+    left: 7px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-decoration: underline;
 }
