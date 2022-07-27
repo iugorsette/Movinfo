@@ -15,12 +15,12 @@ function criarFilmesLancamentos(filmes) {
     listaFilmesLancamentos = ordenaFilmes(listaFilmesLancamentos, "lancamentos")
 }
 
-function criarFilmesRecomendados(filmes) {
-    let filmesRecomendados = []
+function criarlistaFilmesRecomendados(filmes) {
+    let listaFilmesRecomendados = []
     for (let vez = 1; vez <= 10; vez++) { // Conta a vez que está repetindo até 10
         let index = Math.random() // Pega um número aleatório para ser usado como indice
         let filme = filmes[index] // Pega o filme na lista de filmes de acordo com o indice
-        filmesRecomendados[filmesRecomendados.length] = filme // Adiciona o filme na lista dos filmes recomendados
+        listaFilmesRecomendados[listaFilmesRecomendados.length] = filme // Adiciona o filme na lista dos filmes recomendados
     }
 }
 
@@ -51,8 +51,8 @@ function criarFilmesRecordeBilheteria(filmes) {
 }
 
 function ordenaFilmes(filmes, sessao) {
-    for (let i = 0; i <= filmes.length; i++) {
-        let filme1 = filmes[i]
+    for (let i = 0; i <= filmes.length; i++) {// a variavel i é o nosso contador, e ele vai ser menor ou igual ao tamanho da lista de filmes 
+        let filme1 = filmes[i] 
         let filme2 = filme[i+1]
 
         switch (sessao) {
