@@ -4,11 +4,11 @@ persona = [{
     genero: "masculino",
     pesonalidade: ["extrovertido","intuitivo","sentimental","julgadores"],
     profissao: "mecânico",
-    necessidade: t,
+    necessidade: "Achar sequências de filmes",
 }
 ]
 
-var filmes_lancamentos = [
+var filmes = [
     {
         titulo: "Morbius",
         categoria: ["Ação","Fantasia"],
@@ -131,12 +131,10 @@ var filmes_lancamentos = [
         data_lancamento:[06,05,2022],
         diretor:"Louis Leterrier",
         bilheteria:false,
-        plataforma:["Netflix"],
+        plataforma:"Netflix",
         elenco:["Omar Sy"," Izïa Higelin", "Laurent Lafitte", "Dimitri Storoge", "Marie-Christine Adam", "Flavie Péan", "Élodie Hesme"," Jo Prestia", "Bertrand Usclat", "Djimo,"],
         classificacao:16,
     },
-]
-var filmes_populares = [
     {
         titulo: "007 - Sem Tempo pra morrer",
         categoria: ["Ação","Suspense"],
@@ -152,7 +150,7 @@ var filmes_populares = [
         classificacao:14,
     },
     {
-        titulo: " Avatar",
+        titulo:"Avatar",
         categoria:["Ação","Ficção cientifica"], 
         duracao: "2h 40m",
         sinopse:"No exuberante mundo alienígena de Pandora vivem os Na'vi, seres que parecem ser primitivos, mas são altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos biológicos controlados pela mente humana que se movimentam livremente em Pandora. Jake Sully, um ex-fuzileiro naval paralítico, volta a andar através de um avatar e se apaixona por uma Na'vi. Esta paixão leva Jake a lutar pela sobrevivência de Pandora.",
@@ -180,7 +178,7 @@ var filmes_populares = [
         classificacao:12,
     },
     {
-        titulo: "Jurassic World: O Mundo dos Dinossauros",
+        titulo:"Jurassic World: O Mundo dos Dinossauros",
         categoria: "Ficção Científica",
         duracao: "2h 4m",
         sinopse:"O Jurassic Park, localizado na ilha Nublar, enfim está aberto ao público. Com isso, as pessoas podem conferir shows acrobáticos com dinossauros e até mesmo fazer passeios bem perto deles, já que agora estão domesticados. Entretanto, a equipe chefiada pela doutora Claire (Bryce Dallas Howard) passa a fazer experiências genéticas com estes seres, de forma a criar novas espécies. Uma delas logo adquire inteligência bem mais alta, logo se tornando uma grande ameaça para a existência humana.",
@@ -223,7 +221,7 @@ var filmes_populares = [
     },
     {
         titulo: "Titanic",
-        categoria: ["Romance","Drama"],
+        categoria:["Romance","Drama"],
         duracao: " 3h 14min",
         sinopse:"Jack Dawson (Leonardo DiCaprio) é um jovem aventureiro que, na mesa de jogo, ganha uma passagem para a primeira viagem do transatlântico Titanic. Trata-se de um luxuoso e imponente navio, anunciado na época como inafundável, que parte para os Estados Unidos. Nele está também Rose DeWitt Bukater (Kate Winslet), a jovem noiva de Caledon Hockley (Billy Zane). Rose está descontente com sua vida, já que sente-se sufocada pelos costumes da elite e não ama Caledon. Entretanto, ela precisa se casar com ele para manter o bom nome da família, que está falida. Um dia, desesperada, Rose ameaça se atirar do Titanic, mas Jack consegue demovê-la da ideia. Pelo ato ele é convidado a jantar na primeira classe, onde começa a se tornar mais próximo de Rose. Logo eles se apaixonam, despertando a fúria de Caledon. A situação fica ainda mais complicada quando o Titanic se choca com um iceberg, provocando algo que ninguém imaginava ser possível: o naufrágio do navio.        ",
         linguagem_original:" Inglês",
@@ -231,7 +229,7 @@ var filmes_populares = [
         data_lancamento: [16,01,1998],
         diretor:"James Cameron",
         bilheteria:2202000000,
-        plataforma:[" Star +"],
+        plataforma:["Star +"],
         elenco:[" Leonardo DiCaprio", "Kate Winslet"],
         classificacao:12,
     },
@@ -271,16 +269,14 @@ var filmes_populares = [
         linguagem_original:"Inglês",
         dublagem_portugues:true,
         data_lancamento:[ 26,03,2018],
-        diretor:" Anthony Russo, Joe Russo  ",
+        diretor:"Anthony Russo, Joe Russo  ",
         bilheteria:2048000000,
         plataforma:"Disney+",
         elenco:["Robert Downey Jr", "Chris Hemsworth"],
         classificacao:12,
-    }
-]
-var filmes_acao = [
+    },
     {
-        titulo:" 007 -SEM TEMPO PARA MORRER " ,
+        titulo:"007 -SEM TEMPO PARA MORRER " ,
         categoria:["Ação","Suspense"],
         duracao: " 2h 43m",
         sinopse:"James Bond deixa o MI6 e se muda para a Jamaica, mas um antigo amigo aparece e pede sua ajuda para encontrar um cientista desaparecido. Bond mergulha no caso e percebe que a busca é, na verdade, uma corrida para salvar o mundo.",
@@ -295,7 +291,7 @@ var filmes_acao = [
     },
     {
         titulo: "Mortal kombat",
-        categoria: ["Ação","Fantasia"],
+        categoria:["Ação","Fantasia"],
         duracao: "1h 50m",
         sinopse: "O lutador de MMA Cole Young não conhece sua herança, nem sabe o motivo do Imperador da Exoterra ter enviado seu melhor guerreiro, Sub-Zero, para ir atrás dele. Temendo pela segurança de sua família, ele se une a outros heróis para proteger a Terra.        ",
         linguagem_original:"Inglês",
@@ -309,7 +305,7 @@ var filmes_acao = [
     },
     {
         titulo: "Rambo: Até o Fim",
-        categoria: [" Ação","Faroeste"],
+        categoria: ["Ação","Faroeste"],
         duracao: "1h 29m",
         sinopse:"O tempo passou para Rambo, que agora vive recluso em um rancho. Sua vida marcada por lutas violentas ficou para trás, mas deixou marcas inesquecíveis. No entanto, quando uma jovem de uma família amiga é sequestrada, Rambo precisa confrontar seu passado e resgatar suas habilidades de combate para enfrentar o mais perigoso cartel mexicano. A busca logo se transforma em uma caçada por justiça, na qual nenhum criminoso é perdoado",
         linguagem_original:"Inglês",
@@ -378,7 +374,7 @@ var filmes_acao = [
         classificacao:12,
     },
     {
-        titulo: " Caçada Brutal",
+        titulo: "Caçada Brutal",
         categoria: [" Ação","Crime"],
         duracao: "1h 37m",
         sinopse:"O corretor de Wall Street Will e seu filho Danny testemunham o assassinato de um policial corrupto durante uma viagem de caça. Quando os criminosos tomam Danny como refém, Will inicia uma jornada para salvar a vida da criança.",
@@ -387,7 +383,7 @@ var filmes_acao = [
         data_lancamento:[21,06,2017],
         diretor:"Steven C. Miller",
         bilheteria:347343000,
-        plataforma:[" Netflix", "Globoplay","Telecine", "Amazon Prime Vídeo."],
+        plataforma:["Netflix","Globoplay","Telecine","Amazon Prime Vídeo."],
         elenco:["Bruce Willis"," Hayden Christensen", "Megan Leonard"],
         classificacao:16,
     },
@@ -407,7 +403,7 @@ var filmes_acao = [
     },
     {
         titulo: " Thor: Ragnarok ",
-        categoria:["Ação","Ficção científica "],
+        categoria:["Ação","Ficção científica"],
         duracao: "2h 10m",
         sinopse:"Após anos afastado, Thor retorna para casa e descobre que seu pai, Odin, rei de Asgard, está desaparecido. Após encontrá-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte.",
         linguagem_original:"Inglês",
@@ -415,15 +411,14 @@ var filmes_acao = [
         data_lancamento:[27,10,2017],
         diretor:"Taika Waititi",
         bilheteria: 85400000,
-        plataforma:  "Disney+",
+        plataforma:"Disney+",
         elenco:["Chris Hemsworth", "Taika Waititi"],
         classificacao:12,
     },
-]
-var filmes_romance = [
+
     {
         titulo: "As Pontes de Madison",
-        categoria: [" Romance","Drama"],
+        categoria: ["Romance","Drama"],
         duracao: "2h 15m",
         sinopse:"História de amor comovente sobre um fotógrafo da revista National Geographic, incumbido de fotografar as pontes de Madison, em Iowa. Lá, ele conhece uma dona de casa, cujo marido e filhos estão viajando. Os dois vivem um breve e intenso romance entre duas almas gêmeas que se conheceram tarde demais.",
         linguagem_original:"Inglês",
@@ -437,7 +432,7 @@ var filmes_romance = [
     },
     {
         titulo: "Nasce Uma Estrela",
-        categoria: "Romance/Musical",
+        categoria: ["Romance","Musical"],
         duracao: "2h 15m",
         sinopse:"Jackson Maine é um cantor no auge da fama. Um dia, após deixar uma apresentação, ele para em um bar para beber. Lá, Jackson conhece Ally, uma insegura cantora que ganha a vida trabalhando em um restaurante",
         linguagem_original:" Inglês         ",
@@ -451,7 +446,7 @@ var filmes_romance = [
     },
     {
         titulo: "Megarromântico ",
-        categoria: [" Romance","Comédia"],
+        categoria: ["Romance","Comédia"],
         duracao: "1h 29m",
         sinopse:" Cínica em relação ao amor e desprezada em seu trabalho de Nova York, a arquiteta Natalie não acredita em romances e finais felizes. Depois de sofrer um golpe na cabeça durante uma briga com um assaltante no metrô, Natalie acorda em um universo paralelo e se vê interpretando a protagonista de uma comédia romântica na vida real",
         linguagem_original:" Inglês",
@@ -465,7 +460,7 @@ var filmes_romance = [
     },
     {
         titulo: "Orgulho e Preconceito",
-        categoria: [" Romance","Drama"],
+        categoria: ["Romance","Drama"],
         duracao: "2h 7m",
         sinopse:"Sinopse: Elizabeth Bennet vive com sua mãe, pai e irmãs no campo, na Inglaterra. Por ser uma das filhas mais velhas, ela enfrenta uma crescente pressão de seus pais para se casar. Quando Elizabeth é apresentada ao belo e rico Darcy, faíscas voam. Embora haja uma química óbvia entre os dois, a natureza excessivamente reservada de Darcy ameaça a relação",
         linguagem_original:"Inglês",
@@ -479,7 +474,7 @@ var filmes_romance = [
     },
     {
         titulo: " O Segredo dos Seus Olhos",
-        categoria: [" Thriller","Crime"],
+        categoria: ["Thriller","Crime"],
         duracao: "2h 9m",
         sinopse:"Benjamín se aposenta do cargo de oficial de justiça e decide escrever um livro. Sua inspiração é um caso real de estupro e assassinato de uma jovem. Em sua jornada, o aposentado conhece o marido da vítima e promete ajudá-lo a encontrar o culpado.",
         linguagem_original:"Inglês e Lingua Castelhana",
@@ -501,7 +496,7 @@ var filmes_romance = [
         data_lancamento:[25,02,1936],
         diretor:"Charlie Chaplin",
         bilheteria:1800000000,
-        plataforma:["Telecine"],
+        plataforma:"Telecine",
         elenco:["Charlie Chaplin"," Paulette Goddard", "Henry Bergman"],
         classificacao:false,
     },
@@ -561,11 +556,9 @@ var filmes_romance = [
         elenco:["Kristen Bell"," Josh Duhamel", "Dax Shepard"],
         classificacao:14,
     },
-]
-var filmes_comedia =[
     {
         titulo: "Agente 86",
-        categoria: "",
+        categoria: ["Comédia","Ação "],
         duracao: "1h 50m",
         sinopse:" O chefe da agência de espionagem norte-americana promove seu analista Maxwell Smart a agente de campo quando integrantes do abominável sindicato do crime KAOS atacam o controle da agência. Smart é escalado para trabalhar ao lado da veterana Agente 99",
         linguagem_original:"Inglês",
@@ -575,11 +568,11 @@ var filmes_comedia =[
         bilheteria:230700000,
         plataforma:["HBOmax", "Amazon Prime Vídeo", "AppleTV"," Google Play Filmes" ,"TV", "You Tube"],
         elenco:[" Steve Carell", "Anne Hathaway", "Bernie Kopell"],
-
+        classificacao:12,
     },
     {
         titulo: "A Volta do Todo Poderoso",
-        categoria: "",
+        categoria:["Comédia","Infantil"],
         duracao: "1h 36m",
         sinopse:"Evan Baxter consegue uma cadeira no Congresso e se muda para Washington com a família. Tudo estava indo bem, até ele receber uma ordem de Deus para construir uma arca como a de Noé",
         linguagem_original:"Inglês ",
@@ -589,11 +582,11 @@ var filmes_comedia =[
         bilheteria:174400000,
         plataforma:["Netflix"," Star+", "GloboPlay"," Amazon Prime Vídeo"],
         elenco:["Morgan Freeman", "Lauren Graham", "John Goodman"],
-
+        classificacao:false,
     },
     {
         titulo: "Intocáveis",
-        categoria: "",
+        categoria: ["Comédia/Drama"],
         duracao: "1h 52m",
         sinopse:" Um milionário tetraplégico contrata um homem da periferia para ser o seu acompanhante, apesar de sua aparente falta de preparo. No entanto, a relação que antes era profissional cresce e vira uma amizade que mudará a vida dos dois.",
         linguagem_original:"  Francês",
@@ -603,11 +596,11 @@ var filmes_comedia =[
         bilheteria: 426000000,
         plataforma:["Telecine", "Globoplay"],
         elenco:[" Omar Sy", "François Cluzet", "Audrey Fleurot"],
-
+        classificacao:14,
     },
     {
         titulo: "Se Beber,Não Case!",
-        categoria: "",
+        categoria: "Comédia",
         duracao: "1h 40m",
         sinopse:"The Hangover é uma franquia de três filmes de comédia estadunidense, produzidos pela Legendary Pictures e distribuído pela Warner Bros Pictures. Todos dirigido por Todd Phillips e estrelados por Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha e Ken Jeong",
         linguagem_original:"Inglês",
@@ -617,11 +610,11 @@ var filmes_comedia =[
         bilheteria:469300000,
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes "," TV", "You Tube"],
         elenco:["Zach Galifianakis", "Bradley Cooper"," Ed Helms"],
-
+        classificacao:14,
     },
     {
         titulo: " Todo Poderoso",
-        categoria: "",
+        categoria: ["Comédia","Fantasia"],
         duracao: " 1h 41m ",
         sinopse:" Bruce Nolan é um jornalista que tem a vida perfeita. Quando as coisas começam a dar errado, Bruce questiona Deus e a forma como ele comanda a Terra. Então, o Todo Poderoso dá a Bruce todos seus poderes. Mas Bruce se dá conta de como é difícil ser onisciente, onipresente e onipotente.",
         linguagem_original:" Inglês",
@@ -631,11 +624,11 @@ var filmes_comedia =[
         bilheteria:484000000,
         plataforma:["Star+"],
         elenco:["im Carrey"," Morgan Freeman", "Steve Carell"],
-
+        classificacao:false,
     },
     {
         titulo: "Penetras Bons de Bico",
-        categoria: "",
+        categoria:["Comédia","Romance"],
         duracao: "1h 59m",
         sinopse:"Dois advogados especializados em divórcio e amigos de longa data, Jeremy e John, compartilham um passatempo curioso: eles adoram ir a casamentos sem serem convidados",
         linguagem_original:"Inglês",
@@ -645,11 +638,11 @@ var filmes_comedia =[
         bilheteria:288500000,
         plataforma:["Globoplay", "HBOmax"," Telecine"," You Tube"],
         elenco:["Owen Wilson", "Vince Vaughn","Isla Fisher"],
-
+        classificacao:16,
     },
     {
         titulo: " O Mentiroso",
-        categoria: "",
+        categoria: [" Comédia","Fantasia"],
         duracao: "1h 27m",
         sinopse:"O inescrupuloso advogado de Los Angeles Fletcher Reede ama o filho Max, mas a sua incapacidade de manter promessas e as mentiras compulsivas que conta causam problemas entre os dois e a ex-mulher Audrey.",
         linguagem_original:"Inglês",
@@ -659,11 +652,11 @@ var filmes_comedia =[
         bilheteria: 302700000,
         plataforma:["Netflix", "Star+", "AppleTV", "Amazon Prime Vídeo"],
         elenco:[" Jennifer Tilly", "Jim Carrey"," Krista Allen."],
-
+        classificacao:false,
     },
     {
         titulo: "Até que a Sorte Nos Separe",
-        categoria: "",
+        categoria: "Comédia",
         duracao: "1h 44m",
         sinopse:"ino é um pai de família que tem sua rotina transformada ao ganhar na loteria. Em dez anos, o fanfarrão e sua mulher Jane gastam todo o dinheiro com uma vida de ostentação.",
         linguagem_original:"Português         ",
@@ -673,11 +666,11 @@ var filmes_comedia =[
         bilheteria:34565441,
         plataforma:["Globoplay", "Netflix"," Telecine"],
         elenco:["Leandro Hassum", "Kiko Mascarenhas", "Julia Dalavia"],
-
+        classificacao:12,
     },
     {
         titulo: "A Hora do Rush 3",
-        categoria: "",
+        categoria: ["Ação","Comédia"],
         duracao: "1h 31m",
         sinopse:"O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter vão para Paris para proteger uma francesa que sabe demais sobre os secretos líderes do Triad",
         linguagem_original:"Inglês",
@@ -687,11 +680,11 @@ var filmes_comedia =[
         bilheteria:258100000,
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"],
         elenco:["Jackie Chan", "Chris Tucker", "Hiroyuki Sanada"],
-
+        classificacao:12,
     },
     {
         titulo: "Bons Meninos",
-        categoria: "",
+        categoria: "Aventura",
         duracao: "1h 30m",
         sinopse:"Na esperança de aprender a beijar, Max decide usar o drone de seu pai para espionar as garotas da vizinhança. As coisas não saem como o esperado, então Max e seus amigos precisam bolar um plano de resgate ao drone antes que seu pai perceba.",
         linguagem_original:"Inglês",
@@ -701,13 +694,11 @@ var filmes_comedia =[
         bilheteria:111000000,
         plataforma:["Google Play Filmes ","TV", "AppleTV", "You Tube"],
         elenco:["Jacob Tremblay", "Brady Noon", "Keith L. Williams"],
-
+        classificacao:14,
     },
-]
-var filmes_drama = [
     {
         titulo: "Homens de Honra",
-        categoria: "",
+        categoria: "Drama",
         duracao: "2h 9m",
         sinopse:"Carl Brashear, um jovem negro, entra para a Marinha americana nos 50, época em que o racismo prevalecia no país. O jovem enfrenta o preconceito de seus colegas brancos e de seu instrutor, mas sua coragem e determinação conquistam o respeito de todos.",
         linguagem_original:"Inglês",
@@ -717,11 +708,11 @@ var filmes_drama = [
         bilheteria:82300000,
         plataforma:["Star+"],
         elenco:["Cuba Gooding Jr", "Robert De Niro", "Charlize Theron"],
-
+        classificacao:12,
     },
     {
         titulo: "O Resgate do Soldado Ryan",
-        categoria: "",
+        categoria:["Guerra","Ação"],
         duracao: "2h 50m",
         sinopse:"Ao desembarcar na Normandia, no dia 6 de junho de 1944, capitão Miller (Tom Hanks) recebe a missão de comandar um grupo do segundo batalhão para o resgate do soldado James Ryan, caçula de quatro irmãos, dentre os quais três morreram em combate. Por ordens do chefe George C. Marshall, eles precisam procurar o soldado e garantir o seu retorno, com vida, para casa.",
         linguagem_original:"Inglês",
@@ -731,11 +722,11 @@ var filmes_drama = [
         bilheteria:485000000,
         plataforma:["Netflix"," Globoplay", "Amazon Prime Vídeo", "HBOmax,"],
         elenco:["Tom Hanks", "Vin Diesel", "Matt Damon", "Edward Burns"],
-
+        classificacao:14,
     },
     {
         titulo: "Um Sonho de Liberdade",
-        categoria: "",
+        categoria:["Drama","Ficção policial"],
         duracao: " 2h 22m",
         sinopse:"Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a pena perpétua. Andy logo será apresentado a Warden Norton (Bob Gunton), o corrupto e cruel agente penitenciário, que usa a Bíblia como arma de controle e ao Capitão Byron Hadley (Clancy Brown) que trata os internos como animais. Andy faz amizade com Ellis Boyd Redding (Morgan Freeman), um prisioneiro que cumpre pena há 20 anos e controla o mercado negro da instituição",
         linguagem_original:"Inglês",
@@ -745,11 +736,11 @@ var filmes_drama = [
         bilheteria:73300000,
         plataforma:["Netflix", "Amazon Prime Vídeo", "AppleTV", "HBOmax", "Google Play Filmes" ,"TV"],
         elenco:["Morgan Freeman", "Tim Robbins", "Bob Gunton"],
-
+        classificacao:16,
     },
     {
         titulo: "King Richard: Criando Campeãs",
-        categoria: "",
+        categoria: ["Drama","Esporte"],
         duracao: "2h 24m",
         sinopse:"King Richard: Criando Campeãs é um filme biográfico inspirado em Richard Williams, pai das famosas tênistas Serena Williams e Venus Williams. Obstinado em fazer de suas filhas futuras campeãs de tênis, Richard (Will Smith) usa métodos próprios e nada convencionais, seguindo a visão clara de futuro que construiu para as filhas Serena (Demi Singleton) e Venus (Saniyya Sidney). Determinado, o pai das garotas vai fazer de tudo para que elas saiam das ruas de Compton para as quadras do mundo todo. Armado com plano ousado, Richard Williams trabalha para escrever suas filhas na história. Treinando nas quadras de tênis negligenciadas de Compton, Califórnia - faça chuva ou faça sol - as meninas são moldadas pelo compromisso inflexível de seu pai e pela perspectiva equilibrada e intuição aguçada de sua mãe, desafiando as probabilidades aparentemente intransponíveis e as expectativas prevalecentes diante delas. King Richard segue a jornada edificante de uma família cuja determinação inabalável e crença incondicional acaba por entregar duas das maiores lendas do esporte do mundo.        ",
         linguagem_original:"Inglês",
@@ -759,11 +750,11 @@ var filmes_drama = [
         bilheteria:38400000,
         plataforma:["HBOmax", "AppleTV", "Google Play Filmes" ,"TV", "Amazon Prime Vídeo"],
         elenco:["Will Smith", "Jon Bernthal", "Aunjanue Ellis"],
-
+        classificacao:12,
     }, 
     {
         titulo: "Um Sonho Possível",
-        categoria: "",
+        categoria: ["Esporte","Drama "],
         duracao: "2h 9m",
         sinopse:"Michael Oher (Quinton Aaron) era um jovem negro, filho de uma mãe viciada e não tinha onde morar. Com boa vocação para os esportes, um dia ele foi avistado pela família de Leigh Anne Tuohy (Sandra Bullock), andando em direção ao estádio da escola para poder dormir longe da chuva. Ao ser convidado para passar uma noite na casa dos milionários, Michael não tinha ideia que aquele dia iria mudar para sempre a sua vida, tornando-se mais tarde um astro do futebol americano",
         linguagem_original:"Inglês",
@@ -773,11 +764,11 @@ var filmes_drama = [
         bilheteria: 309200000,
         plataforma:["HBOmax", "Amazon Prime Vídeo", "Google Play Filmes" ,"TV", "You Tube"],
         elenco:["Sandra Bullock", "Quinton Aaron"," Jae Head"],
-
+        classificacao:10,
     },
     {
         titulo: "Luta por Justiça",
-        categoria: "",
+        categoria:["Drama","Drama jurídico"],
         duracao: "2h 16m",
         sinopse:"Em Luta por Justiça, Bryan Stevenson (Michael B. Jordan) é um advogado recém-formado em Harvard que abre mão de uma carreira lucrativa em escritórios renomados da costa leste americana para se mudar para o Alabama e se dedicar a prisioneiros condenados à morte que jamais receberam assistência legal justa. Ao chegar lá, Bryan se depara com o caso de Walter McMillian (Jamie Foxx), um homem negro falsamente acusado de um assassinato, mas que nunca teve uma defesa apropriada por conta do preconceito racial na região.        ",
         linguagem_original:"Inglês",
@@ -785,13 +776,13 @@ var filmes_drama = [
         data_lancamento:[27,02,2020],
         diretor:"Destin Cretton",
         bilheteria:50400000,
-        plataforma:["You Tube", "AppleTV"," Google Play Filmes" ,"TV"],
+        plataforma:["You Tube","AppleTV","Google Play Filmes","TV"],
         elenco:["Michael B. Jordan", "Jamie Foxx", "Brie Larson"],
-
+        classificacao:16,
     },
     {
         titulo: "Superação-O milagre da fé",
-        categoria: "",
+        categoria: "Drama",
         duracao: "1h 56m",
         sinopse:"Em Superação - O Milagre da Fé, John Smith, um menino de 14 anos, passeava com a família em uma manhã de inverno no Lago St Louis, no Missouri, quando, acidentalmente, sofreu uma queda e se afogou. Chegando ao hospital, John foi considerado morto por mais de 60 minutos até que sua mãe, Joyce Smith, juntou todas as suas forças e pediu a Deus para que seu filho sobrevivesse. Sua prece poderosa foi responsável por um milagre inédito",
         linguagem_original:"Inglês",
@@ -801,11 +792,11 @@ var filmes_drama = [
         bilheteria:50400000,
         plataforma:["Star+"],
         elenco:[" Chrissy Metz", "Topher Grace", "Marcel Ruiz"],
-
+        classificacao:10,
     },
     {
         titulo: "Dreamland: Sonhos e Ilusões",
-        categoria: "",
+        categoria: ["Drama","Suspense"],
         duracao: "1h 41m",
         sinopse:"Dreamland conta uma história de amor que é ambientada em meio à luta dos Estados Unidos durante a Grande Depressão. Eugene Evans (Finn Cole) sonha em escapar de sua pequena cidade no Texas quando descobre uma fugitiva ladra de banco ferida (Margot Robbie). Dividido entre reivindicar a recompensa por sua captura e sua crescente atração pela criminosa, Eugene deve tomar uma decisão que afetará para sempre a vida de todos que ele amou.",
         linguagem_original:"Inglês",
@@ -815,11 +806,11 @@ var filmes_drama = [
         bilheteria:320.814,
         plataforma:["HBOmax"],
         elenco:["Margot Robbie", "Finn Cole"," Travis Fimmel"],
-
+        classificacao:14,
     },
     {
         titulo: "Sempre ao Seu Lado",
-        categoria: "",
+        categoria: "Drama",
         duracao: "1h 33m",
         sinopse:"Parker Wilson (Richard Gere) é um professor universitário que, ao retornar do trabalho, encontra na estação de trem um filhote de cachorro da raça akita, conhecido por sua lealdade. Sem ter como deixá-lo na estação, Parker o leva para casa mesmo sabendo que Cate (Joan Allen), sua esposa, é contra a presença de um cachorro. Aos poucos Parker se afeiçoa ao filhote, que tem o nome Hachi escrito na coleira, em japonês. Cate cede e aceita sua permanência. Hachi cresce e passa a acompanhar Parker até a estação de trem, retornando ao local no horário em que o professor está de volta. Até que um acontecimento inesperado altera sua vida.",
         linguagem_original:"Inglês",
@@ -829,11 +820,11 @@ var filmes_drama = [
         bilheteria:46700000,
         plataforma:["Amazon Prime Vídeo", "GloboPlay"],
         elenco:["Richard Gere"," Joan Allen."],
-
+        classificacao:false,
     },
     {
         titulo: "Extraordinário",
-        categoria: "",
+        categoria: ["Drama","Infantil"],
         duracao: "1h 53m",
         sinopse:" Auggie Pullman (Jacob Tremblay) é um garoto que nasceu com uma deformação facial, o que fez com que passasse por 27 cirurgias plásticas. Aos 10 anos, ele pela primeira vez frequentará uma escola regular, como qualquer outra criança. Lá, precisa lidar com a sensação constante de ser sempre observado e avaliado por todos à sua volta.",
         linguagem_original:"Inglês ",
@@ -843,13 +834,11 @@ var filmes_drama = [
         bilheteria:306200000,
         plataforma:["Amazon Prime Vídeo."],
         elenco:["Jacob Tremblay", "Julia Roberts", "Owen Wilson"],
-
+        classificacao:10,
     },
-]
-var filmes_ficcaocientifica = [
     {
         titulo: "Origem",
-        categoria: "",
+        categoria: ["Ficção científica","Ação"],
         duracao: "2h 28m",
         sinopse:" Dom Cobb é um ladrão com a rara habilidade de roubar segredos do inconsciente, obtidos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
         linguagem_original:"Inglês",
@@ -859,11 +848,11 @@ var filmes_ficcaocientifica = [
         bilheteria: 836800000,
         plataforma:["Google play filmes" ,"tv"," Apple tv", "Amazon prime video", "HBO Max"],
         elenco:["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Tom Hardy", "Cillian Murphy"],
-
+        classificacao:14,
     },
     {
         titulo: "Duna",
-        categoria: "Ficção científica/Aventura ",
+        categoria: ["Ficção científica","Aventura"],
         duracao: " 2h 35m",
         sinopse:"Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.",
         linguagem_original:" Inglês",
@@ -873,25 +862,25 @@ var filmes_ficcaocientifica = [
         bilheteria:401800000,
         plataforma:[" Google Play", "Apple TV" , "Amazon Prime Video"],
         elenco:["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac", "Josh Brolin" ,"Zendaya ","Jason Momoa"],
-
+        classificacao:14,
     },
     {
         titulo: "ET o Extraterrestre",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "1h 55m",
         sinopse:"O garoto Elliott faz amizade com um pequeno alienígena inofensivo que está bem longe do seu planeta. Ele decide manter a adorável criatura em segredo e em casa após apresentá-la aos irmãos",
-        linguagem_original:"",
+        linguagem_original:"Inglês",
         dublagem_portugues:true,
         data_lancamento:[25,12,1982],
         diretor:"Steven Spielberg",
         bilheteria:792900000,
         plataforma:["Amazon Prime Video","Telecine","Star+"],
         elenco:["Henry Thomas", "Drew Barrymore","Robert MacNaughton","Dee Wallace","C. Thomas Howell"],
-
+        classificacao:14,
     },
     {
         titulo: "Godzilla vs.Kong",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "1h 45m",
         sinopse:"Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Jia, uma garota órfã que tem um vínculo único e poderoso com a poderosa besta, acompanha a aventura. No entanto, eles logo se encontram no caminho de Godzilla, completamente enfurecido, deixando um rastro de destruição em todo o mundo. O confronto inicial entre os dois titãs, instigado por forças misteriosas, é apenas o começo do enigma que reside nas profundezas do planeta.",
         linguagem_original:"Inglês",
@@ -901,11 +890,11 @@ var filmes_ficcaocientifica = [
         bilheteria:467900000,
         plataforma:["Youtube, Apple tv, Hbo max"],
         elenco:["Millie Bobby Brown, Alexander Skarsgård, Brian Tyree Henry, Kaylee Hottle"],
-
+        classificacao:12,
     },
     {
         titulo: "Jogador Nº 1",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "2h 20m",
         sinopse:" Em 2045, Wade Watts, assim como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. James Halliday, o excêntrico criador do jogo, morre e deixa sua fortuna inestimável para a primeira pessoa que descobrir a chave de um quebra-cabeça diabólico que ele arquitetou. Para vencer, Watts precisa abandonar a existência virtual e experimentar o amor e a realidade.",
         linguagem_original:"Inglês",
@@ -915,11 +904,11 @@ var filmes_ficcaocientifica = [
         bilheteria:582900000,
         plataforma:["Youtube"," Google play filmes" ," tv", "Amazon prime video"," Hbo max"],
         elenco:["Tye Sheridan"," Olivia Cooke", "Mark Rylance"," Win Morisaki"],
-
+        classificacao:12
     },
     {
         titulo: "Matrix",
-        categoria: " Ficção científica/Ação",
+        categoria: ["Ficção científica","Ação"],
         duracao: "2h 16m",
         sinopse:"Um jovem programador é atormentado por estranhos pesadelos nos quais sempre está conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a levantar dúvidas sobre a realidade. E quando encontra os misteriosos Morpheus e Trinity, ele descobre que é vítima do Matrix, um sistema inteligente e artificial que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia.",
         linguagem_original:"Inglês",
@@ -929,11 +918,11 @@ var filmes_ficcaocientifica = [
         bilheteria:463500000,
         plataforma:["Youtube", "Google play filmes "," tv"," Apple tv", "Amazon prime video", "Hbo max"],
         elenco:["Keanu Reeves", "Carrie-Anne Moss"," Laurence Fishburne"," Hugo Weaving"],
-
+        classificacao:14,
     },
     {
         titulo: "Mentes Sombrias",
-        categoria: "Ficção científica/Ação ",
+        categoria: ["Ficção científica","Ação"],
         duracao: "1h 45m",
         sinopse:"Em um mundo apocalíptico, onde uma pandemia mata a maioria das crianças e adolescentes dos Estados Unidos, alguns sobreviventes desenvolvem poderes sobrenaturais. Eles são tirados pelo governo de suas famílias e enviados para campos de custódia.        ",
         linguagem_original:"Inglês",
@@ -943,11 +932,11 @@ var filmes_ficcaocientifica = [
         bilheteria:41100000,
         plataforma:[" Star+"],
         elenco:["Amandla Stenberg"," Harris Dickinson", "Miya Cech", "Skylan Brooks        "],
-
+        classificacao:12,
     },
     {
         titulo: "Moonfal",
-        categoria: "Ficção científica/Ação ",
+        categoria: ["Ficção científica","Ação"],
         duracao: "2 horas",
         sinopse:"No filme Moonfall, de Roland Emmerich, uma força misteriosa tira a Lua da sua órbita em torno da Terra e envia-a numa rota de colisão capaz de aniquilar a vida como a conhecemos. Semanas antes do impacto, e com o mundo à beira de aniquilação, Jo Fowler (Halle Berry), executiva e ex-astronauta da NASA está convencida que tem a chave para nos salvar a todos – mas apenas um astronauta do seu passado, Brian Harper (Patrick Wilson), e o teórico conspiracionista, K. C. Houseman (John Bradley), acreditam nela. Estes heróis improváveis vão ter de se lançar numa última missão impossível no espaço, deixando para trás todos os que amam, apenas para descobrir que a nossa Lua não é o que pensávamos que era.",
         linguagem_original:"Inglês",
@@ -957,25 +946,25 @@ var filmes_ficcaocientifica = [
         bilheteria:58900000,
         plataforma:["Amazon prime video", "Apple tv"," Google play filmes" ," tv"],
         elenco:["Halle Berry", "Patrick Wilson", "kelly yu","Michael Peña"],
-
+        classificacao:14,
     },
     {
         titulo: "O Projeto Adam",
-        categoria: "",
+        categoria: ["Ficção científica","Drama"],
         duracao: " 1h 46m",
         sinopse:"Um viajante do tempo volta ao ano de 2022 por acidente e acaba se encontrando com seu eu mais novo. Juntos, e sendo caçados por forças do futuro, os dois embarcam em uma missão para consertar a linha temporal e salvar seus entes queridos.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[9/03/2022],
+        data_lancamento:[09,03,2022],
         diretor:"Shawn Levy",
         bilheteria:116000000,
         plataforma:["Netflix"],
         elenco:["Ryan Reynolds", "Walker Scobell", "Zoë Saldaña", "Jennifer Garner"],
-
+        classificacao:12,
     },
     {
         titulo: "Vida",
-        categoria: "",
+        categoria: ["Ficção científica","Terror"],
         duracao: "1h 50m",
         sinopse:"Uma equipe de seis astronautas da Estação Espacial Internacional descobre sinais de vida inteligente em Marte e a investigação do fato gera consequências inimagináveis.",
         linguagem_original:"Inglês",
@@ -985,13 +974,13 @@ var filmes_ficcaocientifica = [
         bilheteria:58620000,
         plataforma:[" Youtube", "Amazon prime video", "Apple tv", "Star+"],
         elenco:["Jake Gyllenhaal", "Ryan Reynolds", "Rebecca Ferguson", "Hiroyuki Sanada"],
-
+        classificacao:12,
     },
 ]
 var filmes_sequencias_harrypotter =  [
     {
         titulo: "Harry Potter e a Pedra Filosofal",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 32m",
         sinopse:"Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente Harry é impedido de ler a carta por seu tio Válter (Richard Griffiths), mas logo ele recebe a visita de Hagrid (Robbie Coltrane), o guarda-caça de Hogwarts, que chega em sua casa para levá-lo até a escola. A partir de então Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson).        ",
         linguagem_original:" Inglês",
@@ -1001,11 +990,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:974800000,
         plataforma:["HBOmax"],
         elenco:["Daniel Radcliffe", "Emma Watson", "Rupert Grint"],
-
+        classificacao:false,
     },
     {
         titulo: "Harry Potter e a Câmara Secreta",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 41m",
         sinopse:"De férias na casa de seus tios Dursley, Harry Potter (Daniel Radcliffe) recebe a inesperada visita de Dobby, um elfo doméstico, que veio avisá-lo para não retornar à Escola de Magia de Hogwarts, pois lá correrá um grande perigo. Harry não lhe dá ouvidos e decide retornar aos estudos, enfrentando um 2º ano recheado de novidades. Uma delas é a contratação do novo Professor de Defesa Contra as Artes das Trevas, Gilderoy Lockhart (Kenneth Branagh), que é considerado um grande galã e não perde uma oportunidade de fazer marketing pessoal. Porém, o aviso de Dobby se confirma e logo toda Hogwarts está envolvida em um mistério que resulta no aparecimento de alunos petrificados.",
         linguagem_original:"Inglês",
@@ -1015,11 +1004,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:879800000,
         plataforma:["HBOmax"],
         elenco:["Daniel Radcliffe", "Emma Watson"," Rupert Grint"],
-
+        classificacao:false,
     },
     {
         titulo: "Harry Potter e o Prisioneiro de Azkaban",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 22m",
         sinopse:" O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se aproxima. Porém um grande perigo ronda a escola: o assassino Sirius Black (Gary Oldman) fugiu da prisão de Azkaban, considerada até então como à prova de fugas. Para proteger a escola são enviados os Dementadores, estranhos seres que sugam a energia vital de quem se aproxima deles, que tanto podem defender a escola como piorar ainda mais a situação.        ",
         linguagem_original:"Inglês",
@@ -1029,11 +1018,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:797500000,
         plataforma:["HBOmax", "AppleTV", "Amazon Prime Vídeo", "Google Play Filmes" ,"TV."],
         elenco:["Daniel Radcliffe", "Emma Watson", "Rupert Grint"],
-
+        classificacao:false,
     },
     {
         titulo: "Harry Potter e o Cálice de Fogo",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 37m",
         sinopse:"Em seu 4º ano na Escola de Magia e Bruxaria de Hogwarts, Harry Potter (Daniel Radcliffe) é misteriosamente selecionado para participar do Torneio Tribruxo, uma competição internacional em que precisará enfrentar alunos mais velhos e experientes de Hogwarts e também de outras escolas de magia. Além disso a aparição da marca negra de Voldemort (Ralph Fiennes) ao término da Copa do Mundo de Quadribol põe a comunidade de bruxos em pânico, já que sinaliza que o temido bruxo está prestes a retornar.",
         linguagem_original:"Inglês",
@@ -1043,11 +1032,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:896700000,
         plataforma:["AppleTV", "Google Play Filmes ","TV"," HBOmax", "You Tube"],
         elenco:["Daniel Radcliffe"," Emma Watson", "Rupert Grint"],
-
+        classificacao:10,
     },
     {
         titulo: "Harry Potter e a Ordem da Fênix",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: " 2h 18m",
         sinopse:" Harry Potter (Daniel Radcliffe) retorna à Escola de Magia e Bruxaria de Hogwarts, para cursar o 5º ano letivo. Logo ele descobre que boa parte da comunidade bruxa foi levada a acreditar que o retorno de Voldemort (Ralph Fiennes) foi uma mentira inventada por Harry, o que põe sua credibilidade em dúvida. Além disto, o Ministro da Magia Cornélio Fudge (Robert Hardy) impõe à escola a presença de Dolores Umbridge (Imelda Staunton), que torna-se a nova professora de Defesa Contra as Artes das Trevas. Acontece que as aulas de Umbridge, apesar de aprovadas pelo ministério, abrangem apenas temas amenos, deixando os alunos despreparados para os perigos dos dias atuais. Incentivado por seus amigos Rony (Rupert Grint) e Hermione (Emma Watson), Harry decide encontrar-se em segredo com um grupo de estudantes, visando a prática de magia. O grupo se autodenomina como a Armada de Dumbledore, mas logo passa a ser vista como uma ameaça ao próprio Ministério da Magia.",
         linguagem_original:"Inglês",
@@ -1057,11 +1046,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:942200000,
         plataforma:["HBOmax", "Amazon Prime Vídeo","AppleTV","Google Play Filmes" ,"TV"],
         elenco:["Daniel Radcliffe"," Emma Watson", "Rupert Grint"],
-
+        classificacao:false,
     },
     {
         titulo: "Harry Potter e o Enigma do Príncipe",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 33m",
         sinopse:"Lorde Voldemort (Ralph Fiennes) é uma ameaça real, tanto para o mundo dos bruxos quanto o dos trouxas. Harry Potter (Daniel Radcliffe) suspeita que o perigo esteja dentro da Escola de Magia e Bruxaria de Hogwarts, mas Alvo Dumbledore (Michael Gambon) está mais preocupado em prepará-lo para o confronto final com o Lorde das Trevas. Dumbledore convida seu colega Horácio Slughorn (Jim Broadbent) para ser o novo professor de Poções, já que Severo Snape (Alan Rickman) enfim alcançou o sonho de ministrar as aulas de Defesa Contra as Artes das Trevas. Paralelamente Harry começa a ter um interesse cada vez maior por Gina Weasley (Bonnie Wright), irmã de seu melhor amigo Rony (Rupert Grint), que também é alvo de interesse de Dino Thomas (Alfie Enoch).        ",
         linguagem_original:"Inglês",
@@ -1071,11 +1060,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria: 934500000,
         plataforma:["HBOmax"," You Tube", "Google Play Filmes "," TV"," AppleTV", "Amazon Prime Vídeo"],
         elenco:["Daniel Radcliffe", "Emma Watson"," Rupert Grint"],
-
+        classificacao:12,
     },
     {
         titulo: "Harry Potter e as Relíquias da Morte: Parte 1",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 26m",
         sinopse:"Prestes a completar 17 anos, Harry Potter (Daniel Radcliffe) precisa ser transportado da casa dos seus tios, os Dursley, até um local seguro. Lorde Voldemort (Ralph Fiennes) e seus comensais da morte sabem que a transferência está prestes a acontecer e aguardam sua realização para atacar. Para que ela ocorra vários amigos de Harry, como Rony Weasley (Rupert Grint), Hermione Granger (Emma Watson), Remo Lupin (David Thewlis), Hagrid (Robbie Coltrane) e Olho-Tonto Moody (Brendan Gleeson), tomam a Poção Polissuco e assumem a forma física de Harry. A intenção é despistar Voldemort sobre quem é o Harry verdadeiro, de forma que ele possa chegar seguro à Toca, casa dos Weasley. A missão é bem sucedida, mas logo a situação se torna ainda mais perigosa. O Ministro da Magia Rufus Scrimgeour (Bill Nighy) é morto e, em seu lugar, assume um dos asseclas de Voldemort. Harry e seus amigos passam a ser caçados impiedosamente, obrigando que ele, Rony e Hermione fujam. Precisando mudar constantemente de lugar, eles elaboram um plano para encontrar e destruir as horcruxes que podem eliminar Voldemort de uma vez por todas        ",
         linguagem_original:"Inglês",
@@ -1085,11 +1074,11 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:976500000,
         plataforma:["HBOmax", "You Tube", "Google Play Filmes "," TV"," AppleTV", "Amazon Prime Vídeo"],
         elenco:[" Daniel Radcliffe"," Emma Watson"," Rupert Grint"],
-
+        classificacao:12,
     },
     {
         titulo: "Harry Potter e as Relíquias da Morte: Parte 2",
-        categoria: "",
+        categoria:["Fantasia","Aventura"],
         duracao: "2h 10m",
         sinopse:"Em Harry Potter e as Relíquias da Morte - Parte 2, Harry Potter (Daniel Radcliffe) e seus amigos Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson) seguem à procura das horcruxes. O objetivo do trio é encontrá-las e, em seguida, destruí-las, de forma a eliminar lorde Voldemort (Ralph Fiennes) de uma vez por todas. Com a ajuda do duende Grampo (Warwick Davis), eles entram no banco Gringotes de forma a invadir o cofre de Bellatrix Lestrange (Helena Bonham Carter). De lá retornam ao castelo de Hogwarts, onde precisam encontrar mais uma horcrux. Paralelamente, Voldemort prepara o ataque definitivo ao castelo.",
         linguagem_original:"Inglês",
@@ -1099,13 +1088,13 @@ var filmes_sequencias_harrypotter =  [
         bilheteria:1342000000,
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes", " TV"," You Tube"],
         elenco:["Daniel Radcliffe", "Emma Watson", "Rupert Grint"],
-
+        classificacao:12,
     },
 ]
 var filmes_sequencias_osenhordosaneis = [
     {
         titulo: "O Senhor dos Anéis: A Sociedade do Anel",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 58m",
         sinopse:"Numa terra fantástica e única, chamada Terra-Média, um hobbit (seres de estatura entre 80 cm e 1,20 m, com pés peludos e bochechas um pouco avermelhadas) recebe de presente de seu tio o Um Anel, um anel mágico e maligno que precisa ser destruído antes que caia nas mãos do mal. Para isso o hobbit Frodo (Elijah Woods) terá um caminho árduo pela frente, onde encontrará perigo, medo e personagens bizarros. Ao seu lado para o cumprimento desta jornada aos poucos ele poderá contar com outros hobbits, um elfo, um anão, dois humanos e um mago, totalizando 9 pessoas que formarão a Sociedade do Anel.",
         linguagem_original:"Inglês",
@@ -1115,11 +1104,11 @@ var filmes_sequencias_osenhordosaneis = [
         bilheteria:897700000,
         plataforma:["HBOmax", "Amazon Prime Vídeo", "Google Play Filmes "," TV", "You Tube"],
         elenco:["Elijah Wood", "Viggo Mortensen", "Sean Astin"],
-
+        classificacao:12,
     },
     {
         titulo: "O Senhor dos Anéis: As Duas Torres",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "2h 59m",
         sinopse:"Após a captura de Merry (Dominic Monaghan) e Pippy (Billy Boyd) pelos orcs, a Sociedade do Anel é dissolvida. Enquanto que Frodo (Elijah Wood) e Sam (Sean Astin) seguem sua jornada rumo à Montanha da Perdição para destruir o Um Anel, Aragorn (Viggo Mortensen), Legolas (Orlando Bloom) e Gimli (John Rhys-Davies) partem para resgatar os hobbits sequestrados.",
         linguagem_original:"Inglês",
@@ -1129,11 +1118,11 @@ var filmes_sequencias_osenhordosaneis = [
         bilheteria:947500000,
         plataforma:["AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Elijah Wood", "Viggo Mortensen", "Sean Astin"],
-
+        classificacao:12,
     },
     {
         titulo: "O Senhor dos Anéis: O Retorno do Rei",
-        categoria: "",
+        categoria: ["Fantasia","Aventura"],
         duracao: "3h 21m",
         sinopse:"Sauron planeja um grande ataque a Minas Tirith, capital de Gondor, o que faz com que Gandalf (Ian McKellen) e Pippin (Billy Boyd) partam para o local na intenção de ajudar a resistência. Um exército é reunido por Theoden (Bernard Hill) em Rohan, em mais uma tentativa de deter as forças de Sauron. Enquanto isso Frodo (Elijah Wood), Sam (Sean Astin) e Gollum (Andy Serkins) seguem sua viagem rumo à Montanha da Perdição, para destruir o Um Anel.",
         linguagem_original:"Inglês",
@@ -1143,13 +1132,13 @@ var filmes_sequencias_osenhordosaneis = [
         bilheteria: 1146000000,
         plataforma:["HBOmax", "AppleTV", "Google Play Filmes "," TV"],
         elenco:["Elijah Wood", "Viggo Mortensen", "Sean Astin"],
-
+        classificacao:12,
     },
 ]
 var filmes_sequencias_missãoimpossível = [
     {
         titulo: "Missão Impossível",
-        categoria: "",
+        categoria: ["Ação","Thriller "],
         duracao: "1h 50m",
         sinopse:"Durante uma missão em Praga, um grupo especial de agentes cai em uma cilada. O americano Ethan Hunt (Tom Cruise) descobre que apenas ele e outra agente sobreviveram. Tomado como informante, ele foge e começa a agir por conta própria. Com a ajuda de um novo grupo, ele vai tentar limpar seu nome, descobrindo quem foi o espião que armou para o seu time.",
         linguagem_original:"Inglês",
@@ -1159,11 +1148,11 @@ var filmes_sequencias_missãoimpossível = [
         bilheteria:457700000 ,
         plataforma:["Amazon Prime Vídeo"," AppleTv", "Google Play Filmes" ," TV", "You Tube"],
         elenco:["Tom Cruise", "Ving Rhames."],
-
+        classificacao:false,
     },
     {
         titulo: "Missão Impossível 2",
-        categoria: "",
+        categoria: ["Ação","Thriller "],
         duracao: " 2h 3m",
         sinopse:"O agente secreto Ethan Hunt (Tom Cruise) se reúne novamente com sua equipe de agentes. Sua missão é recuperar e destruir um vírus mortal desenvolvido por australianos antes que este caia em mãos erradas.",
         linguagem_original:"Inglês",
@@ -1173,11 +1162,11 @@ var filmes_sequencias_missãoimpossível = [
         bilheteria: 546400000,
         plataforma:["Star+"," Amazon Prime Vídeo", "You Tube", "Google Play Filmes ","TV"],
         elenco:["Tom Cruise"],
-
+        classificacao:14,
     },
     {
         titulo: "Missão Impossível 3",
-        categoria: "",
+        categoria:  ["Ação","Thriller "],
         duracao: "2h 6m",
         sinopse:"O agente Ethan Hunt (Tom Cruise) está afastado do trabalho de campo para a IMF, trabalhando apenas como treinador de novos agentes. Ele agora leva uma vida tranquila com Julia (Michelle Monaghan), com quem pretende se casar e que nada sabe sobre seu verdadeiro trabalho. Entretanto Ethan é chamado de volta à ativa quando uma de suas pupilas, Lindsey (Keri Russell), é capturada por Owen Davian (Philip Seymour Hoffman), um negociante de armas sem escrúpulos. Para resgatá-la é reunida uma nova equipe, formada por seu velho amigo Luther Stickell (Ving Rhames), o especialista em transportes Declan (Jonathan Rhys Meyers) e Zhen (Maggie Q).",
         linguagem_original:"Inglês",
@@ -1186,12 +1175,12 @@ var filmes_sequencias_missãoimpossível = [
         diretor:"J. J. Abrams",
         bilheteria: 398500000,
         plataforma:[" Star+", "Amazon Prime Vídeo", "You Tube", "Google Play Filmes ","TV"],
-        elenco:[" Tom Cruise"],
-
+        elenco:[" Tom Cruise","Michelle Monaghan"],
+        classificacao:12,
     },
     {
         titulo: "Missão Impossível - Protocolo Fantasma",
-        categoria: "",
+        categoria:  ["Ação","Thriller "],
         duracao: "2h 13m",
         sinopse:"O agente secreto Ethan Hunt (Tom Cruise) é desautorizado pelo presidente dos Estados Unidos após o país ser acusado por um bombardeio no Kremlin. Tem início o Protocolo Fantasma, que visa acabar com os agentes da IMF. Sem qualquer recurso ou apoio, Ethan precisa encontrar um meio de limpar seu nome e o da agência em que trabalha. Para tanto passa a trabalhar com Benji (Simon Pegg) e Jane (Paula Patton), agentes renegados como ele, e ainda Brandt (Jeremy Renner), um ex-agente que agora trabalha como analista.",
         linguagem_original:"Inglês",
@@ -1200,12 +1189,12 @@ var filmes_sequencias_missãoimpossível = [
         diretor:"Brad Bird",
         bilheteria:694700000,
         plataforma:[" Star+", "Amazon Prime Vídeo", "You Tube"," Google Play Filmes "," TV"],
-        elenco:["Tom Cruise"],
-
+        elenco:["Tom Cruise","Paula Patton"],
+        classificacao:14,
     },
     {
         titulo: "Missão Impossivel-Nação Secreta",
-        categoria: "",
+        categoria:  ["Ação","Thriller "],
         duracao: "2h 11m ",
         sinopse:"Em Missão Impossível - Nação Secreta, Ethan Hunt (Tom Cruise) descobre que o famoso Sindicato é real, e está tentando destruir o IMF. Mas como combater uma nação secreta, tão treinada e equipada quanto eles mesmos? O agente especial tem que contar com toda a ajuda disponível, incluindo de pessoas não muito confiáveis.",
         linguagem_original:"Inglês",
@@ -1214,12 +1203,12 @@ var filmes_sequencias_missãoimpossível = [
         diretor:"Christopher McQuarrie",
         bilheteria:682700000,
         plataforma:[" Star+", "Amazon Prime Vídeo", "You Tube", "Google Play Filmes "," TV"],
-        elenco:[" Tom Cruise"],
-
+        elenco:[" Tom Cruise","Ferguson"],
+        classificacao:12,
     },
     {
         titulo: "Missão Impossivel-Efeito Fallout",
-        categoria: "",
+        categoria:  ["Ação","Thriller "],
         duracao: "2h 28m",
         sinopse:"Obrigado a unir forças com o agente especial da CIA August Walker (Henry Cavill) para mais uma missão impossível, Ethan Hunt (Tom Cruise) se vê novamente cara a cara com Solomon Lane (Sean Harris) e preso numa teia que envolve velhos conhecidos movidos por interesses misteriosos e contatos de moral duvidosa. Atormentado por decisões do passado que retornam para assombrá-lo, Hunt precisa se resolver com seus sentimentos e impedir que uma catastrófica explosão ocorra, no que conta com a ajuda dos amigos de IMF.        ",
         linguagem_original:"Inglês",
@@ -1228,14 +1217,14 @@ var filmes_sequencias_missãoimpossível = [
         diretor:" Christopher McQuarrie",
         bilheteria:791100000,
         plataforma:[" Star+"," Amazon Prime Vídeo", "You Tube"," Google Play Filmes "," TV", "AppleTV"],
-        elenco:[" Tom Cruise"],
-
+        elenco:[" Tom Cruise","Rebecca Ferguson"],
+        classificacao:14,
     },
 ]
 var filmes_sequencias_crepusculo = [
     {
         titulo: "Crepúsculo",
-        categoria: "Romance/Fantasia",
+        categoria: ["Fantasia","Romance"],
         duracao: "2h 2m",
         sinopse:"A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente. E 19 de dezembro de 2008 dward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.",
         linguagem_original:"Inglês",
@@ -1245,11 +1234,11 @@ var filmes_sequencias_crepusculo = [
         bilheteria:385000000,
         plataforma:["Netflix"],
         elenco:["Isabella Swan", "Jacob Black", "Edward Cullen"],
-
+        classificacao:12,
     },
     {
         titulo: "A Saga Crepúsculo: Lua Nova",
-        categoria: " Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "2h 10m",
         sinopse:"Depois da partida de Edward, Jacob se transforma no melhor amigo de Bella. Mas o que ela não imagina é que Jacob também tem um segredo que mudará suas vidas repentinamente.",
         linguagem_original:"Inglês",
@@ -1259,11 +1248,11 @@ var filmes_sequencias_crepusculo = [
         bilheteria:709800000,
         plataforma:["Netflix", "HBO Max", "Prime Video", "Starzplay" ," Telecine"],
         elenco:["Isabella Swan", "Jacob Black", "Edward Cullen"],
-
+        classificacao:12,
     },
     {
         titulo: "A Saga Crepúsculo: Eclipse",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: " 2h 4m",
         sinopse:"O perigo novamente ronda Bella com uma série de crimes misteriosos aterrorizando Seattle e um vampiro malicioso em busca de vingança. Em meio ao tumulto, Bella precisa escolher entre seu amor por Edward e sua amizade com Jacob, sabendo que sua decisão pode desencadear uma batalha entre vampiro e lobisomem.",
         linguagem_original:"Inglês",
@@ -1273,11 +1262,11 @@ var filmes_sequencias_crepusculo = [
         bilheteria:698400000,
         plataforma:["Netflix", "HBO Max", "Prime Video", "Starzplay" ," Telecine"],
         elenco:["Isabella Swan", "Jacob Black", "Edward Cullen"],
-
+        classificacao:14,
     },
     {
         titulo: "A Saga Crepúsculo: Amanhecer - Parte 1",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "1h 57m",
         sinopse:"O casamento de Edward e Bella, sua lua de mel e o nascimento do filho desencadeiam uma série de acontecimentos que trará desdobramentos chocantes para Jacob.",
         linguagem_original:"Inglês",
@@ -1287,11 +1276,11 @@ var filmes_sequencias_crepusculo = [
         bilheteria:712200000,
         plataforma:["Netflix", "HBO Max", "Prime Video", "Starzplay" ," Telecine"],
         elenco:["Isabella Swan", "Jacob Black", "Edward Cullen"],
-
+        classificacao:14,
     },
     {
         titulo: "A Saga Crepúsculo: Amanhecer - Parte 2",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "1h 55m        ",
         sinopse:"Depois do nascimento da filha de Bella e Edward, Renesmee, os Cullen reúnem lobisomens, clãs de vampiros e outros aliados de todo o mundo para protegê-la, já que uma falsa alegação faz com que os Volturi queiram matá-la.",
         linguagem_original:"Inglês",
@@ -1301,13 +1290,13 @@ var filmes_sequencias_crepusculo = [
         bilheteria:829700000,
         plataforma:["Netflix", "HBO Max", "Prime Video", "Starzplay" ," Telecine"],
         elenco:["Isabella Swan", "Jacob Black", "Edward Cullen"],
-
+        classificacao:12,
     },
 ]
 var filmes_sequencias_piratasdocaribe = [
     {
         titulo: "Piratas do Caribe: A Maldição do Pérola Negra",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 23m",
         sinopse:"O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em direção à misteriosa Ilha da Morte, tentando impedir que os piratas-esqueleto derramem o sangue de Elizabeth para desfazer a maldição que os assola.",
         linguagem_original:"Inglês",
@@ -1317,11 +1306,11 @@ var filmes_sequencias_piratasdocaribe = [
         bilheteria:654300000,
         plataforma:["Disney+"],
         elenco:["Johnny Depp ","Geoffrey Rush","Orlando Bloom ","Keira Knightley "],
-
+        classificacao:14,
     },
     {
         titulo: "Piratas do Caribe: O Baú da Morte",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 31m",
         sinopse:"Will e Elizabeth estão prestes a se casar quando o lendário pirata Davy Jones, comandante de um invencível navio assombrado, aparece para cobrar uma dívida do capitão Jack Sparrow, amigo do casal. Agora, a única chance de Sparrow se livrar de uma maldição de Jones é encontrando o baú da morte.",
         linguagem_original:"Inglês",
@@ -1331,11 +1320,11 @@ var filmes_sequencias_piratasdocaribe = [
         bilheteria:1066000000,
         plataforma:["Disney+"],
         elenco:["Johnny Depp ","Orlando Bloom ","Keira Knightley"],
-
+        classificacao:12,
     },
     {
         titulo: "Piratas do Caribe: No Fim do Mundo",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 48m  ",
         sinopse:"Will Turner e Elizabeth Swann unem forças com o Capitão Barbossa para libertarem Jack Sparrow da prisão de Davy Jones. Enquanto isso, a tripulação do barco fantasma O Holandês Voador causa estragos nos Sete Mares. Os amigos devem navegar através de águas perigosas para enfrentarem o pirata chinês São Feng e, finalmente, eles devem escolher em que lado ficar na batalha, pois a vida do pirata está em jogo.",
         linguagem_original:"Inglês",
@@ -1345,11 +1334,11 @@ var filmes_sequencias_piratasdocaribe = [
         bilheteria: 960900000,
         plataforma:["Disney+"],
         elenco:["Johnny Depp ","Orlando Bloom ","Keira Knightley"],
-
+        classificacao:12,
     },
     {
         titulo: "Piratas do Caribe: Navegando em Águas Misteriosas",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 21m        ",
         sinopse:"O passado do capitão Jack Sparrow volta a alcançá-lo quando ele cruza com Angelica, uma bonita pirata que Jack, um dia, amou e depois abandonou. Ela, então, o força a acompanhá-la ao navio Vingança da Rainha Ana, do famoso Barba Negra. Junto com uma tripulação de zumbis, o trio parte em busca da lendária Fonte da Juventude. Mas o rival de Jack, Barbossa, também cobiça a fonte, assim como um navio espanhol.",
         linguagem_original:"Inglês",
@@ -1359,11 +1348,11 @@ var filmes_sequencias_piratasdocaribe = [
         bilheteria:1046000000,
         plataforma:["Disney+"],
         elenco:["Geoffrey Rush","Johnny Depp ","Penélope Cruz"],
-
+        classificacao:12,
     },
     {
         titulo: "Piratas do Caribe: A Vingança de Salazar",
-        categoria: "Aventura/Ação ‧",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 9m",
         sinopse:"Salazar é a nova pedra no sapato do capitão Jack Sparrow. Ele lidera um exército de piratas fantasmas assassinos e está disposto a matar todos os piratas existentes na face da Terra. Para escapar, Sparrow precisa encontrar o Tridente de Poseidon, que dá ao seu dono o poder de controlar o mar.",
         linguagem_original:"Inglês",
@@ -1379,7 +1368,7 @@ var filmes_sequencias_piratasdocaribe = [
 var filmes_sequencias_velozesefuriosos = [
     {
         titulo: "Velozes e Furiosos",
-        categoria: "Aventura/Crime ",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 46m",
         sinopse:"Brian O'Conner é um policial que se infiltra no submundo dos rachas de rua para investigar uma série de furtos. Enquanto tenta ganhar o respeito e a confiança do líder Dom Toretto, ele corre o risco de ser desmascarado.",
         linguagem_original:"Inglês",
@@ -1393,7 +1382,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "+ Velozes + Furiosos",
-        categoria: " Ação/Crime",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 48m",
         sinopse:"O ex-policial Brian O'Conner se muda de Los Angeles para Miami para recomeçar sua vida. Ele acaba se envolvendo em rachas na sua nova cidade com seu amigo Tej e Suki. Suas aventuras terminam quando ele é preso e faz um acordo com agentes do FBI. Brian tem a missão muito perigosa de prender um poderoso chefe do cartel das drogas.",
         linguagem_original:"Inglês",
@@ -1407,7 +1396,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos: Desafio em Tóquio",
-        categoria: " Ação/Drama ",
+        categoria: ["Ação","Drama"],
         duracao: "1h 44m",
         sinopse:"Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
         linguagem_original:"Inglês",
@@ -1421,7 +1410,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos: Desafio em Tóquio",
-        categoria: "",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 44m",
         sinopse:"Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
         linguagem_original:"Inglês",
@@ -1435,7 +1424,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 4",
-        categoria: "Ação/Thriller",
+        categoria: ["Ação","Aventura"],
         duracao: " 1h 47m",
         sinopse:"Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
         linguagem_original:"Inglês",
@@ -1449,7 +1438,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 5: Operação Rio",
-        categoria: "Mistério/Aventura ",
+        categoria: ["Ação","Aventura"],
         duracao: " 2h 10m",
         sinopse:"Desde que o ex-policial Brian O'Conner e Mia Toretto libertaram Dom da prisão, eles viajam pelo mundo para fugir das autoridades. No Rio de Janeiro, eles são obrigados a fazer um último trabalho antes de ganhar sua liberdade definitiva. Brian e Dom montam uma equipe de elite de pilotos de carro para executar a tarefa, mas precisam enfrentar um empresário corrupto e também um obstinado agente federal norte-americano.",
         linguagem_original:"Inglês",
@@ -1463,7 +1452,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 6",
-        categoria: " Ação/Crime",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 10m",
         sinopse:"Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com 100 milhões de dólares, a equipe se espalhou pelo mundo. Um dia, Hobbs pede a Dom que reúna um grupo de elite em Londres e apreenda uma organização de mercenários nas ruas, cujo mentor é apoiado por Letty, a antiga namorada de Dom que ele acreditava estar morta.",
         linguagem_original:"Inglês",
@@ -1477,7 +1466,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 7",
-        categoria: "Ação/Aventura ",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 20m",
         sinopse:"Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe têm a chance de voltar para os Estados Unidos e recomeçar suas vidas. Mas a tranquilidade do grupo é destruída quando Deckard Shaw, um assassino profissional, quer vingança pelo acidente que deixou seu irmão em coma. Agora, a equipe tem de unir forças para deter um vilão novo e ainda mais perigoso. Dessa vez, não se trata apenas de uma questão de velocidade: a corrida é pela sobrevivência.",
         linguagem_original:"Inglês",
@@ -1491,7 +1480,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 8",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 16m",
         sinopse:"Depois da aposentadoria de Brian e Mia, Dom e Letty aproveitam a lua de mel e levam uma vida pacata e normal. Mas a adrenalina do passado volta com tudo quando uma mulher misteriosa obriga Dom a retornar ao mundo do crime e da velocidade.",
         linguagem_original:"Inglês",
@@ -1501,11 +1490,11 @@ var filmes_sequencias_velozesefuriosos = [
         bilheteria: 1239000000,
         plataforma:["Prime Video","Apple iTunes", "Netflix"],
         elenco:["Charlize Theron","Nathalie Emmanuel","Jason Statham","Paul Walker","Vin Diesel","Michelle Rodriguez"],
-
+        classificacao:14,
     },
     {
         titulo: "Velozes e Furiosos 9",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação/Aventura"],
         duracao: " 2h 23m",
         sinopse:"Dominic Toretto e Letty vivem uma vida pacata ao lado do filho. Mas eles logo são ameaçados pelo passado de Dom: seu irmão desaparecido Jakob, que retorna e está trabalhando ao lado de Cipher. Cabe a Dom reunir a equipe novamente para enfrentá-los.",
         linguagem_original:"Inglês",
@@ -1515,233 +1504,133 @@ var filmes_sequencias_velozesefuriosos = [
         bilheteria:726000000,
         plataforma:["Prime Video","Apple iTunes", "Netflix"],
         elenco:["Sung Kang","Paul Walker","Vin Diesel","Michelle Rodriguez","Jason Statham","Dwayne Johnson"],
-
+        classificacao:14,
     },
 ]
-   /* {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+var filmes_sequencias_homemaranha = [
+    {
+        titulo: "Homem-Aranha",
+        categoria: ["Ação","Ficção"],
+        duracao:"2h 1m",
+        sinopse:"Peter Parker (Tobey Maguire) é um jovem estudioso que vive com seus tios, Ben (Cliff Robertson) e May (Rosemary Harris), desde que seus pais faleceram. Inteligente e com um grande interesse pela ciência, Peter tem dificuldade em se relacionar com seus colegas, por ser tímido e por eles o considerarem um nerd. Até que, em uma demonstração científica, um acidente inesperado faz com que aranha modificada geneticamente pique Peter. A partir de então seu corpo é quimicamente alterado pela picada da aranha, fazendo com que Peter possa escalar paredes e tetos, emitir pelos punhos um fluido ultra-resistente semelhante à uma teia de aranha e passe a ter um sentido de aranha, que o avisa sempre que há perigo por perto, além de superforça e visão ampliada. Inicialmente Peter pensa em usar seus novos poderes para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém, ao permitir que um ladrão fuja por não considerar sua função capturá-lo, o fugitivo acaba assassinando seu tio Ben. A partir de então, Peter decide não mais usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio enfrentar o psicótico Duende Verde (Willem Dafoe), que na verdade é o empresário Norman Osborn após ter sido exposto à um gás experimental que lhe deu uma segunda personalidade e grande força física.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[17,05,2002],
+        diretor:"Sam Raimi",
+        bilheteria:825000000,
+        plataforma:["Netflix","Disney+","HBO Max"],
+        elenco:["Tobey Maguire","Willem Dafoe","Kirsten Dunst"],
+        classificacao:false,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha 2 ",
+        categoria:["Ação","Aventura"],
+        duracao:"2h 7m",
+        sinopse:"Em Homem-Aranha 2, após derrotar o Duende Verde, a vida de Peter Parker (Tobey Maguire) muda por completo. Temendo que Mary Jane (Kirsten Dunst) sofra algum risco por ser ele o Homem-Aranha, Peter continua escondendo o amor que sente e se mantém longe dela. Ao mesmo tempo precisa lidar com Harry (James Franco), seu melhor amigo, cuja raiva pelo Homem-Aranha aumenta cada vez mais por considerá-lo como sendo o assassino de seu pai. Além disso sua tia May (Rosemary Harris) passa por uma fase difícil após a morte de seu tio Ben, estranhando também o comportamento do sobrinho. Enquanto precisa lidar com seus problemas particulares Peter recebe ainda uma má notícia: o surgimento do Dr. Octopus (Alfred Molina), um homem que possui tentáculos presos ao corpo.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[02,07,2004],
+        diretor:"Sam Raimi",
+        bilheteria:789000000,
+        plataforma:["Netflix","Disney+","HBO Max"],
+        elenco:["Tobey Maguire","Alfred Molina","Kirsten Dunst"],
+        classificacao:false,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha 3",
+        categoria:["Ação","Aventura"],
+        duracao:"2h 28m",
+        sinopse:"Peter Parker (Tobey Maguire) conseguiu encontrar um meio-termo entre seus deveres como o Homem-Aranha e seu relacionamento com Mary Jane (Kirsten Dunst). Porém o sucesso como herói e a bajulação dos fãs, entre eles Gwen Stacy (Bryce Dallas Howard), faz com que Peter se torne auto-confiante demais e passe a negligenciar as pessoas que se importam com ele. Porém a situação muda quando ele precisa enfrentar Flint Marko (Thomas Haden Church), mais conhecido como o Homem-Areia, que possui ligações com a morte do seu tio Ben. Tendo que lidar com o sentimento de vingança, Peter passa a usar um estranho uniforme negro, que se adapta ao seu corpo.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[04,05,2007],
+        diretor:"Sam Raimi",
+        bilheteria:1901000000,
+        plataforma:["Netflix"],
+        elenco:["Tobey Maguire","Kirsten Dunst", "James Franco"],
+        classificacao:12,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"O Espetacular Homem-Aranha",
+        categoria:["Ação","Aventura"],
+        duracao:"2h 17min",
+        sinopse:"Em O Espetacular Homem-Aranha, Peter Parker (Andrew Garfield) é um rapaz tímido e estudioso, que inicou há pouco tempo um namoro com a bela Gwen Stacy (Emma Stone), sua colega de colégio. Ele vive com os tios, May (Sally Field) e Ben (Martin Sheen), desde que foi deixado pelos pais, Richard (Campbell Scott) e Mary (Embeth Davidtz). Certo dia, o jovem encontra uma misteriosa maleta que pertenceu a seu pai. O artefato faz com que visite o laboratório do dr. Curt Connors (Rhys Ifans) na Oscorp. Parker está em busca de respostas sobre o que aconteceu com os pais, só que acaba entrando em rota de colisão com o perigoso alter-ego de Connors, o vilão Lagarto.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[06,07,2012],
+        diretor:"Marc Webb",
+        bilheteria:758000000,
+        plataforma:["Netflix","Disney+","HBO Max"],
+        elenco:["Andrew Garfield","Emma Stone","Rhys Ifans"],
+        classificacao:10,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"O Espetacular Homem-Aranha 2 - A Ameaça de Electro",
+        categoria:["Ação","Aventura"],
+        duracao:" 2h 22m",
+        sinopse:"Em O Espetacular Homem-Aranha 2, Peter Parker (Andrew Garfield) adora ser o Homem-Aranha, por mais que ser o herói aracnídeo o coloque em situações bem complicadas, especialmente com sua namorada Gwen Stacy (Emma Stone) e sua tia May (Sally Field). Apesar disto, ele equilibra suas várias facetas da forma que pode. No momento, Peter está mais preocupado é com o fantasma da promessa feita ao pai de Gwen, de que se afastaria dela para protegê-la. Ao mesmo tempo ele precisa lidar com o retorno de um velho amigo, Harry Osborn (Dane DeHaan), e o surgimento de um vilão poderoso: Electro (Jamie Foxx).",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[01,05,2014],
+        diretor:"Marc Webb",
+        bilheteria:709000000,
+        plataforma:["Netflix","Globoplay","Disney+"],
+        elenco:["Andrew Garfield","Emma Stone","Jamie Foxx"],
+        classificacao:12,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha: De Volta ao Lar",
+        categoria:["Ação","Aventura"],
+        duracao:"2h 13m",
+        sinopse:"Em Homem-Aranha: De Volta ao Lar, depois de atuar ao lado dos Vingadores, chegou a hora de Peter Parker (Tom Holland) voltar para casa e para a sua vida, já não mais tão normal. Lutando diariamente contra pequenos crimes nas redondezas, ele pensa ter encontrado a missão de sua vida quando o terrível vilão Abutre (Michael Keaton) surge amedrontando a cidade. O problema é que a tarefa não será tão fácil como ele imaginava.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[06,07,2017],
+        diretor:"Jon Watts",
+        bilheteria:880200000,
+        plataforma:["Netflix","Disney+"],
+        elenco:["Tom Holland","Michael Keaton","Robert Downey Jr."],
+        classificacao:12,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha no Aranhaverso",
+        categoria:["Animação","Ação"],
+        duracao:"1h 56m",
+        sinopse:"Em Homem-Aranha no Aranhaverso, Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras versões do Homem-Aranha.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[10,01,2019],
+        diretor:["Bob Persichetti","Peter Ramsey","Rodney Rothman"],
+        bilheteria:375500000,
+        plataforma:["Netflix"],
+        elenco:["Shameik Moore","Jake Johnson (XVI)","Hailee Steinfeld"],
+        classificacao:10,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha: Longe de Casa ",
+        categoria:["Ação","Aventura"],
+        duracao:"2h 10min",
+        sinopse:"Em Homem-Aranha: Longe de Casa, Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Precisando de ajuda para enfrentar monstros nomeados como Elementais, Fury o convoca para lutar ao lado de Mysterio (Jake Gyllenhaal), um novo herói que afirma ter vindo de uma Terra paralela. Além da nova ameaça, Peter precisa lidar com a lacuna deixada por Tony Stark, que deixou para si seu óculos pessoal, com acesso a um sistema de inteligência artificial associado à Stark Industries.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[04,07,2019],
+        diretor:"Jon Watts",
+        bilheteria:1132000000,
+        plataforma:["Amazon Prime Video"],
+        elenco:["Tom Holland","Jake Gyllenhaal","Zendaya"],
+        classificacao:10,
     },
     {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
+        titulo:"Homem-Aranha: Sem Volta para Casa",
+        categoria:["Ação","Aventura"],
+        sinopse:"Em Homem-Aranha: Sem Volta para Casa, Peter Parker (Tom Holland) precisará lidar com as consequências da sua identidade como o herói mais querido do mundo após ter sido revelada pela reportagem do Clarim Diário, com uma gravação feita por Mysterio (Jake Gyllenhaal) no filme anterior. Incapaz de separar sua vida normal das aventuras de ser um super-herói, além de ter sua reputação arruinada por acharem que foi ele quem matou Mysterio e pondo em risco seus entes mais queridos, Parker pede ao Doutor Estranho (Benedict Cumberbatch) para que todos esqueçam sua verdadeira identidade. Entretanto, o feitiço não sai como planejado e a situação torna-se ainda mais perigosa quando vilões de outras versões de Homem-Aranha de outro universos acabam indo para seu mundo. Agora, Peter não só deter vilões de suas outras versões e fazer com que eles voltem para seu universo original, mas também aprender que, com grandes poderes vem grandes responsabilidades como herói.",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
+        data_lancamento:[16,12,2021],
+        diretor:"Jon Watts",
+        bilheteria:1901000000,
+        plataforma:["Apple TV","Google Play Filmes e TV"],
+        elenco:["Tom Holland","Zendaya","Benedict Cumberbatch"],
+        classificacao:12,
     },
-    {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
-        linguagem_original:"Inglês",
-        dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
-    },
-    {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
-        linguagem_original:"Inglês",
-        dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
-    },
-    {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
-        linguagem_original:"Inglês",
-        dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
-    },
-    {
-        titulo: "",
-        categoria: "",
-        duracao: "",
-        sinopse:"",
-        linguagem_original:"Inglês",
-        dublagem_portugues:true,
-        data_lancamento:[],
-        diretor:"",
-        bilheteria:,
-        plataforma:[""],
-        elenco:[""],
-
-    },
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
+]   
