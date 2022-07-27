@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(43, 47, 56);}
+
+header{
+    border: solid 5px rgb(21, 24, 31);
+    background-color:rgb(21, 24, 31);
+}
+header img{
+    height:160px ;
+    position: relative;
+    left: 7px;
+}
+#pesquisa{
+    position: relative;
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    left: 55%;
+    top: -70px;
+    padding-right: 35px;
+    background-color: rgb(43, 47, 56);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+    /* From uiverse.io by @Vikikos */
+.id{
+    text-align: right;
+    display: flex;
+     color: rgb(100, 100, 100);
+   
+    }
+       
+.card {
+    width: 290px;
+    height: 454px;
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    margin: 18px;
+    margin-left: 33px;
+    }
+.card div img{
+    width: 290px;
+    height: 454px;
+    border-radius: 30px;
+}
+.container{
+    color: #fff;
+    display: flex;
+   
+}
+.container div p{
+    text-align: justify;
+}
+.info p{
+color: #fff; 
+}
+
+footer{ 
+    border: solid 5px rgb(21, 24, 31);
+    background-color:rgb(21, 24, 31);
+}
