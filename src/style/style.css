@@ -47,7 +47,9 @@ header img{
 
 .container{
     display: flex;
-    flex-wrap: nowrap
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: sticky;
 }
 
 .card {
@@ -62,12 +64,9 @@ header img{
     margin: 5em;
     margin-left: 3em;
     }
-content{ 
+.content{ 
     position: relative;
-    bottom: 10px;
-    overflow-wrap: break-word;
     display: flex;
-    flex-direction: row;
 }
    .card::before {
     letter-spacing: 0.1em;
@@ -104,12 +103,9 @@ footer{
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
     position: relative;
+    width: 100%;
 }
-footer img{
-    width: 20px;
-    height: 20px;
-   align-items: center;
-}
+
 h1{
     position: relative;
     left: 7px;
@@ -117,3 +113,13 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+#direitos{
+    position: relative;
+    left: 7px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: 16px;
+}
+

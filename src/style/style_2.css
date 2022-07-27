@@ -87,4 +87,6 @@ footer{
     color: rgb(100, 100, 100);
     text-align: center;
     text-decoration: underline;
+    font-family: inherit;
+    font-size: 16px;
 }
