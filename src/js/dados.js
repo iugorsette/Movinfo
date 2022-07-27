@@ -8,7 +8,7 @@ persona = [{
 }
 ]
 
-var filmes_lancamentos = [
+var filmes = [
     {
         titulo: "Morbius",
         categoria: ["Ação","Fantasia"],
@@ -131,12 +131,10 @@ var filmes_lancamentos = [
         data_lancamento:[06,05,2022],
         diretor:"Louis Leterrier",
         bilheteria:false,
-        plataforma:["Netflix"],
+        plataforma:"Netflix",
         elenco:["Omar Sy"," Izïa Higelin", "Laurent Lafitte", "Dimitri Storoge", "Marie-Christine Adam", "Flavie Péan", "Élodie Hesme"," Jo Prestia", "Bertrand Usclat", "Djimo,"],
         classificacao:16,
     },
-]
-var filmes_populares = [
     {
         titulo: "007 - Sem Tempo pra morrer",
         categoria: ["Ação","Suspense"],
@@ -152,7 +150,7 @@ var filmes_populares = [
         classificacao:14,
     },
     {
-        titulo: " Avatar",
+        titulo:"Avatar",
         categoria:["Ação","Ficção cientifica"], 
         duracao: "2h 40m",
         sinopse:"No exuberante mundo alienígena de Pandora vivem os Na'vi, seres que parecem ser primitivos, mas são altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos biológicos controlados pela mente humana que se movimentam livremente em Pandora. Jake Sully, um ex-fuzileiro naval paralítico, volta a andar através de um avatar e se apaixona por uma Na'vi. Esta paixão leva Jake a lutar pela sobrevivência de Pandora.",
@@ -180,7 +178,7 @@ var filmes_populares = [
         classificacao:12,
     },
     {
-        titulo: "Jurassic World: O Mundo dos Dinossauros",
+        titulo:"Jurassic World: O Mundo dos Dinossauros",
         categoria: "Ficção Científica",
         duracao: "2h 4m",
         sinopse:"O Jurassic Park, localizado na ilha Nublar, enfim está aberto ao público. Com isso, as pessoas podem conferir shows acrobáticos com dinossauros e até mesmo fazer passeios bem perto deles, já que agora estão domesticados. Entretanto, a equipe chefiada pela doutora Claire (Bryce Dallas Howard) passa a fazer experiências genéticas com estes seres, de forma a criar novas espécies. Uma delas logo adquire inteligência bem mais alta, logo se tornando uma grande ameaça para a existência humana.",
@@ -223,7 +221,7 @@ var filmes_populares = [
     },
     {
         titulo: "Titanic",
-        categoria: ["Romance","Drama"],
+        categoria:["Romance","Drama"],
         duracao: " 3h 14min",
         sinopse:"Jack Dawson (Leonardo DiCaprio) é um jovem aventureiro que, na mesa de jogo, ganha uma passagem para a primeira viagem do transatlântico Titanic. Trata-se de um luxuoso e imponente navio, anunciado na época como inafundável, que parte para os Estados Unidos. Nele está também Rose DeWitt Bukater (Kate Winslet), a jovem noiva de Caledon Hockley (Billy Zane). Rose está descontente com sua vida, já que sente-se sufocada pelos costumes da elite e não ama Caledon. Entretanto, ela precisa se casar com ele para manter o bom nome da família, que está falida. Um dia, desesperada, Rose ameaça se atirar do Titanic, mas Jack consegue demovê-la da ideia. Pelo ato ele é convidado a jantar na primeira classe, onde começa a se tornar mais próximo de Rose. Logo eles se apaixonam, despertando a fúria de Caledon. A situação fica ainda mais complicada quando o Titanic se choca com um iceberg, provocando algo que ninguém imaginava ser possível: o naufrágio do navio.        ",
         linguagem_original:" Inglês",
@@ -231,7 +229,7 @@ var filmes_populares = [
         data_lancamento: [16,01,1998],
         diretor:"James Cameron",
         bilheteria:2202000000,
-        plataforma:[" Star +"],
+        plataforma:["Star +"],
         elenco:[" Leonardo DiCaprio", "Kate Winslet"],
         classificacao:12,
     },
@@ -271,16 +269,14 @@ var filmes_populares = [
         linguagem_original:"Inglês",
         dublagem_portugues:true,
         data_lancamento:[ 26,03,2018],
-        diretor:" Anthony Russo, Joe Russo  ",
+        diretor:"Anthony Russo, Joe Russo  ",
         bilheteria:2048000000,
         plataforma:"Disney+",
         elenco:["Robert Downey Jr", "Chris Hemsworth"],
         classificacao:12,
-    }
-]
-var filmes_acao = [
+    },
     {
-        titulo:" 007 -SEM TEMPO PARA MORRER " ,
+        titulo:"007 -SEM TEMPO PARA MORRER " ,
         categoria:["Ação","Suspense"],
         duracao: " 2h 43m",
         sinopse:"James Bond deixa o MI6 e se muda para a Jamaica, mas um antigo amigo aparece e pede sua ajuda para encontrar um cientista desaparecido. Bond mergulha no caso e percebe que a busca é, na verdade, uma corrida para salvar o mundo.",
@@ -295,7 +291,7 @@ var filmes_acao = [
     },
     {
         titulo: "Mortal kombat",
-        categoria: ["Ação","Fantasia"],
+        categoria:["Ação","Fantasia"],
         duracao: "1h 50m",
         sinopse: "O lutador de MMA Cole Young não conhece sua herança, nem sabe o motivo do Imperador da Exoterra ter enviado seu melhor guerreiro, Sub-Zero, para ir atrás dele. Temendo pela segurança de sua família, ele se une a outros heróis para proteger a Terra.        ",
         linguagem_original:"Inglês",
@@ -309,7 +305,7 @@ var filmes_acao = [
     },
     {
         titulo: "Rambo: Até o Fim",
-        categoria: [" Ação","Faroeste"],
+        categoria: ["Ação","Faroeste"],
         duracao: "1h 29m",
         sinopse:"O tempo passou para Rambo, que agora vive recluso em um rancho. Sua vida marcada por lutas violentas ficou para trás, mas deixou marcas inesquecíveis. No entanto, quando uma jovem de uma família amiga é sequestrada, Rambo precisa confrontar seu passado e resgatar suas habilidades de combate para enfrentar o mais perigoso cartel mexicano. A busca logo se transforma em uma caçada por justiça, na qual nenhum criminoso é perdoado",
         linguagem_original:"Inglês",
@@ -378,7 +374,7 @@ var filmes_acao = [
         classificacao:12,
     },
     {
-        titulo: " Caçada Brutal",
+        titulo: "Caçada Brutal",
         categoria: [" Ação","Crime"],
         duracao: "1h 37m",
         sinopse:"O corretor de Wall Street Will e seu filho Danny testemunham o assassinato de um policial corrupto durante uma viagem de caça. Quando os criminosos tomam Danny como refém, Will inicia uma jornada para salvar a vida da criança.",
@@ -387,7 +383,7 @@ var filmes_acao = [
         data_lancamento:[21,06,2017],
         diretor:"Steven C. Miller",
         bilheteria:347343000,
-        plataforma:[" Netflix", "Globoplay","Telecine", "Amazon Prime Vídeo."],
+        plataforma:["Netflix","Globoplay","Telecine","Amazon Prime Vídeo."],
         elenco:["Bruce Willis"," Hayden Christensen", "Megan Leonard"],
         classificacao:16,
     },
@@ -407,7 +403,7 @@ var filmes_acao = [
     },
     {
         titulo: " Thor: Ragnarok ",
-        categoria:["Ação","Ficção científica "],
+        categoria:["Ação","Ficção científica"],
         duracao: "2h 10m",
         sinopse:"Após anos afastado, Thor retorna para casa e descobre que seu pai, Odin, rei de Asgard, está desaparecido. Após encontrá-lo, ele toma conhecimento de sua irmã mais velha, Hela, a poderosa e implacável deusa da morte.",
         linguagem_original:"Inglês",
@@ -415,15 +411,14 @@ var filmes_acao = [
         data_lancamento:[27,10,2017],
         diretor:"Taika Waititi",
         bilheteria: 85400000,
-        plataforma:  "Disney+",
+        plataforma:"Disney+",
         elenco:["Chris Hemsworth", "Taika Waititi"],
         classificacao:12,
     },
-]
-var filmes_romance = [
+
     {
         titulo: "As Pontes de Madison",
-        categoria: [" Romance","Drama"],
+        categoria: ["Romance","Drama"],
         duracao: "2h 15m",
         sinopse:"História de amor comovente sobre um fotógrafo da revista National Geographic, incumbido de fotografar as pontes de Madison, em Iowa. Lá, ele conhece uma dona de casa, cujo marido e filhos estão viajando. Os dois vivem um breve e intenso romance entre duas almas gêmeas que se conheceram tarde demais.",
         linguagem_original:"Inglês",
@@ -437,7 +432,7 @@ var filmes_romance = [
     },
     {
         titulo: "Nasce Uma Estrela",
-        categoria: "Romance/Musical",
+        categoria: ["Romance","Musical"],
         duracao: "2h 15m",
         sinopse:"Jackson Maine é um cantor no auge da fama. Um dia, após deixar uma apresentação, ele para em um bar para beber. Lá, Jackson conhece Ally, uma insegura cantora que ganha a vida trabalhando em um restaurante",
         linguagem_original:" Inglês         ",
@@ -451,7 +446,7 @@ var filmes_romance = [
     },
     {
         titulo: "Megarromântico ",
-        categoria: [" Romance","Comédia"],
+        categoria: ["Romance","Comédia"],
         duracao: "1h 29m",
         sinopse:" Cínica em relação ao amor e desprezada em seu trabalho de Nova York, a arquiteta Natalie não acredita em romances e finais felizes. Depois de sofrer um golpe na cabeça durante uma briga com um assaltante no metrô, Natalie acorda em um universo paralelo e se vê interpretando a protagonista de uma comédia romântica na vida real",
         linguagem_original:" Inglês",
@@ -465,7 +460,7 @@ var filmes_romance = [
     },
     {
         titulo: "Orgulho e Preconceito",
-        categoria: [" Romance","Drama"],
+        categoria: ["Romance","Drama"],
         duracao: "2h 7m",
         sinopse:"Sinopse: Elizabeth Bennet vive com sua mãe, pai e irmãs no campo, na Inglaterra. Por ser uma das filhas mais velhas, ela enfrenta uma crescente pressão de seus pais para se casar. Quando Elizabeth é apresentada ao belo e rico Darcy, faíscas voam. Embora haja uma química óbvia entre os dois, a natureza excessivamente reservada de Darcy ameaça a relação",
         linguagem_original:"Inglês",
@@ -479,7 +474,7 @@ var filmes_romance = [
     },
     {
         titulo: " O Segredo dos Seus Olhos",
-        categoria: [" Thriller","Crime"],
+        categoria: ["Thriller","Crime"],
         duracao: "2h 9m",
         sinopse:"Benjamín se aposenta do cargo de oficial de justiça e decide escrever um livro. Sua inspiração é um caso real de estupro e assassinato de uma jovem. Em sua jornada, o aposentado conhece o marido da vítima e promete ajudá-lo a encontrar o culpado.",
         linguagem_original:"Inglês e Lingua Castelhana",
@@ -501,7 +496,7 @@ var filmes_romance = [
         data_lancamento:[25,02,1936],
         diretor:"Charlie Chaplin",
         bilheteria:1800000000,
-        plataforma:["Telecine"],
+        plataforma:"Telecine",
         elenco:["Charlie Chaplin"," Paulette Goddard", "Henry Bergman"],
         classificacao:false,
     },
@@ -561,8 +556,6 @@ var filmes_romance = [
         elenco:["Kristen Bell"," Josh Duhamel", "Dax Shepard"],
         classificacao:14,
     },
-]
-var filmes_comedia =[
     {
         titulo: "Agente 86",
         categoria: ["Comédia","Ação "],
@@ -607,7 +600,7 @@ var filmes_comedia =[
     },
     {
         titulo: "Se Beber,Não Case!",
-        categoria: " Comédia",
+        categoria: "Comédia",
         duracao: "1h 40m",
         sinopse:"The Hangover é uma franquia de três filmes de comédia estadunidense, produzidos pela Legendary Pictures e distribuído pela Warner Bros Pictures. Todos dirigido por Todd Phillips e estrelados por Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha e Ken Jeong",
         linguagem_original:"Inglês",
@@ -663,7 +656,7 @@ var filmes_comedia =[
     },
     {
         titulo: "Até que a Sorte Nos Separe",
-        categoria: ["Comédia"],
+        categoria: "Comédia",
         duracao: "1h 44m",
         sinopse:"ino é um pai de família que tem sua rotina transformada ao ganhar na loteria. Em dez anos, o fanfarrão e sua mulher Jane gastam todo o dinheiro com uma vida de ostentação.",
         linguagem_original:"Português         ",
@@ -677,7 +670,7 @@ var filmes_comedia =[
     },
     {
         titulo: "A Hora do Rush 3",
-        categoria: ["Ação","Comédia "],
+        categoria: ["Ação","Comédia"],
         duracao: "1h 31m",
         sinopse:"O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter vão para Paris para proteger uma francesa que sabe demais sobre os secretos líderes do Triad",
         linguagem_original:"Inglês",
@@ -691,7 +684,7 @@ var filmes_comedia =[
     },
     {
         titulo: "Bons Meninos",
-        categoria: [" Aventura "],
+        categoria: "Aventura",
         duracao: "1h 30m",
         sinopse:"Na esperança de aprender a beijar, Max decide usar o drone de seu pai para espionar as garotas da vizinhança. As coisas não saem como o esperado, então Max e seus amigos precisam bolar um plano de resgate ao drone antes que seu pai perceba.",
         linguagem_original:"Inglês",
@@ -703,11 +696,9 @@ var filmes_comedia =[
         elenco:["Jacob Tremblay", "Brady Noon", "Keith L. Williams"],
         classificacao:14,
     },
-]
-var filmes_drama = [
     {
         titulo: "Homens de Honra",
-        categoria: [" Drama "],
+        categoria: "Drama",
         duracao: "2h 9m",
         sinopse:"Carl Brashear, um jovem negro, entra para a Marinha americana nos 50, época em que o racismo prevalecia no país. O jovem enfrenta o preconceito de seus colegas brancos e de seu instrutor, mas sua coragem e determinação conquistam o respeito de todos.",
         linguagem_original:"Inglês",
@@ -721,7 +712,7 @@ var filmes_drama = [
     },
     {
         titulo: "O Resgate do Soldado Ryan",
-        categoria:["Guerra/Ação"],
+        categoria:["Guerra","Ação"],
         duracao: "2h 50m",
         sinopse:"Ao desembarcar na Normandia, no dia 6 de junho de 1944, capitão Miller (Tom Hanks) recebe a missão de comandar um grupo do segundo batalhão para o resgate do soldado James Ryan, caçula de quatro irmãos, dentre os quais três morreram em combate. Por ordens do chefe George C. Marshall, eles precisam procurar o soldado e garantir o seu retorno, com vida, para casa.",
         linguagem_original:"Inglês",
@@ -735,7 +726,7 @@ var filmes_drama = [
     },
     {
         titulo: "Um Sonho de Liberdade",
-        categoria:["Drama","Ficção policial "],
+        categoria:["Drama","Ficção policial"],
         duracao: " 2h 22m",
         sinopse:"Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a pena perpétua. Andy logo será apresentado a Warden Norton (Bob Gunton), o corrupto e cruel agente penitenciário, que usa a Bíblia como arma de controle e ao Capitão Byron Hadley (Clancy Brown) que trata os internos como animais. Andy faz amizade com Ellis Boyd Redding (Morgan Freeman), um prisioneiro que cumpre pena há 20 anos e controla o mercado negro da instituição",
         linguagem_original:"Inglês",
@@ -749,7 +740,7 @@ var filmes_drama = [
     },
     {
         titulo: "King Richard: Criando Campeãs",
-        categoria: [" Drama","Esporte"],
+        categoria: ["Drama","Esporte"],
         duracao: "2h 24m",
         sinopse:"King Richard: Criando Campeãs é um filme biográfico inspirado em Richard Williams, pai das famosas tênistas Serena Williams e Venus Williams. Obstinado em fazer de suas filhas futuras campeãs de tênis, Richard (Will Smith) usa métodos próprios e nada convencionais, seguindo a visão clara de futuro que construiu para as filhas Serena (Demi Singleton) e Venus (Saniyya Sidney). Determinado, o pai das garotas vai fazer de tudo para que elas saiam das ruas de Compton para as quadras do mundo todo. Armado com plano ousado, Richard Williams trabalha para escrever suas filhas na história. Treinando nas quadras de tênis negligenciadas de Compton, Califórnia - faça chuva ou faça sol - as meninas são moldadas pelo compromisso inflexível de seu pai e pela perspectiva equilibrada e intuição aguçada de sua mãe, desafiando as probabilidades aparentemente intransponíveis e as expectativas prevalecentes diante delas. King Richard segue a jornada edificante de uma família cuja determinação inabalável e crença incondicional acaba por entregar duas das maiores lendas do esporte do mundo.        ",
         linguagem_original:"Inglês",
@@ -785,13 +776,13 @@ var filmes_drama = [
         data_lancamento:[27,02,2020],
         diretor:"Destin Cretton",
         bilheteria:50400000,
-        plataforma:["You Tube", "AppleTV"," Google Play Filmes" ,"TV"],
+        plataforma:["You Tube","AppleTV","Google Play Filmes","TV"],
         elenco:["Michael B. Jordan", "Jamie Foxx", "Brie Larson"],
         classificacao:16,
     },
     {
         titulo: "Superação-O milagre da fé",
-        categoria: ["Drama"],
+        categoria: "Drama",
         duracao: "1h 56m",
         sinopse:"Em Superação - O Milagre da Fé, John Smith, um menino de 14 anos, passeava com a família em uma manhã de inverno no Lago St Louis, no Missouri, quando, acidentalmente, sofreu uma queda e se afogou. Chegando ao hospital, John foi considerado morto por mais de 60 minutos até que sua mãe, Joyce Smith, juntou todas as suas forças e pediu a Deus para que seu filho sobrevivesse. Sua prece poderosa foi responsável por um milagre inédito",
         linguagem_original:"Inglês",
@@ -819,7 +810,7 @@ var filmes_drama = [
     },
     {
         titulo: "Sempre ao Seu Lado",
-        categoria: ["Drama"],
+        categoria: "Drama",
         duracao: "1h 33m",
         sinopse:"Parker Wilson (Richard Gere) é um professor universitário que, ao retornar do trabalho, encontra na estação de trem um filhote de cachorro da raça akita, conhecido por sua lealdade. Sem ter como deixá-lo na estação, Parker o leva para casa mesmo sabendo que Cate (Joan Allen), sua esposa, é contra a presença de um cachorro. Aos poucos Parker se afeiçoa ao filhote, que tem o nome Hachi escrito na coleira, em japonês. Cate cede e aceita sua permanência. Hachi cresce e passa a acompanhar Parker até a estação de trem, retornando ao local no horário em que o professor está de volta. Até que um acontecimento inesperado altera sua vida.",
         linguagem_original:"Inglês",
@@ -833,7 +824,7 @@ var filmes_drama = [
     },
     {
         titulo: "Extraordinário",
-        categoria: ["Drama","Infantil "],
+        categoria: ["Drama","Infantil"],
         duracao: "1h 53m",
         sinopse:" Auggie Pullman (Jacob Tremblay) é um garoto que nasceu com uma deformação facial, o que fez com que passasse por 27 cirurgias plásticas. Aos 10 anos, ele pela primeira vez frequentará uma escola regular, como qualquer outra criança. Lá, precisa lidar com a sensação constante de ser sempre observado e avaliado por todos à sua volta.",
         linguagem_original:"Inglês ",
@@ -845,11 +836,9 @@ var filmes_drama = [
         elenco:["Jacob Tremblay", "Julia Roberts", "Owen Wilson"],
         classificacao:10,
     },
-]
-var filmes_ficcaocientifica = [
     {
         titulo: "Origem",
-        categoria: ["Ação","Ficção científica"],
+        categoria: ["Ficção científica","Ação"],
         duracao: "2h 28m",
         sinopse:" Dom Cobb é um ladrão com a rara habilidade de roubar segredos do inconsciente, obtidos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
         linguagem_original:"Inglês",
@@ -863,7 +852,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Duna",
-        categoria: "Ficção científica/Aventura ",
+        categoria: ["Ficção científica","Aventura"],
         duracao: " 2h 35m",
         sinopse:"Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.",
         linguagem_original:" Inglês",
@@ -877,7 +866,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "ET o Extraterrestre",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "1h 55m",
         sinopse:"O garoto Elliott faz amizade com um pequeno alienígena inofensivo que está bem longe do seu planeta. Ele decide manter a adorável criatura em segredo e em casa após apresentá-la aos irmãos",
         linguagem_original:"Inglês",
@@ -891,7 +880,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Godzilla vs.Kong",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "1h 45m",
         sinopse:"Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Jia, uma garota órfã que tem um vínculo único e poderoso com a poderosa besta, acompanha a aventura. No entanto, eles logo se encontram no caminho de Godzilla, completamente enfurecido, deixando um rastro de destruição em todo o mundo. O confronto inicial entre os dois titãs, instigado por forças misteriosas, é apenas o começo do enigma que reside nas profundezas do planeta.",
         linguagem_original:"Inglês",
@@ -905,7 +894,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Jogador Nº 1",
-        categoria: "Ficção científica/Aventura",
+        categoria: ["Ficção científica","Aventura"],
         duracao: "2h 20m",
         sinopse:" Em 2045, Wade Watts, assim como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. James Halliday, o excêntrico criador do jogo, morre e deixa sua fortuna inestimável para a primeira pessoa que descobrir a chave de um quebra-cabeça diabólico que ele arquitetou. Para vencer, Watts precisa abandonar a existência virtual e experimentar o amor e a realidade.",
         linguagem_original:"Inglês",
@@ -919,7 +908,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Matrix",
-        categoria: " Ficção científica/Ação",
+        categoria: ["Ficção científica","Ação"],
         duracao: "2h 16m",
         sinopse:"Um jovem programador é atormentado por estranhos pesadelos nos quais sempre está conectado por cabos a um imenso sistema de computadores do futuro. À medida que o sonho se repete, ele começa a levantar dúvidas sobre a realidade. E quando encontra os misteriosos Morpheus e Trinity, ele descobre que é vítima do Matrix, um sistema inteligente e artificial que manipula a mente das pessoas e cria a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia.",
         linguagem_original:"Inglês",
@@ -933,7 +922,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Mentes Sombrias",
-        categoria: "Ficção científica/Ação ",
+        categoria: ["Ficção científica","Ação"],
         duracao: "1h 45m",
         sinopse:"Em um mundo apocalíptico, onde uma pandemia mata a maioria das crianças e adolescentes dos Estados Unidos, alguns sobreviventes desenvolvem poderes sobrenaturais. Eles são tirados pelo governo de suas famílias e enviados para campos de custódia.        ",
         linguagem_original:"Inglês",
@@ -947,7 +936,7 @@ var filmes_ficcaocientifica = [
     },
     {
         titulo: "Moonfal",
-        categoria: "Ficção científica/Ação ",
+        categoria: ["Ficção científica","Ação"],
         duracao: "2 horas",
         sinopse:"No filme Moonfall, de Roland Emmerich, uma força misteriosa tira a Lua da sua órbita em torno da Terra e envia-a numa rota de colisão capaz de aniquilar a vida como a conhecemos. Semanas antes do impacto, e com o mundo à beira de aniquilação, Jo Fowler (Halle Berry), executiva e ex-astronauta da NASA está convencida que tem a chave para nos salvar a todos – mas apenas um astronauta do seu passado, Brian Harper (Patrick Wilson), e o teórico conspiracionista, K. C. Houseman (John Bradley), acreditam nela. Estes heróis improváveis vão ter de se lançar numa última missão impossível no espaço, deixando para trás todos os que amam, apenas para descobrir que a nossa Lua não é o que pensávamos que era.",
         linguagem_original:"Inglês",
@@ -1235,7 +1224,7 @@ var filmes_sequencias_missãoimpossível = [
 var filmes_sequencias_crepusculo = [
     {
         titulo: "Crepúsculo",
-        categoria: "Romance/Fantasia",
+        categoria: ["Fantasia","Romance"],
         duracao: "2h 2m",
         sinopse:"A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente. E 19 de dezembro de 2008 dward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.",
         linguagem_original:"Inglês",
@@ -1249,7 +1238,7 @@ var filmes_sequencias_crepusculo = [
     },
     {
         titulo: "A Saga Crepúsculo: Lua Nova",
-        categoria: " Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "2h 10m",
         sinopse:"Depois da partida de Edward, Jacob se transforma no melhor amigo de Bella. Mas o que ela não imagina é que Jacob também tem um segredo que mudará suas vidas repentinamente.",
         linguagem_original:"Inglês",
@@ -1263,7 +1252,7 @@ var filmes_sequencias_crepusculo = [
     },
     {
         titulo: "A Saga Crepúsculo: Eclipse",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: " 2h 4m",
         sinopse:"O perigo novamente ronda Bella com uma série de crimes misteriosos aterrorizando Seattle e um vampiro malicioso em busca de vingança. Em meio ao tumulto, Bella precisa escolher entre seu amor por Edward e sua amizade com Jacob, sabendo que sua decisão pode desencadear uma batalha entre vampiro e lobisomem.",
         linguagem_original:"Inglês",
@@ -1277,7 +1266,7 @@ var filmes_sequencias_crepusculo = [
     },
     {
         titulo: "A Saga Crepúsculo: Amanhecer - Parte 1",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "1h 57m",
         sinopse:"O casamento de Edward e Bella, sua lua de mel e o nascimento do filho desencadeiam uma série de acontecimentos que trará desdobramentos chocantes para Jacob.",
         linguagem_original:"Inglês",
@@ -1291,7 +1280,7 @@ var filmes_sequencias_crepusculo = [
     },
     {
         titulo: "A Saga Crepúsculo: Amanhecer - Parte 2",
-        categoria: "Fantasia/Romance",
+        categoria: ["Fantasia","Romance"],
         duracao: "1h 55m        ",
         sinopse:"Depois do nascimento da filha de Bella e Edward, Renesmee, os Cullen reúnem lobisomens, clãs de vampiros e outros aliados de todo o mundo para protegê-la, já que uma falsa alegação faz com que os Volturi queiram matá-la.",
         linguagem_original:"Inglês",
@@ -1307,7 +1296,7 @@ var filmes_sequencias_crepusculo = [
 var filmes_sequencias_piratasdocaribe = [
     {
         titulo: "Piratas do Caribe: A Maldição do Pérola Negra",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 23m",
         sinopse:"O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação, Sparrow recebe a ajuda de Will Turner, um grande amigo de Elizabeth. Eles desbravam os mares em direção à misteriosa Ilha da Morte, tentando impedir que os piratas-esqueleto derramem o sangue de Elizabeth para desfazer a maldição que os assola.",
         linguagem_original:"Inglês",
@@ -1321,7 +1310,7 @@ var filmes_sequencias_piratasdocaribe = [
     },
     {
         titulo: "Piratas do Caribe: O Baú da Morte",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 31m",
         sinopse:"Will e Elizabeth estão prestes a se casar quando o lendário pirata Davy Jones, comandante de um invencível navio assombrado, aparece para cobrar uma dívida do capitão Jack Sparrow, amigo do casal. Agora, a única chance de Sparrow se livrar de uma maldição de Jones é encontrando o baú da morte.",
         linguagem_original:"Inglês",
@@ -1335,7 +1324,7 @@ var filmes_sequencias_piratasdocaribe = [
     },
     {
         titulo: "Piratas do Caribe: No Fim do Mundo",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 48m  ",
         sinopse:"Will Turner e Elizabeth Swann unem forças com o Capitão Barbossa para libertarem Jack Sparrow da prisão de Davy Jones. Enquanto isso, a tripulação do barco fantasma O Holandês Voador causa estragos nos Sete Mares. Os amigos devem navegar através de águas perigosas para enfrentarem o pirata chinês São Feng e, finalmente, eles devem escolher em que lado ficar na batalha, pois a vida do pirata está em jogo.",
         linguagem_original:"Inglês",
@@ -1349,7 +1338,7 @@ var filmes_sequencias_piratasdocaribe = [
     },
     {
         titulo: "Piratas do Caribe: Navegando em Águas Misteriosas",
-        categoria: "Aventura/Ação",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 21m        ",
         sinopse:"O passado do capitão Jack Sparrow volta a alcançá-lo quando ele cruza com Angelica, uma bonita pirata que Jack, um dia, amou e depois abandonou. Ela, então, o força a acompanhá-la ao navio Vingança da Rainha Ana, do famoso Barba Negra. Junto com uma tripulação de zumbis, o trio parte em busca da lendária Fonte da Juventude. Mas o rival de Jack, Barbossa, também cobiça a fonte, assim como um navio espanhol.",
         linguagem_original:"Inglês",
@@ -1363,7 +1352,7 @@ var filmes_sequencias_piratasdocaribe = [
     },
     {
         titulo: "Piratas do Caribe: A Vingança de Salazar",
-        categoria: "Aventura/Ação ‧",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 9m",
         sinopse:"Salazar é a nova pedra no sapato do capitão Jack Sparrow. Ele lidera um exército de piratas fantasmas assassinos e está disposto a matar todos os piratas existentes na face da Terra. Para escapar, Sparrow precisa encontrar o Tridente de Poseidon, que dá ao seu dono o poder de controlar o mar.",
         linguagem_original:"Inglês",
@@ -1379,7 +1368,7 @@ var filmes_sequencias_piratasdocaribe = [
 var filmes_sequencias_velozesefuriosos = [
     {
         titulo: "Velozes e Furiosos",
-        categoria: "Aventura/Crime ",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 46m",
         sinopse:"Brian O'Conner é um policial que se infiltra no submundo dos rachas de rua para investigar uma série de furtos. Enquanto tenta ganhar o respeito e a confiança do líder Dom Toretto, ele corre o risco de ser desmascarado.",
         linguagem_original:"Inglês",
@@ -1393,7 +1382,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "+ Velozes + Furiosos",
-        categoria: " Ação/Crime",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 48m",
         sinopse:"O ex-policial Brian O'Conner se muda de Los Angeles para Miami para recomeçar sua vida. Ele acaba se envolvendo em rachas na sua nova cidade com seu amigo Tej e Suki. Suas aventuras terminam quando ele é preso e faz um acordo com agentes do FBI. Brian tem a missão muito perigosa de prender um poderoso chefe do cartel das drogas.",
         linguagem_original:"Inglês",
@@ -1407,7 +1396,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos: Desafio em Tóquio",
-        categoria: " Ação/Drama ",
+        categoria: ["Ação","Drama"],
         duracao: "1h 44m",
         sinopse:"Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
         linguagem_original:"Inglês",
@@ -1421,7 +1410,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos: Desafio em Tóquio",
-        categoria: "",
+        categoria: ["Ação","Aventura"],
         duracao: "1h 44m",
         sinopse:"Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
         linguagem_original:"Inglês",
@@ -1435,7 +1424,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 4",
-        categoria: "Ação/Thriller",
+        categoria: ["Ação","Aventura"],
         duracao: " 1h 47m",
         sinopse:"Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
         linguagem_original:"Inglês",
@@ -1449,7 +1438,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 5: Operação Rio",
-        categoria: "Mistério/Aventura ",
+        categoria: ["Ação","Aventura"],
         duracao: " 2h 10m",
         sinopse:"Desde que o ex-policial Brian O'Conner e Mia Toretto libertaram Dom da prisão, eles viajam pelo mundo para fugir das autoridades. No Rio de Janeiro, eles são obrigados a fazer um último trabalho antes de ganhar sua liberdade definitiva. Brian e Dom montam uma equipe de elite de pilotos de carro para executar a tarefa, mas precisam enfrentar um empresário corrupto e também um obstinado agente federal norte-americano.",
         linguagem_original:"Inglês",
@@ -1463,7 +1452,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 6",
-        categoria: " Ação/Crime",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 10m",
         sinopse:"Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com 100 milhões de dólares, a equipe se espalhou pelo mundo. Um dia, Hobbs pede a Dom que reúna um grupo de elite em Londres e apreenda uma organização de mercenários nas ruas, cujo mentor é apoiado por Letty, a antiga namorada de Dom que ele acreditava estar morta.",
         linguagem_original:"Inglês",
@@ -1477,7 +1466,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 7",
-        categoria: "Ação/Aventura ",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 20m",
         sinopse:"Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe têm a chance de voltar para os Estados Unidos e recomeçar suas vidas. Mas a tranquilidade do grupo é destruída quando Deckard Shaw, um assassino profissional, quer vingança pelo acidente que deixou seu irmão em coma. Agora, a equipe tem de unir forças para deter um vilão novo e ainda mais perigoso. Dessa vez, não se trata apenas de uma questão de velocidade: a corrida é pela sobrevivência.",
         linguagem_original:"Inglês",
@@ -1491,7 +1480,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 8",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação","Aventura"],
         duracao: "2h 16m",
         sinopse:"Depois da aposentadoria de Brian e Mia, Dom e Letty aproveitam a lua de mel e levam uma vida pacata e normal. Mas a adrenalina do passado volta com tudo quando uma mulher misteriosa obriga Dom a retornar ao mundo do crime e da velocidade.",
         linguagem_original:"Inglês",
@@ -1505,7 +1494,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 9",
-        categoria: "Ação/Aventura",
+        categoria: ["Ação/Aventura"],
         duracao: " 2h 23m",
         sinopse:"Dominic Toretto e Letty vivem uma vida pacata ao lado do filho. Mas eles logo são ameaçados pelo passado de Dom: seu irmão desaparecido Jakob, que retorna e está trabalhando ao lado de Cipher. Cabe a Dom reunir a equipe novamente para enfrentá-los.",
         linguagem_original:"Inglês",
