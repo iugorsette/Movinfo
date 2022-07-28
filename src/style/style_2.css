@@ -12,7 +12,7 @@ header{
     height: 20%;
 }
 header img{
-    height:143px ;
+    height:100% ;
     position: relative;
     left: 7px;
 }
