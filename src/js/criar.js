@@ -1,4 +1,6 @@
-function criarFilmesLancamentos(filmes) {
+import filmes from "./dados.js";
+
+function criarFilmesLancamentos() {
     let dataAtual = new Date()
     let anoAtual = dataAtual.getFullYear() // Pega o ano atual da data
     let mesAtual = dataAtual.getMonth()
@@ -14,9 +16,12 @@ function criarFilmesLancamentos(filmes) {
     }
 
     listaFilmesLancamentos = ordenaFilmes(listaFilmesLancamentos, "lancamentos")
+    console.log(listaFilmesLancamentos);
 }
 
-function criarlistaFilmesRecomendados(filmes) {
+criarFilmesLancamentos()
+
+function criarlistaFilmesRecomendados() {
     let listaFilmesRecomendados = []
     for (let vez = 1; vez <= 10; vez++) { // Conta a vez que está repetindo até 10
         let index = Math.random() // Pega um número aleatório para ser usado como indice
@@ -25,7 +30,7 @@ function criarlistaFilmesRecomendados(filmes) {
     }
 }
 
-function criarFilmesMaisAmados(filmes) {
+function criarFilmesMaisAmados() {
     let listaFilmesMaisAmados = []
     for (filme of filmes) {  // Percorre a lista de filmes
         if (mediaAvaliacao(filme) > 4.0) {
@@ -36,7 +41,7 @@ function criarFilmesMaisAmados(filmes) {
     listaFilmesMaisAmados = ordenaFilmes(listaFilmesMaisAmados, "maisamados")
 }
 
-function criarFilmesMaisAclamados(filmes) {
+function criarFilmesMaisAclamados() {
     let listaFilmesMaisAclamados = []
     for (filme of filmes) { // Percorre a lista de filmes
         if (filme.avaliacoes.length > 4) { // Verifica se o número de críticas é maior que 4
@@ -47,7 +52,7 @@ function criarFilmesMaisAclamados(filmes) {
     listaFilmesMaisAclamados = ordenaFilmes(listaFilmesMaisAclamados, "maisaclamados")
 }
 
-function criarFilmesRecordeBilheteria(filmes) {
+function criarFilmesRecordeBilheteria() {
     let recordesDeBilheteria = ordenaFilmes(filmes, "bilheteria")
 }
 
@@ -92,10 +97,10 @@ function mediaAvaliacao(filme) {
     return media/filme.avaliacoes.length;
 }
 
-function ordenaFilmes(filmes, sessao) {
-    for (let i = 0; i <= filmes.length; i++) {// a variavel i é o nosso contador, e ele vai ser menor ou igual ao tamanho da lista de filmes 
-        let filme1 = filmes[i] 
-        let filme2 = filmes[i+1]
+function ordenaFilmes(listaFilmes, sessao) {
+    for (let i = 0; i <= listaFilmes.length; i++) {// a variavel i é o nosso contador, e ele vai ser menor ou igual ao tamanho da lista de filmes 
+        let filme1 = listaFilmes[i] 
+        let filme2 = listaFilmes[i+1]
 
         let dataFilme1 = filme1.data_lacamento;
         let dataFilme2 = filme2.data_lacamento;
@@ -103,30 +108,30 @@ function ordenaFilmes(filmes, sessao) {
         switch (sessao) {
             case "lancamentos":
                 if (dataFilme1[2] < dataFilme2[2]) {
-                    filmes[i+1] = filme1
-                    filmes[i] = filme2
+                    listaFilmes[i+1] = filme1
+                    listaFilmes[i] = filme2
                 }
                 else if (dataFilme1[2] == dataFilme2[2] && filme1.mes < filme2.mes) {
-                    filmes[i+1] = filme1
-                    filmes[i] = filme2
+                    listaFilmes[i+1] = filme1
+                    listaFilmes[i] = filme2
                 }
                 break
             case "maisamados":
                 if (mediaAvaliacao(filme1) < mediaAvaliacao(filme2)) {
-                    filmes[i+1] = filme1
-                    filmes[i] = filme2
+                    listaFilmes[i+1] = filme1
+                    listaFilmes[i] = filme2
                 }
                 break
             case "maisaclamados":
                 if (filme1.avaliacoes.length < filme2.avaliacoes.length) {
-                    filmes[i+1] = filme1
-                    filmes[i] = filme2
+                    listaFilmes[i+1] = filme1
+                    listaFilmes[i] = filme2
                 }
                 break
             case "bilheteria":
                 if (filme1.bilheteria < filme2.bilheteria) {
-                    filmes[i+1] = filme1
-                    filmes[i] = filme2
+                    listaFilmes[i+1] = filme1
+                    listaFilmes[i] = filme2
                 }
                 break
         }
