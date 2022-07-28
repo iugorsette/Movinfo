@@ -12,13 +12,13 @@ header{
     height: 20%;
 }
 header img{
-    height:143px ;
+    height:105% ;
     position: relative;
     left: 7px;
 }
 #menu{
     left: 93%;
-    top: -45px;
+    top: -25px;
     padding: 5px;
     width: 50px;
     height: 50px;
@@ -30,7 +30,7 @@ header img{
     background-repeat: no-repeat;
     background-position: right;
     left: 65%;
-    top: -70px;
+    top: -50px;
     padding-right: 35px;
     background-color: rgb(43, 47, 56);
     border: none;
@@ -58,6 +58,7 @@ header img{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
+    flex-direction: column;
     border-radius: 20px;
     position: relative;
     transition: all .4s;
@@ -66,7 +67,11 @@ header img{
     }
 .content{ 
     position: relative;
+    top: -40px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index:2 ;
 }
    .card::before {
     letter-spacing: 0.1em;
@@ -90,6 +95,7 @@ header img{
     width: 190px;
     height: 284px;
     border-radius: 20px;
+    z-index: 1;
 }
    
 .card:hover div {
