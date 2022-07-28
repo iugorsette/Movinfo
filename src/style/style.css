@@ -50,7 +50,7 @@ header img{
     flex-wrap: wrap;
     flex-direction: row;
     position: sticky;
-    margin: -4px;
+   
 }
 
 .card {
@@ -119,7 +119,10 @@ footer{
 
 p{
     color: rgb(255, 255, 255);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin:0;
 }
 h2{
     position: relative;
