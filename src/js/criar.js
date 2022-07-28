@@ -4,10 +4,11 @@ function criarFilmesLancamentos(filmes) {
     let mesAtual = dataAtual.getMonth()
     let listaFilmesLancamentos = []
     for (filme of filmes) { // Percorre a lista de filmes
-        if (filme.ano > anoAtual-1) { // Verifica se o ano do filme é maior ao ano passado
+        let dataFilme = filme.data_lacamento;
+        if (dataFilme[2] > anoAtual-1) { // Verifica se o ano do filme é maior ao ano passado
             listaFilmesLancamentos[listaFilmesLancamentos.length] = filme // Adiciona o filme na lista dos filmes lançamentos
         }
-        else if (filme.ano == anoAtual-1 && filme.mes+mesAtual < 12) { // Verifica se o ano do filme é igual ao ano passado, e se a soma dos meses for menor que 1 ano
+        else if (dataFilme[2] == anoAtual-1 && dataFilme[1]+mesAtual < 12) { // Verifica se o ano do filme é igual ao ano passado, e se a soma dos meses for menor que 1 ano
             listaFilmesLancamentos[listaFilmesLancamentos.length] = filme // Adiciona o filme na lista dos filmes lançamentos
         }
     }
@@ -27,7 +28,7 @@ function criarlistaFilmesRecomendados(filmes) {
 function criarFilmesMaisAmados(filmes) {
     let listaFilmesMaisAmados = []
     for (filme of filmes) {  // Percorre a lista de filmes
-        if (filme.mediaAvaliacao > 4) {
+        if (mediaAvaliacao(filme) > 4.0) {
             listaFilmesMaisAmados[listaFilmesMaisAmados.length] = filme // Adiciona o filme na lista de filmes mais amados
         }
     }
@@ -38,7 +39,7 @@ function criarFilmesMaisAmados(filmes) {
 function criarFilmesMaisAclamados(filmes) {
     let listaFilmesMaisAclamados = []
     for (filme of filmes) { // Percorre a lista de filmes
-        if (filme.criticas.length > 4) { // Verifica se o número de críticas é maior que 4
+        if (filme.avaliacoes.length > 4) { // Verifica se o número de críticas é maior que 4
             listaFilmesMaisAclamados[listaFilmesMaisAclamados.length] = filme // Adiciona o filme na lista de filmes mais aclamados
         }
     }
@@ -58,12 +59,12 @@ function criarFilmesRecordeBilheteria(filmes) {
 
 */
 
-var container = document.getElementById("container");
+var containers = document.getElementsByClassName("container");
 
-function criarElementoFilme(filme){ 
+function criarElementoFilme(filme, index){ 
     let card = document.createElement("div"); // criando o nosso elemento card 
     card.className = "card"; // colocando a classe do nosso elemento como card 
-    container.appendChild(card);// adicionando o elemento card no nosso container 
+    containers[index].appendChild(card);// adicionando o elemento card no nosso container 
 
     let div = document.createElement("div"); // criando o nosso elemento div
     let img = document.createElement("img");// criando o nosso elemento img
@@ -83,30 +84,41 @@ function criarElementoFilme(filme){
 
 }
 
+function mediaAvaliacao(filme) {
+    let media = 0;
+    for (let contador = 0; contador < filme.avaliacoes.length; contador++) {
+        media += filme.avaliacoes[contador];
+    }
+    return media/filme.avaliacoes.length;
+}
+
 function ordenaFilmes(filmes, sessao) {
     for (let i = 0; i <= filmes.length; i++) {// a variavel i é o nosso contador, e ele vai ser menor ou igual ao tamanho da lista de filmes 
         let filme1 = filmes[i] 
-        let filme2 = filme[i+1]
+        let filme2 = filmes[i+1]
+
+        let dataFilme1 = filme1.data_lacamento;
+        let dataFilme2 = filme2.data_lacamento;
 
         switch (sessao) {
             case "lancamentos":
-                if (filme1.ano < filme2.ano) {
+                if (dataFilme1[2] < dataFilme2[2]) {
                     filmes[i+1] = filme1
                     filmes[i] = filme2
                 }
-                else if (filme1.ano == filme2.ano && filme1.mes < filme2.mes) {
+                else if (dataFilme1[2] == dataFilme2[2] && filme1.mes < filme2.mes) {
                     filmes[i+1] = filme1
                     filmes[i] = filme2
                 }
                 break
             case "maisamados":
-                if (filme1.mediaAvaliacao < filme2.mediaAvaliacao) {
+                if (mediaAvaliacao(filme1) < mediaAvaliacao(filme2)) {
                     filmes[i+1] = filme1
                     filmes[i] = filme2
                 }
                 break
             case "maisaclamados":
-                if (filme1.criticas.length < filme2.criticas.length) {
+                if (filme1.avaliacoes.length < filme2.avaliacoes.length) {
                     filmes[i+1] = filme1
                     filmes[i] = filme2
                 }
