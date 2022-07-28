@@ -1,6 +1,7 @@
 body{
     background-color: rgb(43, 47, 56);
     margin: 0;
+    position: relative;
 }
 
 header{
@@ -11,9 +12,17 @@ header{
     height: 20%;
 }
 header img{
-    height:143px ;
+    height:105% ;
     position: relative;
     left: 7px;
+}
+#menu{
+    left: 93%;
+    top: -25px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+
 }
 #pesquisa{
     position: relative;
@@ -21,7 +30,7 @@ header img{
     background-repeat: no-repeat;
     background-position: right;
     left: 65%;
-    top: -70px;
+    top: -50px;
     padding-right: 35px;
     background-color: rgb(43, 47, 56);
     border: none;
@@ -38,7 +47,9 @@ header img{
 
 .container{
     display: flex;
-    flex-wrap: nowrap
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: sticky;
 }
 
 .card {
@@ -47,18 +58,20 @@ header img{
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
+    flex-direction: column;
     border-radius: 20px;
     position: relative;
     transition: all .4s;
     margin: 5em;
     margin-left: 3em;
     }
-content{ 
+.content{ 
     position: relative;
-    bottom: 10px;
-    overflow-wrap: break-word;
+    top: -40px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    z-index:2 ;
 }
    .card::before {
     letter-spacing: 0.1em;
@@ -82,6 +95,7 @@ content{
     width: 190px;
     height: 284px;
     border-radius: 20px;
+    z-index: 1;
 }
    
 .card:hover div {
@@ -94,4 +108,24 @@ content{
 footer{ 
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
+    position: relative;
+    width: 100%;
 }
+
+h1{
+    position: relative;
+    left: 7px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-decoration: underline;
+}
+#direitos{
+    position: relative;
+    left: 7px;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: 16px;
+}
+
