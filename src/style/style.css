@@ -50,7 +50,7 @@ header img{
     flex-wrap: wrap;
     flex-direction: row;
     position: sticky;
-   
+    margin: -4px;
 }
 
 .card {
