@@ -1494,7 +1494,7 @@ var filmes_sequencias_velozesefuriosos = [
     },
     {
         titulo: "Velozes e Furiosos 9",
-        categoria: ["Ação/Aventura"],
+        categoria: ["Ação","Aventura"],
         duracao: " 2h 23m",
         sinopse:"Dominic Toretto e Letty vivem uma vida pacata ao lado do filho. Mas eles logo são ameaçados pelo passado de Dom: seu irmão desaparecido Jakob, que retorna e está trabalhando ao lado de Cipher. Cabe a Dom reunir a equipe novamente para enfrentá-los.",
         linguagem_original:"Inglês",
@@ -1546,7 +1546,7 @@ var filmes_sequencias_homemaranha = [
         data_lancamento:[04,05,2007],
         diretor:"Sam Raimi",
         bilheteria:1901000000,
-        plataforma:["Netflix"],
+        plataforma:"Netflix",
         elenco:["Tobey Maguire","Kirsten Dunst", "James Franco"],
         classificacao:12,
     },
