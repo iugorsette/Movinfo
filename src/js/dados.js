@@ -602,6 +602,7 @@ var filmes = [
         plataforma:["Netflix"," Star+", "GloboPlay"," Amazon Prime Vídeo"],
         elenco:["Morgan Freeman", "Lauren Graham", "John Goodman"],
         classificacao:false,
+        poster: "../img/filmes/a volta do todo poderoso.jpg"
     },
     {
         titulo: "Intocáveis",
@@ -616,6 +617,7 @@ var filmes = [
         plataforma:["Telecine", "Globoplay"],
         elenco:[" Omar Sy", "François Cluzet", "Audrey Fleurot"],
         classificacao:14,
+        poster: "../img/filmes/intocáveis.jpg"
     },
     {
         titulo: "Se Beber,Não Case!",
@@ -630,6 +632,7 @@ var filmes = [
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes "," TV", "You Tube"],
         elenco:["Zach Galifianakis", "Bradley Cooper"," Ed Helms"],
         classificacao:14,
+        poster: "../img/filmes/se beber,não case.jpg"
     },
     {
         titulo: " Todo Poderoso",
@@ -644,6 +647,7 @@ var filmes = [
         plataforma:["Star+"],
         elenco:["im Carrey"," Morgan Freeman", "Steve Carell"],
         classificacao:false,
+        poster: "../img/filmes/todo poderoso.jpg"
     },
     {
         titulo: "Penetras Bons de Bico",
@@ -658,6 +662,7 @@ var filmes = [
         plataforma:["Globoplay", "HBOmax"," Telecine"," You Tube"],
         elenco:["Owen Wilson", "Vince Vaughn","Isla Fisher"],
         classificacao:16,
+        poster: "../img/filmes/penetras bons de bico.jpg"
     },
     {
         titulo: " O Mentiroso",
@@ -672,6 +677,7 @@ var filmes = [
         plataforma:["Netflix", "Star+", "AppleTV", "Amazon Prime Vídeo"],
         elenco:[" Jennifer Tilly", "Jim Carrey"," Krista Allen."],
         classificacao:false,
+        poster: "../img/filmes/o mentiroso.jpg"
     },
     {
         titulo: "Até que a Sorte Nos Separe",
@@ -686,6 +692,7 @@ var filmes = [
         plataforma:["Globoplay", "Netflix"," Telecine"],
         elenco:["Leandro Hassum", "Kiko Mascarenhas", "Julia Dalavia"],
         classificacao:12,
+        poster: "../img/filmes/até que a sorte nos separe.jpg"
     },
     {
         titulo: "A Hora do Rush 3",
@@ -700,6 +707,7 @@ var filmes = [
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"],
         elenco:["Jackie Chan", "Chris Tucker", "Hiroyuki Sanada"],
         classificacao:12,
+        poster: "../img/filmes/a hora do rush 3.jpg"
     },
     {
         titulo: "Bons Meninos",
@@ -714,6 +722,7 @@ var filmes = [
         plataforma:["Google Play Filmes ","TV", "AppleTV", "You Tube"],
         elenco:["Jacob Tremblay", "Brady Noon", "Keith L. Williams"],
         classificacao:14,
+        poster: "../img/filmes/bons meninos.jpg"
     },
     {
         titulo: "Homens de Honra",
@@ -728,6 +737,7 @@ var filmes = [
         plataforma:["Star+"],
         elenco:["Cuba Gooding Jr", "Robert De Niro", "Charlize Theron"],
         classificacao:12,
+        poster: "../img/filmes/homens de honra.jpg"
     },
     {
         titulo: "O Resgate do Soldado Ryan",
@@ -742,6 +752,7 @@ var filmes = [
         plataforma:["Netflix"," Globoplay", "Amazon Prime Vídeo", "HBOmax,"],
         elenco:["Tom Hanks", "Vin Diesel", "Matt Damon", "Edward Burns"],
         classificacao:14,
+        poster: "../img/filmes/o resgate do soldado ryan.jpg"
     },
     {
         titulo: "Um Sonho de Liberdade",
@@ -756,6 +767,7 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "AppleTV", "HBOmax", "Google Play Filmes" ,"TV"],
         elenco:["Morgan Freeman", "Tim Robbins", "Bob Gunton"],
         classificacao:16,
+        poster: "../img/filmes/um sonho de liberdade.jpg"
     },
     {
         titulo: "King Richard: Criando Campeãs",
@@ -770,6 +782,7 @@ var filmes = [
         plataforma:["HBOmax", "AppleTV", "Google Play Filmes" ,"TV", "Amazon Prime Vídeo"],
         elenco:["Will Smith", "Jon Bernthal", "Aunjanue Ellis"],
         classificacao:12,
+        poster: "../img/filmes/king richard criando campeãs.jpg"
     }, 
     {
         titulo: "Um Sonho Possível",
@@ -784,6 +797,7 @@ var filmes = [
         plataforma:["HBOmax", "Amazon Prime Vídeo", "Google Play Filmes" ,"TV", "You Tube"],
         elenco:["Sandra Bullock", "Quinton Aaron"," Jae Head"],
         classificacao:10,
+        poster: "../img/filmes/um sonho possível.jpg"
     },
     {
         titulo: "Luta por Justiça",
@@ -798,6 +812,7 @@ var filmes = [
         plataforma:["You Tube","AppleTV","Google Play Filmes","TV"],
         elenco:["Michael B. Jordan", "Jamie Foxx", "Brie Larson"],
         classificacao:16,
+        poster: "../img/filmes/luta por justiça.jpg"
     },
     {
         titulo: "Superação-O milagre da fé",
@@ -812,6 +827,7 @@ var filmes = [
         plataforma:["Star+"],
         elenco:[" Chrissy Metz", "Topher Grace", "Marcel Ruiz"],
         classificacao:10,
+        poster: "../img/filmes/superação  o milagre da fé.jpg"
     },
     {
         titulo: "Dreamland: Sonhos e Ilusões",
@@ -826,6 +842,7 @@ var filmes = [
         plataforma:["HBOmax"],
         elenco:["Margot Robbie", "Finn Cole"," Travis Fimmel"],
         classificacao:14,
+        poster: "../img/filmes/dreamland sonhos e ilusões.jpg"
     },
     {
         titulo: "Sempre ao Seu Lado",
@@ -840,6 +857,7 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "GloboPlay"],
         elenco:["Richard Gere"," Joan Allen."],
         classificacao:false,
+        poster: "../img/filmes/sempre ao seu lado.jpg"
     },
     {
         titulo: "Extraordinário",
@@ -854,6 +872,7 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo."],
         elenco:["Jacob Tremblay", "Julia Roberts", "Owen Wilson"],
         classificacao:10,
+        poster: "../img/filmes/extraordinário.jpg"
     },
     {
         titulo: "Origem",
