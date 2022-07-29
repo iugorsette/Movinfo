@@ -125,7 +125,7 @@ function mediaAvaliacao(filme) {
     let media = 0;
     if (filme.avaliacao) {
         for (let contador = 0; contador < filme.avaliacao.length; contador++) {
-            media += filme.avaliacao[contador];
+            media += Math.round(filme.avaliacao[contador]);
         }
         media = media / filme.avaliacao.length;
     }
