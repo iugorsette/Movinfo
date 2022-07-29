@@ -42,7 +42,7 @@ var filmes = [
         avaliacao: [4],
     },
     {
-        titulo: " Interceptor",
+        titulo: "Interceptor",
         categoria: ["Suspense","Ação","Drama"],
         duracao: "1h 32m",
         sinopse: "De acordo com o interceptador de dados, Matvey Sobolev, o agente do Serviço da Contra-Inteligência Militar, foi dado como morto enquanto transportava a mais nova arma da organização. Contudo, ele sobreviveu e decidiu abandonar o jogo para não ser uma marionete nas mãos dos poderosos. Sua vida tranquila, longe das grandes ações, é interrompida pelo General Ivakin, seu ex-chefe.",
@@ -336,7 +336,7 @@ var filmes = [
         sinopse:"O tempo passou para Rambo, que agora vive recluso em um rancho. Sua vida marcada por lutas violentas ficou para trás, mas deixou marcas inesquecíveis. No entanto, quando uma jovem de uma família amiga é sequestrada, Rambo precisa confrontar seu passado e resgatar suas habilidades de combate para enfrentar o mais perigoso cartel mexicano. A busca logo se transforma em uma caçada por justiça, na qual nenhum criminoso é perdoado",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[19,8,2022],
+        data_lancamento:[19,8,2019],
         diretor:"Adrian Grunberg ",
         bilheteria:91500000,
         plataforma:["Netflix", "Telecine", "Globoplay", "Amazon Prime Vídeo"],
