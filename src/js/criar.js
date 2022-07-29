@@ -111,6 +111,7 @@ function criarElementoFilme(filme, index) {
     }
     console.log(tituloDoFilme)
     a.href = "../componentes/filmes/" + tituloDoFilme + ".html"
+    a.target = "blank"
     card.appendChild(a)
     
     containers[index].appendChild(card);// adicionando o elemento card no nosso container 

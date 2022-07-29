@@ -23,7 +23,7 @@ var filmes = [
         elenco:["Jared Leto", "Michael Keaton", "Matt Smith", "Adria Arjona", "Jared Harris"," Tyrese Gibson", "Al Madrigal", "Archie Renaux", "Clara Rosager", "Charlie Shotwell", "Corey Johnson", "Tom Forbes", "Ria Fend", "Kadrolsha Ona Carole", "Barry Aird","Colin Blyth", "Gloria Garcia", "Abraham Popoola", "Tina Louise", "Hilary Agostini", "Bentley Kalu", "Bern Collaço", "Daniel Eghan"," Manoj Anand", "Philip Gascoyne", "Atul Sharma", "Adam El Hagar", "Jorge Leon", "Adam Collins", "Tuncay", "Nick Owenford", "Ruth Horrocks"," Davina Sitaram", "Chris Wilson"," Dave Simon", "Chris Ryman", "Jag Patel", "Amanda Perez"] ,
         classificacao:13,
         poster: "../img/filmes/morbius.jpg",
-        avaliacao: [3.7, 4],
+        avaliacao: [3.7],
     },
     {
         titulo: "Fire Island",
@@ -39,10 +39,10 @@ var filmes = [
         elenco:["Joel Kim Booster", "Conrad Ricamora", "Zane Phillips", "Bowen Yang", "James Scully", "Matt Rogers", "Nick Adams", "Margaret Cho", "Tomás Matos", "Bradley Gibson"] ,
         classificacao:18,
         poster: "../img/filmes/fire island.jpg",
-        avaliacao: [4, 3.7],
+        avaliacao: [4],
     },
     {
-        titulo: "Interceptor",
+        titulo: " Interceptor",
         categoria: ["Suspense","Ação","Drama"],
         duracao: "1h 32m",
         sinopse: "De acordo com o interceptador de dados, Matvey Sobolev, o agente do Serviço da Contra-Inteligência Militar, foi dado como morto enquanto transportava a mais nova arma da organização. Contudo, ele sobreviveu e decidiu abandonar o jogo para não ser uma marionete nas mãos dos poderosos. Sua vida tranquila, longe das grandes ações, é interrompida pelo General Ivakin, seu ex-chefe.",
@@ -55,7 +55,7 @@ var filmes = [
         elenco:["Elsa Pataky", "Luke Bracey", "Rhys Muldoon", "Aaron Glenane", "Zoe Carides", "Mayen Mehta", "Marcus Johnson", "Belinda Jombwe"],
         classificacao:16,
         poster: "../img/filmes/interceptor.jpg",
-        avaliacao: [2.7, 3.7],
+        avaliacao: [2.7],
     },
     {
         titulo:"Coração de Fogo",
@@ -336,7 +336,7 @@ var filmes = [
         sinopse:"O tempo passou para Rambo, que agora vive recluso em um rancho. Sua vida marcada por lutas violentas ficou para trás, mas deixou marcas inesquecíveis. No entanto, quando uma jovem de uma família amiga é sequestrada, Rambo precisa confrontar seu passado e resgatar suas habilidades de combate para enfrentar o mais perigoso cartel mexicano. A busca logo se transforma em uma caçada por justiça, na qual nenhum criminoso é perdoado",
         linguagem_original:"Inglês",
         dublagem_portugues:true,
-        data_lancamento:[19,8,2019],
+        data_lancamento:[19,8,2022],
         diretor:"Adrian Grunberg ",
         bilheteria:91500000,
         plataforma:["Netflix", "Telecine", "Globoplay", "Amazon Prime Vídeo"],
@@ -598,7 +598,7 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Jennifer Lopez", "Ralph Fiennes", "Tyler Posey"],
         classificacao:false,
-        poster: "../img/filmes/encontro de amor.jpg",
+        poster: "../img/filme/sencontro de amor.jpg",
         avaliacao:[3.9],
     },
     {
