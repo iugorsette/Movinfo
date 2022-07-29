@@ -1,5 +1,5 @@
 import filmes from "./dados.js";
-const maxCards = 5;
+const maxCards = 10;
 
 function criarFilmesLancamentos() {
     let dataAtual = new Date()
@@ -63,26 +63,27 @@ function criarFilmesMaisAmados() {
     }
 }
 
-//criarFilmesMaisAmados()
+criarFilmesMaisAmados()
 
 function criarFilmesMaisAclamados() {
     let listaFilmesMaisAclamados = []
     for (filme of filmes) { // Percorre a lista de filmes
-        if (filme.avaliacoes.length > 4) { // Verifica se o número de críticas é maior que 4
+        if (filme.avaliacao.length >= 2) { // Verifica se o número de críticas é maior que 4
             listaFilmesMaisAclamados[listaFilmesMaisAclamados.length] = filme // Adiciona o filme na lista de filmes mais aclamados
         }
     }
 
     listaFilmesMaisAclamados = ordenaFilmes(listaFilmesMaisAclamados, "maisaclamados")
 
-    
+    for (let filme of listaFilmesMaisAclamados) {
+        criarElementoFilme(filme, 3)
+    }
 }
 
 function criarFilmesRecordeBilheteria() {
     let recordesDeBilheteria = ordenaFilmes(filmes, "bilheteria")
-    console.log(recordesDeBilheteria)
     for (let filme of recordesDeBilheteria) {
-        criarElementoFilme(filme, 4)
+        criarElementoFilme(filme, 3)
     }
 }
 
@@ -108,7 +109,7 @@ function criarElementoFilme(filme, index) {
     img.src = filme.poster; // adicionando o caminho da nossa img 
     div.appendChild(img); //adicionando o elemento img na nossa div 
     card.appendChild(div); //adicionando o elemento div no nosso card
-    /*
+    
     let content = document.createElement("ul");  // criando o nosso elemento content 
     content.className = "content";  // colocando a classe do nosso elemento como content
     for (let contador = 0; contador < mediaAvaliacao(filme); contador++) { // o contador vai ser menor ou igual ao tamanho da media de avaliação
@@ -117,16 +118,18 @@ function criarElementoFilme(filme, index) {
 
     }
     card.appendChild(content); //adicionando o elemento content no nosso card
-    */
 
 }
 
 function mediaAvaliacao(filme) {
     let media = 0;
-    for (let contador = 0; contador < filme.avaliacoes.length; contador++) {
-        media += filme.avaliacoes[contador];
+    if (filme.avaliacao) {
+        for (let contador = 0; contador < filme.avaliacao.length; contador++) {
+            media += Math.round(filme.avaliacao[contador]);
+        }
+        media = media / filme.avaliacao.length;
     }
-    return media / filme.avaliacoes.length;
+    return media;
 }
 
 function ordenaFilmes(listaFilmes, sessao) {
@@ -154,7 +157,7 @@ function ordenaFilmes(listaFilmes, sessao) {
                         }
                         break
                     case "maisaclamados":
-                        if (filme1.avaliacoes.length < filme2.avaliacoes.length) {
+                        if (filme1.avaliacao.length < filme2.avaliacao.length) {
                             listaFilmes[i + 1] = filme1
                             listaFilmes[i] = filme2
                         }
