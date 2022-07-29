@@ -109,7 +109,7 @@ function criarElementoFilme(filme, index) {
     img.src = filme.poster; // adicionando o caminho da nossa img 
     div.appendChild(img); //adicionando o elemento img na nossa div 
     card.appendChild(div); //adicionando o elemento div no nosso card
-    /*
+    
     let content = document.createElement("ul");  // criando o nosso elemento content 
     content.className = "content";  // colocando a classe do nosso elemento como content
     for (let contador = 0; contador < mediaAvaliacao(filme); contador++) { // o contador vai ser menor ou igual ao tamanho da media de avaliação
@@ -118,7 +118,6 @@ function criarElementoFilme(filme, index) {
 
     }
     card.appendChild(content); //adicionando o elemento content no nosso card
-    */
 
 }
 
