@@ -55,7 +55,6 @@ function criarFilmesMaisAmados() {
             listaFilmesMaisAmados[listaFilmesMaisAmados.length] = filme // Adiciona o filme na lista de filmes mais amados
         }
     }
-
     listaFilmesMaisAmados = ordenaFilmes(listaFilmesMaisAmados, "maisamados")
 
     for (let filme of listaFilmesMaisAmados) {
@@ -100,7 +99,19 @@ criarFilmesRecordeBilheteria()
 function criarElementoFilme(filme, index) {
     let containers = document.getElementsByClassName("container");
     let card = document.createElement("div"); // criando o nosso elemento card 
-    card.className = "card"; // colocando a classe do nosso elemento como card 
+    card.className = "card"; // colocando a classe do nosso elemento como card
+
+    let a = document.createElement("a");
+    let tituloDoFilme = filme.titulo.toLowerCase().trim().replace(":", "")
+    while (tituloDoFilme.indexOf(' ') > 0){
+        tituloDoFilme = tituloDoFilme.replace(" ", "_")
+    }
+    while (tituloDoFilme.indexOf(',') > 0){
+        tituloDoFilme = tituloDoFilme.replace(",", "_")
+    }
+    console.log(tituloDoFilme)
+    a.href = "../componentes/filmes/" + tituloDoFilme + ".html"
+    card.appendChild(a)
     
     containers[index].appendChild(card);// adicionando o elemento card no nosso container 
 
@@ -108,7 +119,7 @@ function criarElementoFilme(filme, index) {
     let img = document.createElement("img");// criando o nosso elemento img
     img.src = filme.poster; // adicionando o caminho da nossa img 
     div.appendChild(img); //adicionando o elemento img na nossa div 
-    card.appendChild(div); //adicionando o elemento div no nosso card
+    a.appendChild(div); //adicionando o elemento div no nosso card
     
     let content = document.createElement("ul");  // criando o nosso elemento content 
     content.className = "content";  // colocando a classe do nosso elemento como content
@@ -117,7 +128,7 @@ function criarElementoFilme(filme, index) {
         content.appendChild(li);//adicionando o elemento img no nosso content
 
     }
-    card.appendChild(content); //adicionando o elemento content no nosso card
+    a.appendChild(content); //adicionando o elemento content no nosso card
 
 }
 

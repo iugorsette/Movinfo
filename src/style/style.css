@@ -58,14 +58,17 @@ header img{
     height: 284px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
-    display: flex;
-    flex-direction: column;
     border-radius: 20px;
     position: relative;
     transition: all .4s;
-    margin: 5em;
+    margin-top: 5em;
     margin-left: 3em;
     }
+
+.card a {
+    display: flex;
+    flex-direction: column;
+}
 .content{ 
     position: relative;
     top: -40px;

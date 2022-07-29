@@ -530,7 +530,7 @@ var filmes = [
         dublagem_portugues:true,
         data_lancamento:[26,2,2010],
         diretor:"Juan José Campanella",
-        bilheteria:34000000000,
+        bilheteria:340000000,
         plataforma:["Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"," You Tube        "],
         elenco:["Ricardo Darín", "Soledad Villamil", "Guillermo Francella"],
         classificacao:16,
@@ -986,7 +986,7 @@ var filmes = [
         avaliacao:[4.8],
     },
     {
-        titulo: "Godzilla vs.Kong",
+        titulo: "Godzilla vs Kong",
         categoria: ["Ficção científica","Aventura"],
         duracao: "1h 45m",
         sinopse:"Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Jia, uma garota órfã que tem um vínculo único e poderoso com a poderosa besta, acompanha a aventura. No entanto, eles logo se encontram no caminho de Godzilla, completamente enfurecido, deixando um rastro de destruição em todo o mundo. O confronto inicial entre os dois titãs, instigado por forças misteriosas, é apenas o começo do enigma que reside nas profundezas do planeta.",
