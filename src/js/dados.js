@@ -839,7 +839,7 @@ var filmes = [
         elenco:["Will Smith", "Jon Bernthal", "Aunjanue Ellis"],
         classificacao:12,
         poster: "../img/filmes/king richard criando campeãs.jpg",
-        avaliacao:[],
+        avaliacao:[4.7],
     }, 
     {
         titulo: "Um Sonho Possível",
@@ -855,7 +855,7 @@ var filmes = [
         elenco:["Sandra Bullock", "Quinton Aaron"," Jae Head"],
         classificacao:10,
         poster: "../img/filmes/um sonho possível.jpg",
-        avaliacao:[],
+        avaliacao:[4.9],
     },
     {
         titulo: "Luta por Justiça",
@@ -871,7 +871,7 @@ var filmes = [
         elenco:["Michael B. Jordan", "Jamie Foxx", "Brie Larson"],
         classificacao:16,
         poster: "../img/filmes/luta por justiça.jpg",
-        avaliacao:[],
+        avaliacao:[4.9],
     },
     {
         titulo: "Superação-O milagre da fé",
@@ -887,7 +887,7 @@ var filmes = [
         elenco:[" Chrissy Metz", "Topher Grace", "Marcel Ruiz"],
         classificacao:10,
         poster: "../img/filmes/superação  o milagre da fé.jpg",
-        avaliacao:[],
+        avaliacao:[4.9],
     },
     {
         titulo: "Dreamland: Sonhos e Ilusões",
@@ -903,7 +903,7 @@ var filmes = [
         elenco:["Margot Robbie", "Finn Cole"," Travis Fimmel"],
         classificacao:14,
         poster: "../img/filmes/dreamland sonhos e ilusões.jpg",
-        avaliacao:[],
+        avaliacao:[3.2],
     },
     {
         titulo: "Sempre ao Seu Lado",
@@ -919,7 +919,7 @@ var filmes = [
         elenco:["Richard Gere"," Joan Allen."],
         classificacao:false,
         poster: "../img/filmes/sempre ao seu lado.jpg",
-        avaliacao:[],
+        avaliacao:[4.9],
     },
     {
         titulo: "Extraordinário",
@@ -935,7 +935,7 @@ var filmes = [
         elenco:["Jacob Tremblay", "Julia Roberts", "Owen Wilson"],
         classificacao:10,
         poster: "../img/filmes/extraordinário.jpg",
-        avaliacao:[],
+        avaliacao:[4.9],
     },
     {
         titulo: "Origem",
@@ -951,7 +951,7 @@ var filmes = [
         elenco:["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Tom Hardy", "Cillian Murphy"],
         classificacao:14,
         poster: "../img/filmes/godzilla vs king kong.jpg",
-        avaliacao:[],
+        avaliacao:[4.8],
     },
     {
         titulo: "Duna",
@@ -967,7 +967,7 @@ var filmes = [
         elenco:["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac", "Josh Brolin" ,"Zendaya ","Jason Momoa"],
         classificacao:14,
         poster: "../img/filmes/duna.jpg",
-        avaliacao:[],
+        avaliacao:[4.1],
     },
     {
         titulo: "ET o Extraterrestre",
@@ -983,7 +983,7 @@ var filmes = [
         elenco:["Henry Thomas", "Drew Barrymore","Robert MacNaughton","Dee Wallace","C. Thomas Howell"],
         classificacao:14,
         poster: "../img/filmes/et.jpg",
-        avaliacao:[],
+        avaliacao:[4.8],
     },
     {
         titulo: "Godzilla vs.Kong",
@@ -999,7 +999,7 @@ var filmes = [
         elenco:["Millie Bobby Brown, Alexander Skarsgård, Brian Tyree Henry, Kaylee Hottle"],
         classificacao:12,
         poster: "../img/filmes/godzilla vs king kong.jpg",
-        avaliacao:[],
+        avaliacao:[4.4],
     },
     {
         titulo: "Jogador Nº 1",
@@ -1015,7 +1015,7 @@ var filmes = [
         elenco:["Tye Sheridan"," Olivia Cooke", "Mark Rylance"," Win Morisaki"],
         classificacao:12,
         poster: "../img/filmes/jogador n 1.jpg",
-        avaliacao:[],
+        avaliacao:[4.8],
     },
     {
         titulo: "Matrix",
@@ -1031,7 +1031,7 @@ var filmes = [
         elenco:["Keanu Reeves", "Carrie-Anne Moss"," Laurence Fishburne"," Hugo Weaving"],
         classificacao:14,
         poster: "../img/filmes/matrix.jpg",
-        avaliacao:[],
+        avaliacao:[4.8],
     },
     {
         titulo: "Mentes Sombrias",
@@ -1046,7 +1046,8 @@ var filmes = [
         plataforma:[" Star+"],
         elenco:["Amandla Stenberg"," Harris Dickinson", "Miya Cech", "Skylan Brooks        "],
         classificacao:12,
-        poster: "../img/filmes/mentes sombrias.jpg"
+        poster: "../img/filmes/mentes sombrias.jpg",
+        avaliacao:[4.7],
     },
     {
         titulo: "Moonfal",
@@ -1061,7 +1062,8 @@ var filmes = [
         plataforma:["Amazon prime video", "Apple tv"," Google play filmes" ," tv"],
         elenco:["Halle Berry", "Patrick Wilson", "kelly yu","Michael Peña"],
         classificacao:14,
-        poster: "../img/filmes/moonfall.jpg"
+        poster: "../img/filmes/moonfall.jpg",
+        avaliacao:[2.9],
     },
     {
         titulo: "O Projeto Adam",
@@ -1076,7 +1078,8 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Ryan Reynolds", "Walker Scobell", "Zoë Saldaña", "Jennifer Garner"],
         classificacao:12,
-        poster: "../img/filmes/o projeto adam.png"
+        poster: "../img/filmes/o projeto adam.png",
+        avaliacao:[4.3],
     },
     {
         titulo: "Vida",
@@ -1091,7 +1094,8 @@ var filmes = [
         plataforma:[" Youtube", "Amazon prime video", "Apple tv", "Star+"],
         elenco:["Jake Gyllenhaal", "Ryan Reynolds", "Rebecca Ferguson", "Hiroyuki Sanada"],
         classificacao:12,
-        poster: "../img/filmes/vida.jpg"
+        poster: "../img/filmes/vida.jpg",
+        avaliacao:[3.8],
     },
 ]
 var filmes_sequencias_harrypotter =  [
