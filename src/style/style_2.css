@@ -74,12 +74,21 @@ p{
 }
 .info p{
 font-size: 18px;
-color: rgb(255, 255, 255)
+color: rgb(255, 255, 255);
+}
+.info div{
+    color:rgb(255, 255, 255) ;
+    border: 10px;
+    border-width: 10px;
+    border-color: aquamarine;
+    padding: 0;
 }
 
 footer{ 
     border: solid 5px rgb(21, 24, 31);
     background-color:rgb(21, 24, 31);
+    position:relative;
+    width: 100%;
 }
 #direitos{
     position: relative;
