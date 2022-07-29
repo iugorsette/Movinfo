@@ -1,5 +1,5 @@
 import filmes from "./dados.js";
-const maxCards = 6;
+const maxCards = 5;
 
 function criarFilmesLancamentos() {
     let dataAtual = new Date()
@@ -40,11 +40,13 @@ function criarFilmesRecomendados() {
         listaFilmesRecomendados[listaFilmesRecomendados.length] = filme // Adiciona o filme na lista dos filmes recomendados
         filmes_.splice(index, 1)
     }
-    console.log("recomendados")
-    console.log(listaFilmesRecomendados)
+
+    for (let filme of listaFilmesRecomendados) {
+        criarElementoFilme(filme, 1)
+    }
 }
 
-//criarFilmesRecomendados()
+criarFilmesRecomendados()
 
 function criarFilmesMaisAmados() {
     let listaFilmesMaisAmados = []
@@ -55,6 +57,10 @@ function criarFilmesMaisAmados() {
     }
 
     listaFilmesMaisAmados = ordenaFilmes(listaFilmesMaisAmados, "maisamados")
+
+    for (let filme of listaFilmesMaisAmados) {
+        criarElementoFilme(filme, 2)
+    }
 }
 
 //criarFilmesMaisAmados()
@@ -68,6 +74,8 @@ function criarFilmesMaisAclamados() {
     }
 
     listaFilmesMaisAclamados = ordenaFilmes(listaFilmesMaisAclamados, "maisaclamados")
+
+    
 }
 
 function criarFilmesRecordeBilheteria() {
