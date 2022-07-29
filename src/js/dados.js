@@ -112,7 +112,7 @@ var filmes = [
         plataforma:["Google Play Filmes" ," TV", "Prime Vídeo"," Apple TV", "You Tube"],
         elenco:["Bruce Willis", "Devon Sawa", "Irina Antonenko", "Luke Wilson", "Kat Foster", "Sufe Bradshaw", "Angie Pack"," Kenny Wormald", "Rick Salomon", "Ash Adams", "Vernon Davis", "Johnny Dowers,"],
         classificacao:18,
-        poster: "../img/filmes/"
+        poster: "../img/filmes/conspiração explosiva.jpg"
     },
     {
         titulo: " Contrato perigoso",
@@ -127,6 +127,7 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "apple TV"],
         elenco:["Chris Pine", "Gillian Jacobs", "Ben Foster", "Kiefer Sutherland", "Florian Munteanu", "Nina Hoss"," Eddie Marsan", "J. D. Pardo"],
         classificacao:16,
+        poster: "../img/filmes/contrato perigoso.jpeg"
     },
     {
         titulo: "Os opostos sempre se atraem",
@@ -141,6 +142,7 @@ var filmes = [
         plataforma:"Netflix",
         elenco:["Omar Sy"," Izïa Higelin", "Laurent Lafitte", "Dimitri Storoge", "Marie-Christine Adam", "Flavie Péan", "Élodie Hesme"," Jo Prestia", "Bertrand Usclat", "Djimo,"],
         classificacao:16,
+        poster: "../img/filmes/os opostos se atraem.jpg"
     },
     {
         titulo: "007 - Sem Tempo pra morrer",
@@ -155,6 +157,7 @@ var filmes = [
         plataforma:[" Globoplay", "Amazon Prime Video"," YouTube", "Apple TV", "Google Play Filmes" ," TV"],
         elenco:["Daniel Craig", "Léa Seydoux"," Rami Malek", "Christoph Waltz", "Ana de Armas", "Ralph Fiennes"," Naomie Harris", "Lashana Lynch."],
         classificacao:14,
+        poster: "../img/filmes/007 sem tempo pra morrer.jpeg"
     },
     {
         titulo:"Avatar",
@@ -169,6 +172,7 @@ var filmes = [
         plataforma:["Netflix", "Globoplay"," Paramount+"],
         elenco:["Sam Worthington"],
         classificacao:12,
+        poster: "../img/filmes/avatar.jpg"
     },
     {
         titulo:"O homem aranha:sem volta pra casa " ,
@@ -183,6 +187,7 @@ var filmes = [
         plataforma:["YouTube"," Google Play Filmes" ,"TV", "Apple TV",  "Amazon Prime Video"],
         elenco:["Tom Holland"," Zendaya", "Benedict Cumberbatch"],
         classificacao:12,
+        poster: "../img/filmes/homemaranha de volta ao lar.jpg"
     },
     {
         titulo:"Jurassic World: O Mundo dos Dinossauros",
@@ -197,6 +202,7 @@ var filmes = [
         plataforma:["Globoplay", "YouTube", "Google Play Filmes" ,"TV", "Apple TV"],
         elenco:"Chris Pratt",
         classificacao:12,
+        poster: "../img/filmes/jurassic world o mundo dos dinossauros.jpg"
     },
     {
         titulo: "O Rei leão",
@@ -211,6 +217,7 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["James Earl Jones", "Donald Glover", "Beyoncé", "Chiwetel Ejiofor"],
         classificacao:false,
+        poster: "../img/filmes/rei leão.jpg"
     },
     {
         titulo: "Star Wars: O despertar da força ",
@@ -225,6 +232,7 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["Daisy Ridley", "John Boyega", "Adam Driver"],
         classificacao:12,
+        poster: "../img/filmes/star wars o despertar da força.jpg"
     },
     {
         titulo: "Titanic",
@@ -239,6 +247,7 @@ var filmes = [
         plataforma:["Star +"],
         elenco:[" Leonardo DiCaprio", "Kate Winslet"],
         classificacao:12,
+        poster: "../img/filmes/titanic.jpg"
     },
     {
         titulo: "Top Gun:Maverick ",
@@ -253,6 +262,7 @@ var filmes = [
         plataforma:["Apple TV", "Google Play", "Amazon Prime Video", "NET Now", "Vivo Play Microsoft Store "],
         elenco:["Tom Cruise"," Miles Teller"],
         classificacao:12,
+        poster: "../img/filmes/top gunmaverick .jpg"
     },
     {
         titulo: " Velozes Furiosos 7",
@@ -267,6 +277,7 @@ var filmes = [
         plataforma:["Prime Video", "Telecine","Apple TV", "YouTube"," Google Play Filmes ","TV","Globoplay" ],
         elenco:["Vin Diesel"],
         classificacao:14,
+        poster: "../img/filmes/velozes e furiosos 7.jpg"
     },
     {
         titulo: "Os Vingadores: Guerra infinita",
@@ -281,6 +292,7 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Robert Downey Jr", "Chris Hemsworth"],
         classificacao:12,
+        poster: "../img/filmes/os vingadores guerra infinita .jpg"
     },
     {
         titulo:"007 -SEM TEMPO PARA MORRER " ,
@@ -856,6 +868,7 @@ var filmes = [
         plataforma:["Google play filmes" ,"tv"," Apple tv", "Amazon prime video", "HBO Max"],
         elenco:["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Tom Hardy", "Cillian Murphy"],
         classificacao:14,
+        poster: "../img/filmes/godzilla vs king kong.jpg"
     },
     {
         titulo: "Duna",
@@ -870,6 +883,7 @@ var filmes = [
         plataforma:[" Google Play", "Apple TV" , "Amazon Prime Video"],
         elenco:["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac", "Josh Brolin" ,"Zendaya ","Jason Momoa"],
         classificacao:14,
+        poster: "../img/filmes/duna.jpg"
     },
     {
         titulo: "ET o Extraterrestre",
@@ -884,6 +898,7 @@ var filmes = [
         plataforma:["Amazon Prime Video","Telecine","Star+"],
         elenco:["Henry Thomas", "Drew Barrymore","Robert MacNaughton","Dee Wallace","C. Thomas Howell"],
         classificacao:14,
+        poster: "../img/filmes/et.jpg"
     },
     {
         titulo: "Godzilla vs.Kong",
@@ -898,6 +913,7 @@ var filmes = [
         plataforma:["Youtube, Apple tv, Hbo max"],
         elenco:["Millie Bobby Brown, Alexander Skarsgård, Brian Tyree Henry, Kaylee Hottle"],
         classificacao:12,
+        poster: "../img/filmes/godzilla vs king kong.jpg"
     },
     {
         titulo: "Jogador Nº 1",
@@ -911,7 +927,8 @@ var filmes = [
         bilheteria:582900000,
         plataforma:["Youtube"," Google play filmes" ," tv", "Amazon prime video"," Hbo max"],
         elenco:["Tye Sheridan"," Olivia Cooke", "Mark Rylance"," Win Morisaki"],
-        classificacao:12
+        classificacao:12,
+        poster: "../img/filmes/jogador n 1.jpg"
     },
     {
         titulo: "Matrix",
@@ -926,6 +943,7 @@ var filmes = [
         plataforma:["Youtube", "Google play filmes "," tv"," Apple tv", "Amazon prime video", "Hbo max"],
         elenco:["Keanu Reeves", "Carrie-Anne Moss"," Laurence Fishburne"," Hugo Weaving"],
         classificacao:14,
+        poster: "../img/filmes/matrix.jpg"
     },
     {
         titulo: "Mentes Sombrias",
@@ -940,6 +958,7 @@ var filmes = [
         plataforma:[" Star+"],
         elenco:["Amandla Stenberg"," Harris Dickinson", "Miya Cech", "Skylan Brooks        "],
         classificacao:12,
+        poster: "../img/filmes/mentes sombrias.jpg"
     },
     {
         titulo: "Moonfal",
@@ -954,6 +973,7 @@ var filmes = [
         plataforma:["Amazon prime video", "Apple tv"," Google play filmes" ," tv"],
         elenco:["Halle Berry", "Patrick Wilson", "kelly yu","Michael Peña"],
         classificacao:14,
+        poster: "../img/filmes/moonfall.jpg"
     },
     {
         titulo: "O Projeto Adam",
@@ -968,6 +988,7 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Ryan Reynolds", "Walker Scobell", "Zoë Saldaña", "Jennifer Garner"],
         classificacao:12,
+        poster: "../img/filmes/o projeto adam.png"
     },
     {
         titulo: "Vida",
@@ -982,6 +1003,7 @@ var filmes = [
         plataforma:[" Youtube", "Amazon prime video", "Apple tv", "Star+"],
         elenco:["Jake Gyllenhaal", "Ryan Reynolds", "Rebecca Ferguson", "Hiroyuki Sanada"],
         classificacao:12,
+        poster: "../img/filmes/vida.jpg"
     },
 ]
 var filmes_sequencias_harrypotter =  [
