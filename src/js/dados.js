@@ -22,7 +22,8 @@ var filmes = [
         plataforma:["NOW"," Prime Video", "SKY"  ,"Vivo Play","Amazon Prime Video"],
         elenco:["Jared Leto", "Michael Keaton", "Matt Smith", "Adria Arjona", "Jared Harris"," Tyrese Gibson", "Al Madrigal", "Archie Renaux", "Clara Rosager", "Charlie Shotwell", "Corey Johnson", "Tom Forbes", "Ria Fend", "Kadrolsha Ona Carole", "Barry Aird","Colin Blyth", "Gloria Garcia", "Abraham Popoola", "Tina Louise", "Hilary Agostini", "Bentley Kalu", "Bern Collaço", "Daniel Eghan"," Manoj Anand", "Philip Gascoyne", "Atul Sharma", "Adam El Hagar", "Jorge Leon", "Adam Collins", "Tuncay", "Nick Owenford", "Ruth Horrocks"," Davina Sitaram", "Chris Wilson"," Dave Simon", "Chris Ryman", "Jag Patel", "Amanda Perez"] ,
         classificacao:13,
-        poster: "../img/filmes/morbius.jpg"
+        poster: "../img/filmes/morbius.jpg",
+        avaliacao: [3.7],
     },
     {
         titulo: "Fire Island",
@@ -37,7 +38,8 @@ var filmes = [
         plataforma:"Star+",
         elenco:["Joel Kim Booster", "Conrad Ricamora", "Zane Phillips", "Bowen Yang", "James Scully", "Matt Rogers", "Nick Adams", "Margaret Cho", "Tomás Matos", "Bradley Gibson"] ,
         classificacao:18,
-        poster: "../img/filmes/fire island.jpg"
+        poster: "../img/filmes/fire island.jpg",
+        avaliacao: [4],
     },
     {
         titulo: " Interceptor",
@@ -52,7 +54,8 @@ var filmes = [
         plataforma:"Netflix",
         elenco:["Elsa Pataky", "Luke Bracey", "Rhys Muldoon", "Aaron Glenane", "Zoe Carides", "Mayen Mehta", "Marcus Johnson", "Belinda Jombwe"],
         classificacao:16,
-        poster: "../img/filmes/interceptor.jpg"
+        poster: "../img/filmes/interceptor.jpg",
+        avaliacao: [2.7],
     },
     {
         titulo:"Coração de Fogo",
@@ -67,7 +70,8 @@ var filmes = [
         plataforma: ["Google Play Filmes" ,"TV", "Amazon Prime Video", "Apple TV", "YouTube"],
         elenco:["Olivia Cooke","William Shatner", "Ryan W.Garcia", "Kenneth BranaghShawn", "Laurie Holden","Mara Junot", "Alice Pol", "Vincent Cassel", "Maya Misaljevic", "Claudia Tagbo","Valérie Lemercier", "Élie Semoun"," Emmanuel Curtil","Emmanuel Garijo", "Dawn Ford", "Kevin Dennis", "Wilex Ly", "Matthew Alan Taylor"],
         classificacao:false,
-        poster: "../img/filmes/coração de fogo.jpg"
+        poster: "../img/filmes/coração de fogo.jpg",
+        avaliacao: [3.3],
     },
     {
         titulo: "Moonshot",
@@ -82,7 +86,8 @@ var filmes = [
         plataforma: ["HBO Max", "YouTube", "Google Play Filmes", "TV", "Apple TV"],
         elenco:["Cole Sprouse", "Lana Condor"," Emily Rudd", "Mason Gooding"," Lukas Gage", "Zach Braff", "Michelle Buteau", "Cameron Esposito", "Christine Adams", "Sunita Deshpande", "Drez Ryan", "Jason L. MacDonald", "Davey Johnson"],
         classificacao:16,
-        poster: "../img/filmes/moonshot.jpg"
+        poster: "../img/filmes/moonshot.jpg",
+        avaliacao: [3.2],
     },
     {
         titulo: "Sonic 2",
@@ -97,7 +102,8 @@ var filmes = [
         plataforma:["You Tube", "Prime Vídeo","Apple TV","Google Play Filmes","TV"],
         elenco:["Jim Carrey"," Idris Elba", "Tika Sumpter", "James Marsden", "Ben Schwartz", "Colleen O Shaughnessey", "Shemar Moore", "Natasha Rothwell"," Adam Pally", "Lee Majdoub,"],
         classificacao:10,
-        poster: "../img/filmes/sonic2.jpeg"
+        poster: "../img/filmes/sonic2.jpeg",
+        avaliacao: [4.8],
     },
     {
         titulo: "Conspiração explosiva",
@@ -112,7 +118,8 @@ var filmes = [
         plataforma:["Google Play Filmes" ," TV", "Prime Vídeo"," Apple TV", "You Tube"],
         elenco:["Bruce Willis", "Devon Sawa", "Irina Antonenko", "Luke Wilson", "Kat Foster", "Sufe Bradshaw", "Angie Pack"," Kenny Wormald", "Rick Salomon", "Ash Adams", "Vernon Davis", "Johnny Dowers,"],
         classificacao:18,
-        poster: "../img/filmes/conspiração explosiva.jpg"
+        poster: "../img/filmes/conspiração explosiva.jpg",
+        avaliacao: [3],
     },
     {
         titulo: " Contrato perigoso",
@@ -127,7 +134,8 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "apple TV"],
         elenco:["Chris Pine", "Gillian Jacobs", "Ben Foster", "Kiefer Sutherland", "Florian Munteanu", "Nina Hoss"," Eddie Marsan", "J. D. Pardo"],
         classificacao:16,
-        poster: "../img/filmes/contrato perigoso.jpeg"
+        poster: "../img/filmes/contrato perigoso.jpeg",
+        avaliacao: [3.5],
     },
     {
         titulo: "Os opostos sempre se atraem",
@@ -142,7 +150,8 @@ var filmes = [
         plataforma:"Netflix",
         elenco:["Omar Sy"," Izïa Higelin", "Laurent Lafitte", "Dimitri Storoge", "Marie-Christine Adam", "Flavie Péan", "Élodie Hesme"," Jo Prestia", "Bertrand Usclat", "Djimo,"],
         classificacao:16,
-        poster: "../img/filmes/os opostos se atraem.jpg"
+        poster: "../img/filmes/os opostos se atraem.jpg",
+        avaliacao: [2.6],
     },
     {
         titulo: "007 - Sem Tempo pra morrer",
@@ -157,7 +166,8 @@ var filmes = [
         plataforma:[" Globoplay", "Amazon Prime Video"," YouTube", "Apple TV", "Google Play Filmes" ," TV"],
         elenco:["Daniel Craig", "Léa Seydoux"," Rami Malek", "Christoph Waltz", "Ana de Armas", "Ralph Fiennes"," Naomie Harris", "Lashana Lynch."],
         classificacao:14,
-        poster: "../img/filmes/007 sem tempo pra morrer.jpeg"
+        poster: "../img/filmes/007 sem tempo pra morrer.jpeg",
+        avaliacao: [5],
     },
     {
         titulo:"Avatar",
@@ -172,7 +182,8 @@ var filmes = [
         plataforma:["Netflix", "Globoplay"," Paramount+"],
         elenco:["Sam Worthington"],
         classificacao:12,
-        poster: "../img/filmes/avatar.jpg"
+        poster: "../img/filmes/avatar.jpg",
+        avaliacao: [4.8],
     },
     {
         titulo:"O homem aranha:sem volta pra casa " ,
@@ -187,7 +198,8 @@ var filmes = [
         plataforma:["YouTube"," Google Play Filmes" ,"TV", "Apple TV",  "Amazon Prime Video"],
         elenco:["Tom Holland"," Zendaya", "Benedict Cumberbatch"],
         classificacao:12,
-        poster: "../img/filmes/homemaranha de volta ao lar.jpg"
+        poster: "../img/filmes/homemaranha de volta ao lar.jpg",
+        avaliacao: [4.6],
     },
     {
         titulo:"Jurassic World: O Mundo dos Dinossauros",
@@ -202,7 +214,8 @@ var filmes = [
         plataforma:["Globoplay", "YouTube", "Google Play Filmes" ,"TV", "Apple TV"],
         elenco:"Chris Pratt",
         classificacao:12,
-        poster: "../img/filmes/jurassic world o mundo dos dinossauros.jpg"
+        poster: "../img/filmes/jurassic world o mundo dos dinossauros.jpg",
+        avaliacao: [4.6],
     },
     {
         titulo: "O Rei leão",
@@ -217,7 +230,8 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["James Earl Jones", "Donald Glover", "Beyoncé", "Chiwetel Ejiofor"],
         classificacao:false,
-        poster: "../img/filmes/rei leão.jpg"
+        poster: "../img/filmes/rei leão.jpg",
+        avaliacao: [4.3],
     },
     {
         titulo: "Star Wars: O despertar da força ",
@@ -232,7 +246,8 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["Daisy Ridley", "John Boyega", "Adam Driver"],
         classificacao:12,
-        poster: "../img/filmes/star wars o despertar da força.jpg"
+        poster: "../img/filmes/star wars o despertar da força.jpg",
+        avaliacao: [3.5],
     },
     {
         titulo: "Titanic",
@@ -247,7 +262,8 @@ var filmes = [
         plataforma:["Star +"],
         elenco:[" Leonardo DiCaprio", "Kate Winslet"],
         classificacao:12,
-        poster: "../img/filmes/titanic.jpg"
+        poster: "../img/filmes/titanic.jpg",
+        avaliacao: [4.9],
     },
     {
         titulo: "Top Gun:Maverick ",
@@ -262,7 +278,8 @@ var filmes = [
         plataforma:["Apple TV", "Google Play", "Amazon Prime Video", "NET Now", "Vivo Play Microsoft Store "],
         elenco:["Tom Cruise"," Miles Teller"],
         classificacao:12,
-        poster: "../img/filmes/top gunmaverick .jpg"
+        poster: "../img/filmes/top gunmaverick .jpg",
+        avaliacao: [4.9],
     },
     {
         titulo: " Velozes Furiosos 7",
@@ -277,7 +294,8 @@ var filmes = [
         plataforma:["Prime Video", "Telecine","Apple TV", "YouTube"," Google Play Filmes ","TV","Globoplay" ],
         elenco:["Vin Diesel"],
         classificacao:14,
-        poster: "../img/filmes/velozes e furiosos 7.jpg"
+        poster: "../img/filmes/velozes e furiosos 7.jpg",
+        avaliacao:[4.9],
     },
     {
         titulo: "Os Vingadores: Guerra infinita",
@@ -292,7 +310,8 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Robert Downey Jr", "Chris Hemsworth"],
         classificacao:12,
-        poster: "../img/filmes/os vingadores guerra infinita .jpg"
+        poster: "../img/filmes/os vingadores guerra infinita .jpg",
+        avaliacao:[4.9],
     },
     {
         titulo: "Mortal kombat",
@@ -307,7 +326,8 @@ var filmes = [
         plataforma:["HBO max", "Apple TV", "Google Play Filmes" ,"TV"],
         elenco:[" Jessica McNamee", "Lewis Tan "," Hiroyuki Sanada" , "Joe Taslim "],
         classificacao:16,
-        poster: "../img/filmes/mortal kombat.png"
+        poster: "../img/filmes/mortal kombat.png",
+        avaliacao:[4.3],
     },
     {
         titulo: "Rambo: Até o Fim",
@@ -322,7 +342,8 @@ var filmes = [
         plataforma:["Netflix", "Telecine", "Globoplay", "Amazon Prime Vídeo"],
         elenco:["Sylvester Stallone", "Paz Veja", "Carmen Delgado", "Yvette Monreal", "Sergio Peris-Mencheta,"],
         classificacao:16,
-        poster: "../img/filmes/rambo até o fim.jpg"
+        poster: "../img/filmes/rambo até o fim.jpg",
+        avaliacao:[4.3],
     },
     {
         titulo:"Venom: Tempo de carnificina", 
@@ -337,7 +358,8 @@ var filmes = [
         plataforma:["HBOmax", "Amazon Prime Vídeo", "Apple TV", "Google Play Filmes" ,"TV"],
         elenco:["Tom Hardy", "Tom Holland", "Woody Harrelson", "Michelle Williams", "Naomie Harris"],
         classificacao:14,
-        poster: "../img/filmes/venom tempo de carnificina.png"
+        poster: "../img/filmes/venom tempo de carnificina.png",
+        avaliacao:[3.9],
     },
     {
         titulo: "Alerta Vermelho",
@@ -352,7 +374,8 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Dwayne Johnson", "Gal Gadot", "Ryan Reynolds", "Ritu Arya"],
         classificacao:12,
-        poster: "../img/filmes/alerta vermelho.jpg"
+        poster: "../img/filmes/alerta vermelho.jpg",
+        avaliacao:[4],
     },
     {
         titulo: "Mulan",
@@ -367,7 +390,8 @@ var filmes = [
         plataforma:[" Disney+"],
         elenco:[" Liu Yifei, Jet Li , Donnie Yen, Commander Tung, Gong Li "],
         classificacao: 12,
-        poster: "../img/filmes/mulan.jpg"
+        poster: "../img/filmes/mulan.jpg",
+        avaliacao:[3.2],
     },
     {
         titulo: "Aquaman",
@@ -382,7 +406,8 @@ var filmes = [
         plataforma:["HBOmax", "AppleTV", "Amazon Prime Vídeo"," Google Play Filmes" ,"TV", "You Tube "],
         elenco:["Jason Momoa"," Amber Heard"," Mera", "Patrick Wilson "],
         classificacao:12,
-        poster: "../img/filmes/aquaman.jpg"
+        poster: "../img/filmes/aquaman.jpg",
+        avaliacao:[4.5],
     },
     {
         titulo: "Caçada Brutal",
@@ -397,7 +422,8 @@ var filmes = [
         plataforma:["Netflix","Globoplay","Telecine","Amazon Prime Vídeo."],
         elenco:["Bruce Willis"," Hayden Christensen", "Megan Leonard"],
         classificacao:16,
-        poster: "../img/filmes/caçada brutal.jpg"
+        poster: "../img/filme/caçada brutal.jpg",
+        avaliacao:[2.8],
     },
     {
         titulo: "Doutor Estranho no Multiverso da Loucura",
@@ -412,7 +438,8 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Elizabeth Olsen", "Xochitl Gomez" , "Benedict Cumberbatch"],
         classificacao:14,
-        poster: "../img/filmes/doutor estranho no multiverso da loucura.png"
+        poster: "../img/filme/doutor estranho no multiverso da loucura.png",
+        avaliacao:[3.6],
     },
     {
         titulo: " Thor: Ragnarok ",
@@ -427,9 +454,9 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Chris Hemsworth", "Taika Waititi"],
         classificacao:12,
-        poster: "../img/filmes/thor ragnarok .jpg"
+        poster: "../img/filme/thor ragnarok .jpg",
+        avaliacao:[4.7],
     },
-
     {
         titulo: "As Pontes de Madison",
         categoria: ["Romance","Drama"],
@@ -443,7 +470,8 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes ","Tv", "You Tube"],
         elenco:["Clint Eastwood", "Meryl Streep"],
         classificacao:12,
-        poster: "../img/filmes/as pontes de madison.jpg"
+        poster: "../img/filme/as pontes de madison.jpg",
+        avaliacao:[5],
     },
     {
         titulo: "Nasce Uma Estrela",
@@ -458,7 +486,8 @@ var filmes = [
         plataforma:["HBOmax", "AppleTV", "Google Play Filme "," TV", "You Tube"],
         elenco:["Bradley Cooper", "Lady Gaga", "Sam Elliott."],
         classificacao:16,
-        poster: "../img/filmes/nasce uma estrela.jpg"
+        poster: "../img/filme/nasce uma estrela.jpg",
+        avaliacao:[4.5],
     },
     {
         titulo: "Megarromântico ",
@@ -473,7 +502,8 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "You Tube", "Google Play Filmes" ,"TV"],
         elenco:["Rebel Wilson", "Adam DeVine", "Liam Hemsworth"],
         classificacao:12,
-        poster: "../img/filmes/megarromântico.jpg"
+        poster: "../img/filme/megarromântico.jpg",
+        avaliacao:[4.5],
     },
     {
         titulo: "Orgulho e Preconceito",
@@ -488,7 +518,8 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "AppleTV", "Google play Filmes" ,"TV", "You Tube"],
         elenco:["Keira Knightley", "Matthew Macfadyen", "Rosamund Pike"],
         classificacao: false,
-        poster: "../img/filmes/orgulho e preconceito.jpg"
+        poster: "../img/filme/orgulho e preconceito.jpg",
+        avaliacao:[4.6],
     },
     {
         titulo: " O Segredo dos Seus Olhos",
@@ -503,7 +534,8 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"," You Tube        "],
         elenco:["Ricardo Darín", "Soledad Villamil", "Guillermo Francella"],
         classificacao:16,
-        poster: "../img/filmes/o segredo dos seus olhos.jpg"
+        poster: "../img/filme/o segredo dos seus olhos.jpg",
+        avaliacao:[4.6],
     },
     {
         titulo: "Tempos Modernos",
@@ -518,10 +550,11 @@ var filmes = [
         plataforma:"Telecine",
         elenco:["Charlie Chaplin"," Paulette Goddard", "Henry Bergman"],
         classificacao:false,
-        poster: "../img/filmes/tempos modernos.jpg"
+        poster: "../img/filme/tempos modernos.jpg",
+        avaliacao:[4.6],
     },
     {
-        titulo: "Bela e a Fera",
+        titulo: "A Bela e a Fera",
         categoria: ["Musical","Fantasia"],
         duracao: "2h 19m",
         sinopse:" Moradora de uma pequena aldeia francesa, Bela tem o pai capturado pela Fera e decide entregar sua vida ao estranho ser em troca da liberdade do progenitor. No castelo, ela conhece objetos mágicos e descobre que a Fera é na verdade um príncipe que precisa de amor para voltar à forma humana.",
@@ -533,7 +566,8 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["Emma Watson", "Dan Stevens"],
         classificacao:10,
-        poster: "../img/filmes/bela e a fera.jpg"
+        poster: "../img/filme/bela e a fera.jpg",
+        avaliacao:[4.6],
     },
     {
         titulo: "Forrest Gump - O Contador de Historia",
@@ -548,7 +582,8 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Tom Hanks", "Robin Wright", "Gary Sinise"],
         classificacao:14,
-        poster: "../img/filmes/forrest gump  o contador de historia.jpg"
+        poster: "../img/filme/forrest gump  o contador de historia.jpg",
+        avaliacao:[5],
     },
     {
         titulo: "Encontro de Amor",
@@ -563,7 +598,8 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Jennifer Lopez", "Ralph Fiennes", "Tyler Posey"],
         classificacao:false,
-        poster: "../img/filmes/encontro de amor.jpg"
+        poster: "../img/filme/encontro de amor.jpg",
+        avaliacao:[3.9],
     },
     {
         titulo: "Quando em Roma",
@@ -578,7 +614,8 @@ var filmes = [
         plataforma:[" Disney+"],
         elenco:["Kristen Bell"," Josh Duhamel", "Dax Shepard"],
         classificacao:14,
-        poster: "../img/filmes/quando em roma.jpg"
+        poster: "../img/filme/quando em roma.jpg",
+        avaliacao:[3.9],
     },
     {
         titulo: "Agente 86",
@@ -593,7 +630,8 @@ var filmes = [
         plataforma:["HBOmax", "Amazon Prime Vídeo", "AppleTV"," Google Play Filmes" ,"TV", "You Tube"],
         elenco:[" Steve Carell", "Anne Hathaway", "Bernie Kopell"],
         classificacao:12,
-        poster: "../img/filmes/agente 86.jpg"
+        poster: "../img/filme/agente 86.jpg",
+        avaliacao:[4.3],
     },
     {
         titulo: "A Volta do Todo Poderoso",
@@ -608,7 +646,8 @@ var filmes = [
         plataforma:["Netflix"," Star+", "GloboPlay"," Amazon Prime Vídeo"],
         elenco:["Morgan Freeman", "Lauren Graham", "John Goodman"],
         classificacao:false,
-        poster: "../img/filmes/a volta do todo poderoso.jpg"
+        poster: "../img/filmes/a volta do todo poderoso.jpg",
+        avaliacao:[3.3],
     },
     {
         titulo: "Intocáveis",
@@ -623,7 +662,8 @@ var filmes = [
         plataforma:["Telecine", "Globoplay"],
         elenco:[" Omar Sy", "François Cluzet", "Audrey Fleurot"],
         classificacao:14,
-        poster: "../img/filmes/intocáveis.jpg"
+        poster: "../img/filmes/intocáveis.jpg",
+        avaliacao:[4.9],
     },
     {
         titulo: "Se Beber,Não Case!",
@@ -638,7 +678,8 @@ var filmes = [
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes "," TV", "You Tube"],
         elenco:["Zach Galifianakis", "Bradley Cooper"," Ed Helms"],
         classificacao:14,
-        poster: "../img/filmes/se beber,não case.jpg"
+        poster: "../img/filmes/se beber,não case.jpg",
+        avaliacao:[4.4],
     },
     {
         titulo: " Todo Poderoso",
@@ -653,7 +694,8 @@ var filmes = [
         plataforma:["Star+"],
         elenco:["im Carrey"," Morgan Freeman", "Steve Carell"],
         classificacao:false,
-        poster: "../img/filmes/todo poderoso.jpg"
+        poster: "../img/filmes/todo poderoso.jpg",
+        avaliacao:[4.2],
     },
     {
         titulo: "Penetras Bons de Bico",
@@ -668,7 +710,8 @@ var filmes = [
         plataforma:["Globoplay", "HBOmax"," Telecine"," You Tube"],
         elenco:["Owen Wilson", "Vince Vaughn","Isla Fisher"],
         classificacao:16,
-        poster: "../img/filmes/penetras bons de bico.jpg"
+        poster: "../img/filmes/penetras bons de bico.jpg",
+        avaliacao:[3.8],
     },
     {
         titulo: " O Mentiroso",
@@ -683,7 +726,8 @@ var filmes = [
         plataforma:["Netflix", "Star+", "AppleTV", "Amazon Prime Vídeo"],
         elenco:[" Jennifer Tilly", "Jim Carrey"," Krista Allen."],
         classificacao:false,
-        poster: "../img/filmes/o mentiroso.jpg"
+        poster: "../img/filmes/o mentiroso.jpg",
+        avaliacao:[4.8],
     },
     {
         titulo: "Até que a Sorte Nos Separe",
@@ -698,7 +742,8 @@ var filmes = [
         plataforma:["Globoplay", "Netflix"," Telecine"],
         elenco:["Leandro Hassum", "Kiko Mascarenhas", "Julia Dalavia"],
         classificacao:12,
-        poster: "../img/filmes/até que a sorte nos separe.jpg"
+        poster: "../img/filmes/até que a sorte nos separe.jpg",
+        avaliacao:[3.5],
     },
     {
         titulo: "A Hora do Rush 3",
@@ -713,7 +758,8 @@ var filmes = [
         plataforma:["HBOmax"," Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"],
         elenco:["Jackie Chan", "Chris Tucker", "Hiroyuki Sanada"],
         classificacao:12,
-        poster: "../img/filmes/a hora do rush 3.jpg"
+        poster: "../img/filmes/a hora do rush 3.jpg",
+        avaliacao:[4.1],
     },
     {
         titulo: "Bons Meninos",
@@ -728,7 +774,8 @@ var filmes = [
         plataforma:["Google Play Filmes ","TV", "AppleTV", "You Tube"],
         elenco:["Jacob Tremblay", "Brady Noon", "Keith L. Williams"],
         classificacao:14,
-        poster: "../img/filmes/bons meninos.jpg"
+        poster: "../img/filmes/bons meninos.jpg",
+        avaliacao:[3.7],
     },
     {
         titulo: "Homens de Honra",
@@ -743,7 +790,8 @@ var filmes = [
         plataforma:["Star+"],
         elenco:["Cuba Gooding Jr", "Robert De Niro", "Charlize Theron"],
         classificacao:12,
-        poster: "../img/filmes/homens de honra.jpg"
+        poster: "../img/filmes/homens de honra.jpg",
+        avaliacao:[4.9],
     },
     {
         titulo: "O Resgate do Soldado Ryan",
@@ -758,7 +806,8 @@ var filmes = [
         plataforma:["Netflix"," Globoplay", "Amazon Prime Vídeo", "HBOmax,"],
         elenco:["Tom Hanks", "Vin Diesel", "Matt Damon", "Edward Burns"],
         classificacao:14,
-        poster: "../img/filmes/o resgate do soldado ryan.jpg"
+        poster: "../img/filmes/o resgate do soldado ryan.jpg",
+        avaliacao:[4.9],
     },
     {
         titulo: "Um Sonho de Liberdade",
@@ -773,7 +822,8 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "AppleTV", "HBOmax", "Google Play Filmes" ,"TV"],
         elenco:["Morgan Freeman", "Tim Robbins", "Bob Gunton"],
         classificacao:16,
-        poster: "../img/filmes/um sonho de liberdade.jpg"
+        poster: "../img/filmes/um sonho de liberdade.jpg",
+        avaliacao:[5],
     },
     {
         titulo: "King Richard: Criando Campeãs",
@@ -788,7 +838,8 @@ var filmes = [
         plataforma:["HBOmax", "AppleTV", "Google Play Filmes" ,"TV", "Amazon Prime Vídeo"],
         elenco:["Will Smith", "Jon Bernthal", "Aunjanue Ellis"],
         classificacao:12,
-        poster: "../img/filmes/king richard criando campeãs.jpg"
+        poster: "../img/filmes/king richard criando campeãs.jpg",
+        avaliacao:[],
     }, 
     {
         titulo: "Um Sonho Possível",
@@ -803,7 +854,8 @@ var filmes = [
         plataforma:["HBOmax", "Amazon Prime Vídeo", "Google Play Filmes" ,"TV", "You Tube"],
         elenco:["Sandra Bullock", "Quinton Aaron"," Jae Head"],
         classificacao:10,
-        poster: "../img/filmes/um sonho possível.jpg"
+        poster: "../img/filmes/um sonho possível.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Luta por Justiça",
@@ -818,7 +870,8 @@ var filmes = [
         plataforma:["You Tube","AppleTV","Google Play Filmes","TV"],
         elenco:["Michael B. Jordan", "Jamie Foxx", "Brie Larson"],
         classificacao:16,
-        poster: "../img/filmes/luta por justiça.jpg"
+        poster: "../img/filmes/luta por justiça.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Superação-O milagre da fé",
@@ -833,7 +886,8 @@ var filmes = [
         plataforma:["Star+"],
         elenco:[" Chrissy Metz", "Topher Grace", "Marcel Ruiz"],
         classificacao:10,
-        poster: "../img/filmes/superação  o milagre da fé.jpg"
+        poster: "../img/filmes/superação  o milagre da fé.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Dreamland: Sonhos e Ilusões",
@@ -848,7 +902,8 @@ var filmes = [
         plataforma:["HBOmax"],
         elenco:["Margot Robbie", "Finn Cole"," Travis Fimmel"],
         classificacao:14,
-        poster: "../img/filmes/dreamland sonhos e ilusões.jpg"
+        poster: "../img/filmes/dreamland sonhos e ilusões.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Sempre ao Seu Lado",
@@ -863,7 +918,8 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "GloboPlay"],
         elenco:["Richard Gere"," Joan Allen."],
         classificacao:false,
-        poster: "../img/filmes/sempre ao seu lado.jpg"
+        poster: "../img/filmes/sempre ao seu lado.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Extraordinário",
@@ -878,7 +934,8 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo."],
         elenco:["Jacob Tremblay", "Julia Roberts", "Owen Wilson"],
         classificacao:10,
-        poster: "../img/filmes/extraordinário.jpg"
+        poster: "../img/filmes/extraordinário.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Origem",
@@ -893,7 +950,8 @@ var filmes = [
         plataforma:["Google play filmes" ,"tv"," Apple tv", "Amazon prime video", "HBO Max"],
         elenco:["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Tom Hardy", "Cillian Murphy"],
         classificacao:14,
-        poster: "../img/filmes/godzilla vs king kong.jpg"
+        poster: "../img/filmes/godzilla vs king kong.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Duna",
@@ -908,7 +966,8 @@ var filmes = [
         plataforma:[" Google Play", "Apple TV" , "Amazon Prime Video"],
         elenco:["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac", "Josh Brolin" ,"Zendaya ","Jason Momoa"],
         classificacao:14,
-        poster: "../img/filmes/duna.jpg"
+        poster: "../img/filmes/duna.jpg",
+        avaliacao:[],
     },
     {
         titulo: "ET o Extraterrestre",
@@ -923,7 +982,8 @@ var filmes = [
         plataforma:["Amazon Prime Video","Telecine","Star+"],
         elenco:["Henry Thomas", "Drew Barrymore","Robert MacNaughton","Dee Wallace","C. Thomas Howell"],
         classificacao:14,
-        poster: "../img/filmes/et.jpg"
+        poster: "../img/filmes/et.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Godzilla vs.Kong",
@@ -938,7 +998,8 @@ var filmes = [
         plataforma:["Youtube, Apple tv, Hbo max"],
         elenco:["Millie Bobby Brown, Alexander Skarsgård, Brian Tyree Henry, Kaylee Hottle"],
         classificacao:12,
-        poster: "../img/filmes/godzilla vs king kong.jpg"
+        poster: "../img/filmes/godzilla vs king kong.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Jogador Nº 1",
@@ -953,7 +1014,8 @@ var filmes = [
         plataforma:["Youtube"," Google play filmes" ," tv", "Amazon prime video"," Hbo max"],
         elenco:["Tye Sheridan"," Olivia Cooke", "Mark Rylance"," Win Morisaki"],
         classificacao:12,
-        poster: "../img/filmes/jogador n 1.jpg"
+        poster: "../img/filmes/jogador n 1.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Matrix",
@@ -968,7 +1030,8 @@ var filmes = [
         plataforma:["Youtube", "Google play filmes "," tv"," Apple tv", "Amazon prime video", "Hbo max"],
         elenco:["Keanu Reeves", "Carrie-Anne Moss"," Laurence Fishburne"," Hugo Weaving"],
         classificacao:14,
-        poster: "../img/filmes/matrix.jpg"
+        poster: "../img/filmes/matrix.jpg",
+        avaliacao:[],
     },
     {
         titulo: "Mentes Sombrias",
