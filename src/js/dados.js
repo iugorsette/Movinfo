@@ -530,7 +530,7 @@ var filmes = [
         dublagem_portugues:true,
         data_lancamento:[26,2,2010],
         diretor:"Juan José Campanella",
-        bilheteria:34000000000,
+        bilheteria:340000000,
         plataforma:["Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"," You Tube        "],
         elenco:["Ricardo Darín", "Soledad Villamil", "Guillermo Francella"],
         classificacao:16,
