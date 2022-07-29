@@ -1,5 +1,5 @@
 import filmes from "./dados.js";
-const maxCards = 5;
+const maxCards = 10;
 
 function criarFilmesLancamentos() {
     let dataAtual = new Date()
