@@ -397,7 +397,7 @@ var filmes = [
         plataforma:["Netflix","Globoplay","Telecine","Amazon Prime Vídeo."],
         elenco:["Bruce Willis"," Hayden Christensen", "Megan Leonard"],
         classificacao:16,
-        poster: "../img/filme/caçada brutal.jpg"
+        poster: "../img/filmes/caçada brutal.jpg"
     },
     {
         titulo: "Doutor Estranho no Multiverso da Loucura",
@@ -412,7 +412,7 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Elizabeth Olsen", "Xochitl Gomez" , "Benedict Cumberbatch"],
         classificacao:14,
-        poster: "../img/filme/doutor estranho no multiverso da loucura.png"
+        poster: "../img/filmes/doutor estranho no multiverso da loucura.png"
     },
     {
         titulo: " Thor: Ragnarok ",
@@ -427,7 +427,7 @@ var filmes = [
         plataforma:"Disney+",
         elenco:["Chris Hemsworth", "Taika Waititi"],
         classificacao:12,
-        poster: "../img/filme/thor ragnarok .jpg"
+        poster: "../img/filmes/thor ragnarok .jpg"
     },
 
     {
@@ -443,7 +443,7 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes ","Tv", "You Tube"],
         elenco:["Clint Eastwood", "Meryl Streep"],
         classificacao:12,
-        poster: "../img/filme/as pontes de madison.jpg"
+        poster: "../img/filmes/as pontes de madison.jpg"
     },
     {
         titulo: "Nasce Uma Estrela",
@@ -458,7 +458,7 @@ var filmes = [
         plataforma:["HBOmax", "AppleTV", "Google Play Filme "," TV", "You Tube"],
         elenco:["Bradley Cooper", "Lady Gaga", "Sam Elliott."],
         classificacao:16,
-        poster: "../img/filme/nasce uma estrela.jpg"
+        poster: "../img/filmes/nasce uma estrela.jpg"
     },
     {
         titulo: "Megarromântico ",
@@ -473,7 +473,7 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "You Tube", "Google Play Filmes" ,"TV"],
         elenco:["Rebel Wilson", "Adam DeVine", "Liam Hemsworth"],
         classificacao:12,
-        poster: "../img/filme/megarromântico.jpg"
+        poster: "../img/filmes/megarromântico.jpg"
     },
     {
         titulo: "Orgulho e Preconceito",
@@ -488,7 +488,7 @@ var filmes = [
         plataforma:["Netflix", "Amazon Prime Vídeo", "AppleTV", "Google play Filmes" ,"TV", "You Tube"],
         elenco:["Keira Knightley", "Matthew Macfadyen", "Rosamund Pike"],
         classificacao: false,
-        poster: "../img/filme/orgulho e preconceito.jpg"
+        poster: "../img/filmes/orgulho e preconceito.jpg"
     },
     {
         titulo: " O Segredo dos Seus Olhos",
@@ -503,7 +503,7 @@ var filmes = [
         plataforma:["Amazon Prime Vídeo", "AppleTV", "Google Play Filmes" ,"TV"," You Tube        "],
         elenco:["Ricardo Darín", "Soledad Villamil", "Guillermo Francella"],
         classificacao:16,
-        poster: "../img/filme/o segredo dos seus olhos.jpg"
+        poster: "../img/filmes/o segredo dos seus olhos.jpg"
     },
     {
         titulo: "Tempos Modernos",
@@ -518,7 +518,7 @@ var filmes = [
         plataforma:"Telecine",
         elenco:["Charlie Chaplin"," Paulette Goddard", "Henry Bergman"],
         classificacao:false,
-        poster: "../img/filme/tempos modernos.jpg"
+        poster: "../img/filmes/tempos modernos.jpg"
     },
     {
         titulo: "Bela e a Fera",
@@ -533,7 +533,7 @@ var filmes = [
         plataforma:["Disney+"],
         elenco:["Emma Watson", "Dan Stevens"],
         classificacao:10,
-        poster: "../img/filme/bela e a fera.jpg"
+        poster: "../img/filmes/bela e a fera.jpg"
     },
     {
         titulo: "Forrest Gump - O Contador de Historia",
@@ -548,7 +548,7 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Tom Hanks", "Robin Wright", "Gary Sinise"],
         classificacao:14,
-        poster: "../img/filme/forrest gump  o contador de historia.jpg"
+        poster: "../img/filmes/forrest gump  o contador de historia.jpg"
     },
     {
         titulo: "Encontro de Amor",
@@ -563,7 +563,7 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Jennifer Lopez", "Ralph Fiennes", "Tyler Posey"],
         classificacao:false,
-        poster: "../img/filme/encontro de amor.jpg"
+        poster: "../img/filmes/encontro de amor.jpg"
     },
     {
         titulo: "Quando em Roma",
@@ -578,7 +578,7 @@ var filmes = [
         plataforma:[" Disney+"],
         elenco:["Kristen Bell"," Josh Duhamel", "Dax Shepard"],
         classificacao:14,
-        poster: "../img/filme/quando em roma.jpg"
+        poster: "../img/filmes/quando em roma.jpg"
     },
     {
         titulo: "Agente 86",
@@ -593,7 +593,7 @@ var filmes = [
         plataforma:["HBOmax", "Amazon Prime Vídeo", "AppleTV"," Google Play Filmes" ,"TV", "You Tube"],
         elenco:[" Steve Carell", "Anne Hathaway", "Bernie Kopell"],
         classificacao:12,
-        poster: "../img/filme/agente 86.jpg"
+        poster: "../img/filmes/agente 86.jpg"
     },
     {
         titulo: "A Volta do Todo Poderoso",
