@@ -23,7 +23,7 @@ var filmes = [
         elenco:["Jared Leto", "Michael Keaton", "Matt Smith", "Adria Arjona", "Jared Harris"," Tyrese Gibson", "Al Madrigal", "Archie Renaux", "Clara Rosager", "Charlie Shotwell", "Corey Johnson", "Tom Forbes", "Ria Fend", "Kadrolsha Ona Carole", "Barry Aird","Colin Blyth", "Gloria Garcia", "Abraham Popoola", "Tina Louise", "Hilary Agostini", "Bentley Kalu", "Bern Collaço", "Daniel Eghan"," Manoj Anand", "Philip Gascoyne", "Atul Sharma", "Adam El Hagar", "Jorge Leon", "Adam Collins", "Tuncay", "Nick Owenford", "Ruth Horrocks"," Davina Sitaram", "Chris Wilson"," Dave Simon", "Chris Ryman", "Jag Patel", "Amanda Perez"] ,
         classificacao:13,
         poster: "../img/filmes/morbius.jpg",
-        avaliacao: [3.7],
+        avaliacao: [3.7, 4],
     },
     {
         titulo: "Fire Island",
@@ -39,7 +39,7 @@ var filmes = [
         elenco:["Joel Kim Booster", "Conrad Ricamora", "Zane Phillips", "Bowen Yang", "James Scully", "Matt Rogers", "Nick Adams", "Margaret Cho", "Tomás Matos", "Bradley Gibson"] ,
         classificacao:18,
         poster: "../img/filmes/fire island.jpg",
-        avaliacao: [4],
+        avaliacao: [4, 3.7],
     },
     {
         titulo: " Interceptor",
@@ -55,7 +55,7 @@ var filmes = [
         elenco:["Elsa Pataky", "Luke Bracey", "Rhys Muldoon", "Aaron Glenane", "Zoe Carides", "Mayen Mehta", "Marcus Johnson", "Belinda Jombwe"],
         classificacao:16,
         poster: "../img/filmes/interceptor.jpg",
-        avaliacao: [2.7],
+        avaliacao: [2.7, 3.7],
     },
     {
         titulo:"Coração de Fogo",
@@ -598,7 +598,7 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Jennifer Lopez", "Ralph Fiennes", "Tyler Posey"],
         classificacao:false,
-        poster: "../img/filme/sencontro de amor.jpg",
+        poster: "../img/filmes/encontro de amor.jpg",
         avaliacao:[3.9],
     },
     {
