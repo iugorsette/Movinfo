@@ -22,6 +22,7 @@ var filmes = [
         plataforma:["NOW"," Prime Video", "SKY"  ,"Vivo Play","Amazon Prime Video"],
         elenco:["Jared Leto", "Michael Keaton", "Matt Smith", "Adria Arjona", "Jared Harris"," Tyrese Gibson", "Al Madrigal", "Archie Renaux", "Clara Rosager", "Charlie Shotwell", "Corey Johnson", "Tom Forbes", "Ria Fend", "Kadrolsha Ona Carole", "Barry Aird","Colin Blyth", "Gloria Garcia", "Abraham Popoola", "Tina Louise", "Hilary Agostini", "Bentley Kalu", "Bern Collaço", "Daniel Eghan"," Manoj Anand", "Philip Gascoyne", "Atul Sharma", "Adam El Hagar", "Jorge Leon", "Adam Collins", "Tuncay", "Nick Owenford", "Ruth Horrocks"," Davina Sitaram", "Chris Wilson"," Dave Simon", "Chris Ryman", "Jag Patel", "Amanda Perez"] ,
         classificacao:13,
+        poster: "../img/filmes/morbius.jpg"
     },
     {
         titulo: "Fire Island",
@@ -36,6 +37,7 @@ var filmes = [
         plataforma:"Star+",
         elenco:["Joel Kim Booster", "Conrad Ricamora", "Zane Phillips", "Bowen Yang", "James Scully", "Matt Rogers", "Nick Adams", "Margaret Cho", "Tomás Matos", "Bradley Gibson"] ,
         classificacao:18,
+        poster: "../img/filmes/fire island.jpg"
     },
     {
         titulo: " Interceptor",
@@ -50,6 +52,7 @@ var filmes = [
         plataforma:"Netflix",
         elenco:["Elsa Pataky", "Luke Bracey", "Rhys Muldoon", "Aaron Glenane", "Zoe Carides", "Mayen Mehta", "Marcus Johnson", "Belinda Jombwe"],
         classificacao:16,
+        poster: "../img/filmes/interceptor.jpg"
     },
     {
         titulo:"Coração de Fogo",
@@ -64,6 +67,7 @@ var filmes = [
         plataforma: ["Google Play Filmes" ,"TV", "Amazon Prime Video", "Apple TV", "YouTube"],
         elenco:["Olivia Cooke","William Shatner", "Ryan W.Garcia", "Kenneth BranaghShawn", "Laurie Holden","Mara Junot", "Alice Pol", "Vincent Cassel", "Maya Misaljevic", "Claudia Tagbo","Valérie Lemercier", "Élie Semoun"," Emmanuel Curtil","Emmanuel Garijo", "Dawn Ford", "Kevin Dennis", "Wilex Ly", "Matthew Alan Taylor"],
         classificacao:false,
+        poster: "../img/filmes/coração de fogo.jpg"
     },
     {
         titulo: "Moonshot",
@@ -78,6 +82,7 @@ var filmes = [
         plataforma: ["HBO Max", "YouTube", "Google Play Filmes", "TV", "Apple TV"],
         elenco:["Cole Sprouse", "Lana Condor"," Emily Rudd", "Mason Gooding"," Lukas Gage", "Zach Braff", "Michelle Buteau", "Cameron Esposito", "Christine Adams", "Sunita Deshpande", "Drez Ryan", "Jason L. MacDonald", "Davey Johnson"],
         classificacao:16,
+        poster: "../img/filmes/moonshot.jpg"
     },
     {
         titulo: "Sonic 2",
@@ -92,6 +97,7 @@ var filmes = [
         plataforma:["You Tube", "Prime Vídeo","Apple TV","Google Play Filmes","TV"],
         elenco:["Jim Carrey"," Idris Elba", "Tika Sumpter", "James Marsden", "Ben Schwartz", "Colleen O Shaughnessey", "Shemar Moore", "Natasha Rothwell"," Adam Pally", "Lee Majdoub,"],
         classificacao:10,
+        poster: "../img/filmes/sonic2.jpeg"
     },
     {
         titulo: "Conspiração explosiva",
@@ -106,6 +112,7 @@ var filmes = [
         plataforma:["Google Play Filmes" ," TV", "Prime Vídeo"," Apple TV", "You Tube"],
         elenco:["Bruce Willis", "Devon Sawa", "Irina Antonenko", "Luke Wilson", "Kat Foster", "Sufe Bradshaw", "Angie Pack"," Kenny Wormald", "Rick Salomon", "Ash Adams", "Vernon Davis", "Johnny Dowers,"],
         classificacao:18,
+        poster: "../img/filmes/"
     },
     {
         titulo: " Contrato perigoso",
