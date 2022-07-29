@@ -80,9 +80,13 @@ function criarFilmesMaisAclamados() {
 
 function criarFilmesRecordeBilheteria() {
     let recordesDeBilheteria = ordenaFilmes(filmes, "bilheteria")
+
+    for (let filme of recordesDeBilheteria) {
+        criarElementoFilme(filme, 4)
+    }
 }
 
-//criarFilmesRecordeBilheteria()
+criarFilmesRecordeBilheteria()
 
 /*
 
