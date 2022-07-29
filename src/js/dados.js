@@ -986,7 +986,7 @@ var filmes = [
         avaliacao:[4.8],
     },
     {
-        titulo: "Godzilla vs.Kong",
+        titulo: "Godzilla vs Kong",
         categoria: ["Ficção científica","Aventura"],
         duracao: "1h 45m",
         sinopse:"Kong e seus protetores embarcam em uma jornada perigosa para encontrar seu verdadeiro lar. Jia, uma garota órfã que tem um vínculo único e poderoso com a poderosa besta, acompanha a aventura. No entanto, eles logo se encontram no caminho de Godzilla, completamente enfurecido, deixando um rastro de destruição em todo o mundo. O confronto inicial entre os dois titãs, instigado por forças misteriosas, é apenas o começo do enigma que reside nas profundezas do planeta.",
