@@ -868,6 +868,7 @@ var filmes = [
         plataforma:["Google play filmes" ,"tv"," Apple tv", "Amazon prime video", "HBO Max"],
         elenco:["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Tom Hardy", "Cillian Murphy"],
         classificacao:14,
+        poster: "../img/filmes/godzilla vs king kong.jpg"
     },
     {
         titulo: "Duna",
@@ -882,6 +883,7 @@ var filmes = [
         plataforma:[" Google Play", "Apple TV" , "Amazon Prime Video"],
         elenco:["Timothée Chalamet", "Rebecca Ferguson", "Oscar Isaac", "Josh Brolin" ,"Zendaya ","Jason Momoa"],
         classificacao:14,
+        poster: "../img/filmes/duna.jpg"
     },
     {
         titulo: "ET o Extraterrestre",
@@ -896,6 +898,7 @@ var filmes = [
         plataforma:["Amazon Prime Video","Telecine","Star+"],
         elenco:["Henry Thomas", "Drew Barrymore","Robert MacNaughton","Dee Wallace","C. Thomas Howell"],
         classificacao:14,
+        poster: "../img/filmes/et.jpg"
     },
     {
         titulo: "Godzilla vs.Kong",
@@ -910,6 +913,7 @@ var filmes = [
         plataforma:["Youtube, Apple tv, Hbo max"],
         elenco:["Millie Bobby Brown, Alexander Skarsgård, Brian Tyree Henry, Kaylee Hottle"],
         classificacao:12,
+        poster: "../img/filmes/godzilla vs king kong.jpg"
     },
     {
         titulo: "Jogador Nº 1",
@@ -923,7 +927,8 @@ var filmes = [
         bilheteria:582900000,
         plataforma:["Youtube"," Google play filmes" ," tv", "Amazon prime video"," Hbo max"],
         elenco:["Tye Sheridan"," Olivia Cooke", "Mark Rylance"," Win Morisaki"],
-        classificacao:12
+        classificacao:12,
+        poster: "../img/filmes/jogador n 1.jpg"
     },
     {
         titulo: "Matrix",
@@ -938,6 +943,7 @@ var filmes = [
         plataforma:["Youtube", "Google play filmes "," tv"," Apple tv", "Amazon prime video", "Hbo max"],
         elenco:["Keanu Reeves", "Carrie-Anne Moss"," Laurence Fishburne"," Hugo Weaving"],
         classificacao:14,
+        poster: "../img/filmes/matrix.jpg"
     },
     {
         titulo: "Mentes Sombrias",
@@ -952,6 +958,7 @@ var filmes = [
         plataforma:[" Star+"],
         elenco:["Amandla Stenberg"," Harris Dickinson", "Miya Cech", "Skylan Brooks        "],
         classificacao:12,
+        poster: "../img/filmes/mentes sombrias.jpg"
     },
     {
         titulo: "Moonfal",
@@ -966,6 +973,7 @@ var filmes = [
         plataforma:["Amazon prime video", "Apple tv"," Google play filmes" ," tv"],
         elenco:["Halle Berry", "Patrick Wilson", "kelly yu","Michael Peña"],
         classificacao:14,
+        poster: "../img/filmes/moonfall.jpg"
     },
     {
         titulo: "O Projeto Adam",
@@ -980,6 +988,7 @@ var filmes = [
         plataforma:["Netflix"],
         elenco:["Ryan Reynolds", "Walker Scobell", "Zoë Saldaña", "Jennifer Garner"],
         classificacao:12,
+        poster: "../img/filmes/o projeto adam.png"
     },
     {
         titulo: "Vida",
@@ -994,6 +1003,7 @@ var filmes = [
         plataforma:[" Youtube", "Amazon prime video", "Apple tv", "Star+"],
         elenco:["Jake Gyllenhaal", "Ryan Reynolds", "Rebecca Ferguson", "Hiroyuki Sanada"],
         classificacao:12,
+        poster: "../img/filmes/vida.jpg"
     },
 ]
 var filmes_sequencias_harrypotter =  [
