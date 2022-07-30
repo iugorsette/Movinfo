@@ -89,6 +89,7 @@ header img{
    }
 .content li{
     z-index: 0;
+    list-style: none ;
 }
 .content li img{
     width: 10px;
