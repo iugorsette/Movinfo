@@ -154,7 +154,7 @@ var filmes = [
         avaliacao: [2.6],
     },
     {
-        titulo: "007 - Sem Tempo pra morrer",
+        titulo: "007 - Sem Tempo para morrer",
         categoria: ["Ação","Suspense"],
         duracao:"2h 43m", 
         sinopse:"James Bond deixa o MI6 e se muda para a Jamaica, mas um antigo amigo aparece e pede sua ajuda para encontrar um cientista desaparecido. Bond mergulha no caso e percebe que a busca é, na verdade, uma corrida para salvar o mundo.",
@@ -166,7 +166,7 @@ var filmes = [
         plataforma:[" Globoplay", "Amazon Prime Video"," YouTube", "Apple TV", "Google Play Filmes" ," TV"],
         elenco:["Daniel Craig", "Léa Seydoux"," Rami Malek", "Christoph Waltz", "Ana de Armas", "Ralph Fiennes"," Naomie Harris", "Lashana Lynch."],
         classificacao:14,
-        poster: "../img/filmes/007 sem tempo pra morrer.jpeg",
+        poster: "../img/filmes/007 sem tempo para morrer.jpeg",
         avaliacao: [5],
     },
     {
