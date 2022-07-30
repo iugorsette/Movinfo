@@ -57,7 +57,7 @@ header img{
     width: 190px;
     height: 284px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-    background: #fff;
+    background: rgb(21, 24, 31);
     border-radius: 20px;
     position: relative;
     transition: all .4s;
