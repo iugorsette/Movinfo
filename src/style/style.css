@@ -89,6 +89,8 @@ header img{
    }
 .content li{
     z-index: 0;
+    background-image: url("../img/estrela.png");
+    background-repeat: no-repeat;
 }
    
 .card div {
