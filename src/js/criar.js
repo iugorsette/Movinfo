@@ -102,7 +102,7 @@ function criarElementoFilme(filme, index) {
     card.className = "card"; // colocando a classe do nosso elemento como card
 
     let a = document.createElement("a");
-    let tituloDoFilme = filme.titulo.toLowerCase().trim().replace(":", "")
+    let tituloDoFilme = filme.titulo.toLowerCase().trim().replace(":", "").replace(" - ", " ")
     while (tituloDoFilme.indexOf(' ') > 0){
         tituloDoFilme = tituloDoFilme.replace(" ", "_")
     }
