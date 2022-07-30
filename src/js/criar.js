@@ -128,6 +128,9 @@ function criarElementoFilme(filme, index) {
     content.className = "content";  // colocando a classe do nosso elemento como content
     for (let contador = 0; contador < mediaAvaliacao(filme); contador++) { // o contador vai ser menor ou igual ao tamanho da media de avaliação
         let li = document.createElement("li"); //criando o nosso elemento li
+        let img2 = document.createElement("img");
+        img2.src = "../img/estrela.png"
+        li.appendChild(img2)
         content.appendChild(li);//adicionando o elemento img no nosso content
 
     }
