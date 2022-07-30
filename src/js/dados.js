@@ -598,7 +598,7 @@ var filmes = [
         plataforma:["HBOmax"," AppleTV", "Google Play Filmes" ," TV"],
         elenco:["Jennifer Lopez", "Ralph Fiennes", "Tyler Posey"],
         classificacao:false,
-        poster: "../img/filme/sencontro de amor.jpg",
+        poster: "../img/filmes/encontro de amor.jpg",
         avaliacao:[3.9],
     },
     {
