@@ -45,8 +45,8 @@ function criarFilmesRecomendados() {
         criarElementoFilme(filme, 1)
     }
 }
-
 criarFilmesRecomendados()
+
 
 function criarFilmesMaisAmados() {
     let listaFilmesMaisAmados = []
@@ -64,10 +64,11 @@ function criarFilmesMaisAmados() {
 
 criarFilmesMaisAmados()
 
+// Houve um erro nos dados e não atenderam ao número de avaliações
 function criarFilmesMaisAclamados() {
     let listaFilmesMaisAclamados = []
     for (filme of filmes) { // Percorre a lista de filmes
-        if (filme.avaliacao.length >= 2) { // Verifica se o número de críticas é maior que 4
+        if (filme.avaliacao.length >= 4) { // Verifica se o número de críticas é maior que 4
             listaFilmesMaisAclamados[listaFilmesMaisAclamados.length] = filme // Adiciona o filme na lista de filmes mais aclamados
         }
     }
@@ -88,6 +89,7 @@ function criarFilmesRecordeBilheteria() {
 
 criarFilmesRecordeBilheteria()
 
+
 /*
 
 # Div - classe card
@@ -102,7 +104,7 @@ function criarElementoFilme(filme, index) {
     card.className = "card"; // colocando a classe do nosso elemento como card
 
     let a = document.createElement("a");
-    let tituloDoFilme = filme.titulo.toLowerCase().trim().replace(":", "").replace(" - ", " ")
+    let tituloDoFilme = filme.titulo.toLowerCase().trim().replace(":", "").replace(" - ", " ").replace("!", "")
     while (tituloDoFilme.indexOf(' ') > 0){
         tituloDoFilme = tituloDoFilme.replace(" ", "_")
     }
