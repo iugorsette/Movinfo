@@ -308,7 +308,7 @@ var filmes = [
         diretor:"Anthony Russo, Joe Russo  ",
         bilheteria:2048000000,
         plataforma:"Disney+",
-        elenco:["Robert Downey Jr", "Chris Hemsworth"],
+        elenco:["Robert Downey Jr", "Chris Hemsworth", "Mark Ruffalo", "Chris Evans", "Scarlett Johansson"],
         classificacao:12,
         poster: "../img/filmes/os vingadores guerra infinita .jpg",
         avaliacao:[4.9],
