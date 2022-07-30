@@ -47,7 +47,14 @@ p{
     margin: 20;
     font-size: 18px;
 }
-       
+.content li{
+    list-style: none ;
+    margin-left: -35px;
+}
+.content li img{
+    width: 20px;
+    height: 20px;}
+    
 .card {
     width: 290px;
     height: 454px;
