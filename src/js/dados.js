@@ -186,7 +186,7 @@ var filmes = [
         avaliacao: [4.8],
     },
     {
-        titulo:"O homem aranha:sem volta pra casa " ,
+        titulo:"O homem aranha: sem volta pra casa " ,
         categoria: ["Ação","Aventura"],
         duracao: "2h 28m",
         sinopse:"O Homem-Aranha precisa lidar com as consequências da sua verdadeira identidade ter sido descoberta.",
